@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
+import { AuthService } from 'src/app/services/auth.service';
 import { ManageSaloonsService } from 'src/app/services/manage-saloons.service';
 
 @Component({
@@ -8,6 +9,7 @@ import { ManageSaloonsService } from 'src/app/services/manage-saloons.service';
   templateUrl: './create-saloon.component.html',
 })
 export class CreateSaloonComponent implements OnInit {
+  success: string | null = null;
   selectedFile: File;
   profileImagePath: string = '';
   saloonImagePath: string = '';
@@ -23,20 +25,28 @@ export class CreateSaloonComponent implements OnInit {
   constructor(
     private route: ActivatedRoute, 
     private router: Router,
-    private manageSaloons: ManageSaloonsService
+    private manageSaloons: ManageSaloonsService,
+    private authService: AuthService
   ) {
     this.access_token = this.route.snapshot.params.access_token;
-    // if (!this.access_token) {
-    //   this.router.navigate(['/error-404'])
-    // }
+    if (!this.access_token) {
+      this.router.navigate(['/error-404'])
+    }
+    this.authService.verifyToken(this.access_token).subscribe((response: any) => {
+      if(response.error) {
+        this.router.navigate(['/error-404'])
+      }
+    })
   }
   onProfileImageChanged(event) {
     this.selectedFile = event.target.files[0];
     const uploadData = new FormData();
-    uploadData.append('profile-photo', this.selectedFile, this.selectedFile.name + this.selectedFile.type);
+    uploadData.append('profile-photo', this.selectedFile, this.selectedFile.name);
     this.manageSaloons.sendImage(uploadData).subscribe(
-      (response: any)=>{
-        this.profileImagePath = `uploads/${response?.body?.filename}`;
+      (response: any)=>{        
+        console.log(response);
+        
+        this.profileImagePath = response.url;
         this.uploaded = 'image uploaded'
       }
     );
@@ -47,8 +57,9 @@ export class CreateSaloonComponent implements OnInit {
     uploadData.append('profile-photo', this.selectedFile, this.selectedFile.name + this.selectedFile.type);
     this.manageSaloons.sendImage(uploadData).subscribe(
       (response: any)=>{
-        this.saloonImagePath = `uploads/${response?.body?.filename}`;
-        this.uploaded = 'image uploaded'
+        console.log(response);
+        
+        this.saloonImagePath = response.url;
       }
     );
   }
@@ -67,8 +78,10 @@ export class CreateSaloonComponent implements OnInit {
     }
     this.manageSaloons.createSaloon(salon).subscribe((response: any) => {
       manager.salon = response?._id
-      this.manageSaloons.createManager(manager).subscribe((response) => {
-        console.log(response);
+      this.manageSaloons.createManager(manager).subscribe((response: any) => {
+        if(response.user) {
+          this.success = "Your account has been created you will be redirected shortly"
+        }
       })
     })
   }

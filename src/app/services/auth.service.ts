@@ -36,7 +36,10 @@ export class AuthService {
   getToken() {
     return localStorage.getItem('access_token');
   }
-
+  verifyToken(token: string) {
+    this.headers.set('Authorization', `Bearer ${token}`)
+    return this.http.get(`${this.endpoint}/auth/verifyauthentication`)
+  }
   get isLoggedIn(): boolean {
     let authToken = localStorage.getItem('access_token');
     return (authToken !== null) ? true : false;
@@ -47,17 +50,6 @@ export class AuthService {
     if (localStorage.removeItem('access_token') == null) {
       this.router.navigate(['auth/login']);
     }
-  }
-
-  // User profile
-  getUserProfile(id): Observable<any> {
-    let api = `${this.endpoint}/user-profile/${id}`;
-    return this.http.get(api, { headers: this.headers }).pipe(
-      map((res: Response) => {
-        return res || {}
-      }),
-      catchError(this.handleError)
-    )
   }
 
   // Error 

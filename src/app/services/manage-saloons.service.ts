@@ -14,15 +14,12 @@ export class ManageSaloonsService {
     return this.http.get<any>(`${this.endpoint}/salon`);
   }
   sendImage(uploadData: FormData) {
-    return this.http.post(`${this.endpoint}/file-upload`, uploadData, {
-      reportProgress: true,
-      observe: "events",
-    });
+    return this.http.post(`${this.endpoint}/file-upload`, uploadData);
   }
   createSaloon(salon) {
     return this.http.post(`${this.endpoint}/salon`, salon);
   }
   createManager(manager) {
-    return this.http.post(`${this.endpoint}/manager`, manager);
+    return this.http.post(`${this.endpoint}/auth/signup`, manager);
   }
 }
