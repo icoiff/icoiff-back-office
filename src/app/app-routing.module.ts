@@ -48,6 +48,7 @@ const routes: Routes = [
     path: 'error-404',
     component: Error404Component
   },
+  {path: "", redirectTo: "auth/login", pathMatch: "full"},
   {path: '**', redirectTo: 'error-404', pathMatch: "full"}
 ];
 
