@@ -4,13 +4,14 @@ import { Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { environment } from '../../environments/environment';
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-  endpoint: string = 'http://localhost:3000';
+  endpoint: string = environment.apiUrl;
   headers = new HttpHeaders().set('Content-Type', 'application/json');
   currentUser = {};
 
