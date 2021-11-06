@@ -28,15 +28,18 @@ export class CreateSaloonComponent implements OnInit {
     private manageSaloons: ManageSaloonsService,
     private authService: AuthService
   ) {
-    this.access_token = this.route.snapshot.params.access_token;
-    if (!this.access_token) {
-      this.router.navigate(['/error-404'])
-    }
-    this.authService.verifyToken(this.access_token).subscribe((response: any) => {
-      if(response.error) {
+    this.route.queryParams.subscribe(params => {
+      this.access_token = params.access_token
+      if (!this.access_token) {
         this.router.navigate(['/error-404'])
       }
-    })
+      this.authService.verifyToken(this.access_token).subscribe((response: any) => {
+        if(response.error) {
+          this.router.navigate(['/error-404'])
+        }
+      })
+  });
+
   }
   onProfileImageChanged(event) {
     this.selectedFile = event.target.files[0];
