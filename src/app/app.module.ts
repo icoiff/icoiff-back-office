@@ -53,7 +53,7 @@ import { TableSaloonsComponent } from './components/table-saloons/table-saloons.
 import { AuthService } from "./services/auth.service";
 import { ManageSaloonsService } from "./services/manage-saloons.service";
 import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
-import { AuthInterceptor } from './services/authconfig.interceptor';
+import { AuthInterceptor } from './services/authConfig.interceptor';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { TableClientsComponent } from './components/table-clients/table-clients.component';
 import { DropdownComponent } from './components/dropdowns/dropdown/dropdown.component';
@@ -105,7 +105,7 @@ import { Error404Component } from './views/error404/error404.component';
     Error404Component,
   ],
   imports: [
-    BrowserModule, 
+    BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
@@ -114,7 +114,7 @@ import { Error404Component } from './views/error404/error404.component';
 
   ],
   providers: [
-    AuthService, 
+    AuthService,
     ManageSaloonsService,
     {
       provide: HTTP_INTERCEPTORS,

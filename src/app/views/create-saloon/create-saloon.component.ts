@@ -23,7 +23,7 @@ export class CreateSaloonComponent implements OnInit {
     name: new FormControl(''),
   });
   constructor(
-    private route: ActivatedRoute, 
+    private route: ActivatedRoute,
     private router: Router,
     private manageSaloons: ManageSaloonsService,
     private authService: AuthService
@@ -46,9 +46,9 @@ export class CreateSaloonComponent implements OnInit {
     const uploadData = new FormData();
     uploadData.append('profile-photo', this.selectedFile, this.selectedFile.name);
     this.manageSaloons.sendImage(uploadData).subscribe(
-      (response: any)=>{        
+      (response: any)=>{
         console.log(response);
-        
+
         this.profileImagePath = response.url;
         this.uploaded = 'image uploaded'
       }
@@ -61,7 +61,7 @@ export class CreateSaloonComponent implements OnInit {
     this.manageSaloons.sendImage(uploadData).subscribe(
       (response: any)=>{
         console.log(response);
-        
+
         this.saloonImagePath = response.url;
       }
     );
