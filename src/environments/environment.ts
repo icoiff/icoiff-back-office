@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: "http://icoiff-backend.herokuapp.com",
+  apiUrl: "https://api.icoiff.com",
 };
 
 /*

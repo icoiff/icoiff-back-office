@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://icoiff-backend.herokuapp.com'
+  apiUrl: 'https://api.icoiff.com'
 };
