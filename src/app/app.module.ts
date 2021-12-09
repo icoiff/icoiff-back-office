@@ -3,7 +3,7 @@ import { NgModule } from "@angular/core";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { TimeagoModule } from 'ngx-timeago';
+import { TimeagoModule } from "ngx-timeago";
 
 // layouts
 import { AdminComponent } from "./layouts/admin/admin.component";
@@ -18,7 +18,6 @@ import { TablesComponent } from "./views/admin/tables/tables.component";
 // auth views
 import { LoginComponent } from "./views/auth/login/login.component";
 
-
 // no layouts views
 import { IndexComponent } from "./views/index/index.component";
 import { LandingComponent } from "./views/landing/landing.component";
@@ -28,45 +27,34 @@ import { ProfileComponent } from "./views/profile/profile.component";
 
 import { AdminNavbarComponent } from "./components/navbars/admin-navbar/admin-navbar.component";
 import { AuthNavbarComponent } from "./components/navbars/auth-navbar/auth-navbar.component";
-import { CardBarChartComponent } from "./components/cards/card-bar-chart/card-bar-chart.component";
-import { CardLineChartComponent } from "./components/cards/card-line-chart/card-line-chart.component";
-import { CardPageVisitsComponent } from "./components/cards/card-page-visits/card-page-visits.component";
-import { CardProfileComponent } from "./components/cards/card-profile/card-profile.component";
-import { CardSettingsComponent } from "./components/cards/card-settings/card-settings.component";
-import { CardSocialTrafficComponent } from "./components/cards/card-social-traffic/card-social-traffic.component";
-import { CardStatsComponent } from "./components/cards/card-stats/card-stats.component";
-import { CardTableComponent } from "./components/cards/card-table/card-table.component";
 import { FooterAdminComponent } from "./components/footers/footer-admin/footer-admin.component";
 import { FooterComponent } from "./components/footers/footer/footer.component";
 import { FooterSmallComponent } from "./components/footers/footer-small/footer-small.component";
 import { HeaderStatsComponent } from "./components/headers/header-stats/header-stats.component";
 import { IndexNavbarComponent } from "./components/navbars/index-navbar/index-navbar.component";
-import { MapExampleComponent } from "./components/maps/map-example/map-example.component";
 import { IndexDropdownComponent } from "./components/dropdowns/index-dropdown/index-dropdown.component";
 import { TableDropdownComponent } from "./components/dropdowns/table-dropdown/table-dropdown.component";
 import { PagesDropdownComponent } from "./components/dropdowns/pages-dropdown/pages-dropdown.component";
 import { NotificationDropdownComponent } from "./components/dropdowns/notification-dropdown/notification-dropdown.component";
 import { SidebarComponent } from "./components/sidebar/sidebar.component";
 import { UserDropdownComponent } from "./components/dropdowns/user-dropdown/user-dropdown.component";
-import { ManageSaloonsComponent } from './views/admin/manage-saloons/manage-saloons.component';
-import { TableSaloonsComponent } from './components/table-saloons/table-saloons.component';
+import { ManageSalonsComponent } from "./views/admin/manage-salons/manage-salons.component";
+import { TableSalonsComponent } from "./components/table-salons/table-salons.component";
 import { AuthService } from "./services/auth.service";
-import { ManageSaloonsService } from "./services/manage-saloons.service";
+import { ManageSalonsService } from "./services/manage-salons.service";
 import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
-import { AuthInterceptor } from './services/authConfig.interceptor';
+import { AuthInterceptor } from "./services/authConfig.interceptor";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
-import { TableClientsComponent } from './components/table-clients/table-clients.component';
-import { DropdownComponent } from './components/dropdowns/dropdown/dropdown.component';
-import { ModalComponent } from './components/modal/modal.component';
-import { CreateSaloonComponent } from './views/create-saloon/create-saloon.component';
-import { Error404Component } from './views/error404/error404.component';
+import { TableClientsComponent } from "./components/table-clients/table-clients.component";
+import { DropdownComponent } from "./components/dropdowns/dropdown/dropdown.component";
+import { ModalComponent } from "./components/modal/modal.component";
+import { CreateSalonComponent } from "./views/create-salon/create-salon.component";
+import { Error404Component } from "./views/error404/error404.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    CardBarChartComponent,
-    CardLineChartComponent,
     IndexDropdownComponent,
     PagesDropdownComponent,
     TableDropdownComponent,
@@ -76,14 +64,7 @@ import { Error404Component } from './views/error404/error404.component';
     FooterComponent,
     FooterSmallComponent,
     FooterAdminComponent,
-    CardPageVisitsComponent,
-    CardProfileComponent,
-    CardSettingsComponent,
-    CardSocialTrafficComponent,
-    CardStatsComponent,
-    CardTableComponent,
     HeaderStatsComponent,
-    MapExampleComponent,
     AuthNavbarComponent,
     AdminNavbarComponent,
     IndexNavbarComponent,
@@ -96,12 +77,12 @@ import { Error404Component } from './views/error404/error404.component';
     IndexComponent,
     LandingComponent,
     ProfileComponent,
-    ManageSaloonsComponent,
-    TableSaloonsComponent,
+    ManageSalonsComponent,
+    TableSalonsComponent,
     TableClientsComponent,
     DropdownComponent,
     ModalComponent,
-    CreateSaloonComponent,
+    CreateSalonComponent,
     Error404Component,
   ],
   imports: [
@@ -110,17 +91,16 @@ import { Error404Component } from './views/error404/error404.component';
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
-    TimeagoModule.forRoot()
-
+    TimeagoModule.forRoot(),
   ],
   providers: [
     AuthService,
-    ManageSaloonsService,
+    ManageSalonsService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: AuthInterceptor,
-      multi: true
-    }
+      multi: true,
+    },
   ],
   bootstrap: [AppComponent],
 })

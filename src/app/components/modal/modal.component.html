@@ -22,7 +22,7 @@
   type="button"
   (click)="toggleModal()"
 >
-  <i class="fas fa-plus"></i> Add Saloon
+  <i class="fas fa-plus"></i> Ajouter un Salon
 </button>
 <div
   *ngIf="showModal"
@@ -38,7 +38,7 @@
     flex
   "
 >
-  <div class="relative w-auto mx-auto max-w-xl bg-red-100 ">
+  <div class="relative w-auto mx-auto max-w-xl bg-red-100">
     <!--content-->
     <div
       class="
@@ -64,7 +64,7 @@
           rounded-t
         "
       >
-        <h3 class="text-sm font-semibold">Add Manager to Saloon</h3>
+        <h3 class="text-sm font-semibold">Ajouter un manager au salon</h3>
         <button
           class="
             p-1
@@ -138,29 +138,29 @@
       >
         <button
           class="
-          bg-red-500
-          text-white
-          active:bg-red-600
-          font-bold
-          uppercase
-          text-sm
-          px-6
-          py-2
-          rounded
-          shadow
-          hover:shadow-lg
-          outline-none
-          focus:outline-none
-          mr-1
-          mb-1
-          ease-linear
-          transition-all
-          duration-150
+            bg-red-500
+            text-white
+            active:bg-red-600
+            font-bold
+            uppercase
+            text-sm
+            px-6
+            py-2
+            rounded
+            shadow
+            hover:shadow-lg
+            outline-none
+            focus:outline-none
+            mr-1
+            mb-1
+            ease-linear
+            transition-all
+            duration-150
           "
           type="button"
           (click)="toggleModal()"
         >
-          Close
+          Fermer
         </button>
         <button
           class="
@@ -186,11 +186,21 @@
           type="button"
           (click)="sendMail()"
         >
-          Save Changes
+          Enregistrer
         </button>
       </div>
     </div>
   </div>
 </div>
-<div *ngIf="showModal" class="border-1 border-blueGray-500 border-solid opacity-25 fixed inset-0 z-40 bg-black"></div>
+<div
+  *ngIf="showModal"
+  class="
+    border-1 border-blueGray-500 border-solid
+    opacity-25
+    fixed
+    inset-0
+    z-40
+    bg-black
+  "
+></div>
 `

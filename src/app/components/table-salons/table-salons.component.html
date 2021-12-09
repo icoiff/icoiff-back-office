@@ -1,0 +1,289 @@
+<div
+  class="
+    relative
+    flex flex-col
+    min-w-0
+    break-words
+    w-full
+    mb-6
+    shadow-lg
+    rounded
+  "
+  [ngClass]="color === 'light' ? 'bg-white' : 'bg-red-900 text-white'"
+>
+  <div class="rounded-t mb-0 px-4 py-3 border-0">
+    <div class="flex flex-wrap items-center">
+      <div class="relative w-full px-4 max-w-full flex-grow justify-between">
+        <h3
+          class="font-semibold text-lg"
+          [ngClass]="color === 'light' ? 'text-blueGray-700' : 'text-white'"
+        >
+          Salons
+        </h3>
+      </div>
+    </div>
+  </div>
+  <div class="block w-full overflow-x-auto">
+    <!-- Projects table -->
+    <table class="items-center w-full bg-transparent border-collapse">
+      <thead>
+        <tr>
+          <th
+            class="
+              px-6
+              align-middle
+              border border-solid
+              py-3
+              text-xs
+              uppercase
+              border-l-0 border-r-0
+              whitespace-nowrap
+              font-semibold
+              text-left
+            "
+            [ngClass]="
+              color === 'light'
+                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+                : 'bg-red-800 text-red-300 border-red-700'
+            "
+          >
+            ID
+          </th>
+          <th
+            class="
+              px-6
+              align-middle
+              border border-solid
+              py-3
+              text-xs
+              uppercase
+              border-l-0 border-r-0
+              whitespace-nowrap
+              font-semibold
+              text-left
+            "
+            [ngClass]="
+              color === 'light'
+                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+                : 'bg-red-800 text-red-300 border-red-700'
+            "
+          >
+            Nom
+          </th>
+          <th
+            class="
+              px-6
+              align-middle
+              border border-solid
+              py-3
+              text-xs
+              uppercase
+              border-l-0 border-r-0
+              whitespace-nowrap
+              font-semibold
+              text-left
+            "
+            [ngClass]="
+              color === 'light'
+                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+                : 'bg-red-800 text-red-300 border-red-700'
+            "
+          >
+            Managers
+          </th>
+          <th
+            class="
+              px-6
+              align-middle
+              border border-solid
+              py-3
+              text-xs
+              uppercase
+              border-l-0 border-r-0
+              whitespace-nowrap
+              font-semibold
+              text-left
+            "
+            [ngClass]="
+              color === 'light'
+                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+                : 'bg-red-800 text-red-300 border-red-700'
+            "
+          >
+            Coiffeurs
+          </th>
+          <th
+            class="
+              px-6
+              align-middle
+              border border-solid
+              py-3
+              text-xs
+              uppercase
+              border-l-0 border-r-0
+              whitespace-nowrap
+              font-semibold
+              text-left
+            "
+            [ngClass]="
+              color === 'light'
+                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+                : 'bg-red-800 text-red-300 border-red-700'
+            "
+          >
+            Formules
+          </th>
+          <th
+            class="
+              px-6
+              align-middle
+              border border-solid
+              py-3
+              text-xs
+              uppercase
+              border-l-0 border-r-0
+              whitespace-nowrap
+              font-semibold
+              text-left
+            "
+            [ngClass]="
+              color === 'light'
+                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+                : 'bg-red-800 text-red-300 border-red-700'
+            "
+          >
+            Date de création
+          </th>
+          <th
+            class="
+              px-6
+              align-middle
+              border border-solid
+              py-3
+              text-xs
+              uppercase
+              border-l-0 border-r-0
+              whitespace-nowrap
+              font-semibold
+              text-left
+            "
+            [ngClass]="
+              color === 'light'
+                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+                : 'bg-red-800 text-red-300 border-red-700'
+            "
+          >
+            Image
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let salon of salons; let i = index" [attr.data-index]="i">
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+              p-4
+            "
+          >
+            {{ i }}
+          </td>
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+              p-4
+            "
+          >
+            {{ salon.name }}
+          </td>
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+              p-4
+            "
+          >
+            <ul *ngFor="let manager of salon.managers">
+              <li>{{ manager.first_name }} {{ manager.last_name }}</li>
+            </ul>
+          </td>
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+              p-4
+            "
+          >
+            <ul *ngFor="let hairdresser of salon.hairdressers">
+              <li>{{ hairdresser.first_name }} {{ hairdresser.last_name }}</li>
+            </ul>
+          </td>
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+            "
+          >
+            <ul class="list-disc" *ngFor="let formula of salon.formulas">
+              <li>{{ formula.formula.name }} | {{ formula.price }} DT</li>
+            </ul>
+          </td>
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+              p-4
+            "
+          >
+            {{ salon.createdAt | timeago: live }}
+          </td>
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+              p-4
+            "
+          >
+            <img
+              class="inline-block h-6 w-6 rounded-md max-w-100-px"
+              [src]="salon.image"
+              alt=""
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="flex justify-end">
+  <app-modal></app-modal>
+</div>

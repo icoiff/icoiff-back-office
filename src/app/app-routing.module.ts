@@ -8,12 +8,12 @@ import { AuthGuard } from "./services/auth.guard";
 
 // admin views
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
-import { ManageSaloonsComponent } from "./views/admin/manage-saloons/manage-saloons.component";
+import { ManageSalonsComponent } from "./views/admin/manage-salons/manage-salons.component";
 import { SettingsComponent } from "./views/admin/settings/settings.component";
 
 // auth views
 import { LoginComponent } from "./views/auth/login/login.component";
-import { CreateSaloonComponent } from "./views/create-saloon/create-saloon.component";
+import { CreateSalonComponent } from "./views/create-salon/create-salon.component";
 import { Error404Component } from "./views/error404/error404.component";
 
 // no layouts views
@@ -21,17 +21,29 @@ import { ProfileComponent } from "./views/profile/profile.component";
 
 const routes: Routes = [
   {
-    path:"create/saloon",
-    component: CreateSaloonComponent
+    path: "create/salon",
+    component: CreateSalonComponent,
   },
   // admin views
   {
     path: "admin",
     component: AdminComponent,
     children: [
-      { path: "profile", component: ProfileComponent, canActivate: [AuthGuard] },
-      { path: "clients", component: DashboardComponent, canActivate: [AuthGuard] },
-      { path: "saloons", component: ManageSaloonsComponent, canActivate: [AuthGuard] },
+      {
+        path: "profile",
+        component: ProfileComponent,
+        canActivate: [AuthGuard],
+      },
+      {
+        path: "clients",
+        component: DashboardComponent,
+        canActivate: [AuthGuard],
+      },
+      {
+        path: "salons",
+        component: ManageSalonsComponent,
+        canActivate: [AuthGuard],
+      },
       { path: "", redirectTo: "dashboard", pathMatch: "full" },
     ],
   },
@@ -45,11 +57,11 @@ const routes: Routes = [
     ],
   },
   {
-    path: 'error-404',
-    component: Error404Component
+    path: "error-404",
+    component: Error404Component,
   },
-  {path: "", redirectTo: "auth/login", pathMatch: "full"},
-  {path: '**', redirectTo: 'error-404', pathMatch: "full"}
+  { path: "", redirectTo: "auth/login", pathMatch: "full" },
+  { path: "**", redirectTo: "error-404", pathMatch: "full" },
 ];
 
 @NgModule({

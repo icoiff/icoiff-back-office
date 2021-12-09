@@ -7,170 +7,6 @@
 
   (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
     /***/
-    "+Kwz":
-    /*!*******************************************************************************!*\
-      !*** ./src/app/components/cards/card-line-chart/card-line-chart.component.ts ***!
-      \*******************************************************************************/
-
-    /*! exports provided: CardLineChartComponent */
-
-    /***/
-    function Kwz(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "CardLineChartComponent", function () {
-        return CardLineChartComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_card_line_chart_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./card-line-chart.component.html */
-      "lLla");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-      /* harmony import */
-
-
-      var chart_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-      /*! chart.js */
-      "MO+k");
-      /* harmony import */
-
-
-      var chart_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(chart_js__WEBPACK_IMPORTED_MODULE_3__);
-
-      var CardLineChartComponent = /*#__PURE__*/function () {
-        function CardLineChartComponent() {
-          _classCallCheck(this, CardLineChartComponent);
-        }
-
-        _createClass(CardLineChartComponent, [{
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }, {
-          key: "ngAfterViewInit",
-          value: function ngAfterViewInit() {
-            var config = {
-              type: "line",
-              data: {
-                labels: ["January", "February", "March", "April", "May", "June", "July"],
-                datasets: [{
-                  label: new Date().getFullYear(),
-                  backgroundColor: "#4c51bf",
-                  borderColor: "#4c51bf",
-                  data: [65, 78, 66, 44, 56, 67, 75],
-                  fill: false
-                }, {
-                  label: new Date().getFullYear() - 1,
-                  fill: false,
-                  backgroundColor: "#fff",
-                  borderColor: "#fff",
-                  data: [40, 68, 86, 74, 56, 60, 87]
-                }]
-              },
-              options: {
-                maintainAspectRatio: false,
-                responsive: true,
-                title: {
-                  display: false,
-                  text: "Sales Charts",
-                  fontColor: "white"
-                },
-                legend: {
-                  labels: {
-                    fontColor: "white"
-                  },
-                  align: "end",
-                  position: "bottom"
-                },
-                tooltips: {
-                  mode: "index",
-                  intersect: false
-                },
-                hover: {
-                  mode: "nearest",
-                  intersect: true
-                },
-                scales: {
-                  xAxes: [{
-                    ticks: {
-                      fontColor: "rgba(255,255,255,.7)"
-                    },
-                    display: true,
-                    scaleLabel: {
-                      display: false,
-                      labelString: "Month",
-                      fontColor: "white"
-                    },
-                    gridLines: {
-                      display: false,
-                      borderDash: [2],
-                      borderDashOffset: [2],
-                      color: "rgba(33, 37, 41, 0.3)",
-                      zeroLineColor: "rgba(0, 0, 0, 0)",
-                      zeroLineBorderDash: [2],
-                      zeroLineBorderDashOffset: [2]
-                    }
-                  }],
-                  yAxes: [{
-                    ticks: {
-                      fontColor: "rgba(255,255,255,.7)"
-                    },
-                    display: true,
-                    scaleLabel: {
-                      display: false,
-                      labelString: "Value",
-                      fontColor: "white"
-                    },
-                    gridLines: {
-                      borderDash: [3],
-                      borderDashOffset: [3],
-                      drawBorder: false,
-                      color: "rgba(255, 255, 255, 0.15)",
-                      zeroLineColor: "rgba(33, 37, 41, 0)",
-                      zeroLineBorderDash: [2],
-                      zeroLineBorderDashOffset: [2]
-                    }
-                  }]
-                }
-              }
-            };
-            var ctx = document.getElementById("line-chart");
-            ctx = ctx.getContext("2d");
-            new chart_js__WEBPACK_IMPORTED_MODULE_3___default.a(ctx, config);
-          }
-        }]);
-
-        return CardLineChartComponent;
-      }();
-
-      CardLineChartComponent.ctorParameters = function () {
-        return [];
-      };
-
-      CardLineChartComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-card-line-chart",
-        template: _raw_loader_card_line_chart_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], CardLineChartComponent);
-      /***/
-    },
-
-    /***/
     "+VzF":
     /*!****************************************!*\
       !*** ./src/app/services/auth.guard.ts ***!
@@ -247,26 +83,6 @@
       AuthGuard = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
         providedIn: 'root'
       })], AuthGuard);
-      /***/
-    },
-
-    /***/
-    "/GnJ":
-    /*!*********************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/card-bar-chart/card-bar-chart.component.html ***!
-      \*********************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function GnJ(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div\r\n  class=\"relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 bg-transparent\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full max-w-full flex-grow flex-1\">\r\n        <h6 class=\"uppercase text-blueGray-400 mb-1 text-xs font-semibold\">\r\n          Performance\r\n        </h6>\r\n        <h2 class=\"text-blueGray-700 text-xl font-semibold\">Total orders</h2>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"p-4 flex-auto\">\r\n    <!-- Chart -->\r\n    <div class=\"relative\" style=\"height: 350px\">\r\n      <canvas id=\"bar-chart\"></canvas>\r\n    </div>\r\n  </div>\r\n</div>\r\n";
       /***/
     },
 
@@ -385,7 +201,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<div>\r\n  <app-sidebar></app-sidebar>\r\n  <div class=\"relative md:ml-64 bg-blueGray-100\">\r\n    <app-admin-navbar></app-admin-navbar>\r\n    <app-header-stats></app-header-stats>\r\n    <div class=\"px-4 md:px-10 mx-auto w-full -m-24\">\r\n      <router-outlet></router-outlet>\r\n    </div>\r\n  </div>\r\n</div>\r\n";
+      __webpack_exports__["default"] = "<div>\r\n  <app-sidebar></app-sidebar>\r\n  <div class=\"relative md:ml-64 bg-blueGray-100\">\r\n    <app-admin-navbar></app-admin-navbar>\r\n    <app-header-stats></app-header-stats>\r\n    <div class=\"px-4 md:px-10 mx-auto w-full -m-24\">\r\n      <router-outlet></router-outlet>\r\n    </div>\r\n  </div>\r\n</div>";
       /***/
     },
 
@@ -515,68 +331,6 @@
         selector: "app-user-dropdown",
         template: _raw_loader_user_dropdown_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
       })], UserDropdownComponent);
-      /***/
-    },
-
-    /***/
-    "0uaz":
-    /*!************************************************************************!*\
-      !*** ./src/app/views/admin/manage-saloons/manage-saloons.component.ts ***!
-      \************************************************************************/
-
-    /*! exports provided: ManageSaloonsComponent */
-
-    /***/
-    function uaz(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "ManageSaloonsComponent", function () {
-        return ManageSaloonsComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_manage_saloons_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./manage-saloons.component.html */
-      "pzeq");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-
-      var ManageSaloonsComponent = /*#__PURE__*/function () {
-        function ManageSaloonsComponent() {
-          _classCallCheck(this, ManageSaloonsComponent);
-        }
-
-        _createClass(ManageSaloonsComponent, [{
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }]);
-
-        return ManageSaloonsComponent;
-      }();
-
-      ManageSaloonsComponent.ctorParameters = function () {
-        return [];
-      };
-
-      ManageSaloonsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: 'app-manage-saloons',
-        template: _raw_loader_manage_saloons_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], ManageSaloonsComponent);
       /***/
     },
 
@@ -741,68 +495,6 @@
     },
 
     /***/
-    "3IhM":
-    /*!*********************************************************************************!*\
-      !*** ./src/app/components/cards/card-page-visits/card-page-visits.component.ts ***!
-      \*********************************************************************************/
-
-    /*! exports provided: CardPageVisitsComponent */
-
-    /***/
-    function IhM(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "CardPageVisitsComponent", function () {
-        return CardPageVisitsComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_card_page_visits_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./card-page-visits.component.html */
-      "L/HX");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-
-      var CardPageVisitsComponent = /*#__PURE__*/function () {
-        function CardPageVisitsComponent() {
-          _classCallCheck(this, CardPageVisitsComponent);
-        }
-
-        _createClass(CardPageVisitsComponent, [{
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }]);
-
-        return CardPageVisitsComponent;
-      }();
-
-      CardPageVisitsComponent.ctorParameters = function () {
-        return [];
-      };
-
-      CardPageVisitsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-card-page-visits",
-        template: _raw_loader_card_page_visits_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], CardPageVisitsComponent);
-      /***/
-    },
-
-    /***/
     "3YbZ":
     /*!*************************************************************************************************************!*\
       !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/dropdowns/dropdown/dropdown.component.html ***!
@@ -818,97 +510,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<!-- This example requires Tailwind CSS v2.0+ -->\r\n<div class=\"relative inline-block text-left\">\r\n  <div>\r\n    <button type=\"button\" class=\"inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500\" id=\"menu-button\" aria-expanded=\"true\" aria-haspopup=\"true\">\r\n      Add Saloon \r\n    </button>\r\n  </div>\r\n\r\n  <!--\r\n    Dropdown menu, show/hide based on menu state.\r\n\r\n    Entering: \"transition ease-out duration-100\"\r\n      From: \"transform opacity-0 scale-95\"\r\n      To: \"transform opacity-100 scale-100\"\r\n    Leaving: \"transition ease-in duration-75\"\r\n      From: \"transform opacity-100 scale-100\"\r\n      To: \"transform opacity-0 scale-95\"\r\n  -->\r\n  <div class=\"origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none\" role=\"menu\" aria-orientation=\"vertical\" aria-labelledby=\"menu-button\" tabindex=\"-1\">\r\n    <div class=\"py-1\" role=\"none\">\r\n      <!-- Active: \"bg-gray-100 text-gray-900\", Not Active: \"text-gray-700\" -->\r\n      <a href=\"#\" class=\"text-gray-700 block px-4 py-2 text-sm\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-item-0\">Edit</a>\r\n      <a href=\"#\" class=\"text-gray-700 block px-4 py-2 text-sm\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-item-1\">Duplicate</a>\r\n    </div>\r\n    <div class=\"py-1\" role=\"none\">\r\n      <a href=\"#\" class=\"text-gray-700 block px-4 py-2 text-sm\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-item-2\">Archive</a>\r\n      <a href=\"#\" class=\"text-gray-700 block px-4 py-2 text-sm\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-item-3\">Move</a>\r\n    </div>\r\n    <div class=\"py-1\" role=\"none\">\r\n      <a href=\"#\" class=\"text-gray-700 block px-4 py-2 text-sm\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-item-4\">Share</a>\r\n      <a href=\"#\" class=\"text-gray-700 block px-4 py-2 text-sm\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-item-5\">Add to favorites</a>\r\n    </div>\r\n    <div class=\"py-1\" role=\"none\">\r\n      <a href=\"#\" class=\"text-gray-700 block px-4 py-2 text-sm\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-item-6\">Delete</a>\r\n    </div>\r\n  </div>\r\n</div>";
-      /***/
-    },
-
-    /***/
-    "40b+":
-    /*!****************************************************!*\
-      !*** ./src/app/services/manage-saloons.service.ts ***!
-      \****************************************************/
-
-    /*! exports provided: ManageSaloonsService */
-
-    /***/
-    function b(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "ManageSaloonsService", function () {
-        return ManageSaloonsService;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! @angular/common/http */
-      "tk/3");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-      /* harmony import */
-
-
-      var src_environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-      /*! src/environments/environment */
-      "AytR");
-
-      var ManageSaloonsService = /*#__PURE__*/function () {
-        function ManageSaloonsService(http) {
-          _classCallCheck(this, ManageSaloonsService);
-
-          this.http = http;
-          this.endpoint = src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl;
-          this.headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]().set("Content-Type", "application/json");
-        }
-
-        _createClass(ManageSaloonsService, [{
-          key: "getSaloons",
-          value: function getSaloons() {
-            return this.http.get("".concat(this.endpoint, "/salon"));
-          }
-        }, {
-          key: "sendImage",
-          value: function sendImage(uploadData) {
-            return this.http.post("".concat(this.endpoint, "/file-upload"), uploadData);
-          }
-        }, {
-          key: "createSaloon",
-          value: function createSaloon(salon) {
-            return this.http.post("".concat(this.endpoint, "/salon"), salon);
-          }
-        }, {
-          key: "createManager",
-          value: function createManager(manager) {
-            return this.http.post("".concat(this.endpoint, "/auth/signup"), manager);
-          }
-        }]);
-
-        return ManageSaloonsService;
-      }();
-
-      ManageSaloonsService.ctorParameters = function () {
-        return [{
-          type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]
-        }];
-      };
-
-      ManageSaloonsService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])({
-        providedIn: "root"
-      })], ManageSaloonsService);
+      __webpack_exports__["default"] = "<!-- This example requires Tailwind CSS v2.0+ -->\r\n<div class=\"relative inline-block text-left\">\r\n  <div>\r\n    <button\r\n      type=\"button\"\r\n      class=\"\r\n        inline-flex\r\n        justify-center\r\n        w-full\r\n        rounded-md\r\n        border border-gray-300\r\n        shadow-sm\r\n        px-4\r\n        py-2\r\n        bg-white\r\n        text-sm\r\n        font-medium\r\n        text-gray-700\r\n        hover:bg-gray-50\r\n        focus:outline-none\r\n        focus:ring-2\r\n        focus:ring-offset-2\r\n        focus:ring-offset-gray-100\r\n        focus:ring-indigo-500\r\n      \"\r\n      id=\"menu-button\"\r\n      aria-expanded=\"true\"\r\n      aria-haspopup=\"true\"\r\n    >\r\n      Ajouter un Salon\r\n    </button>\r\n  </div>\r\n\r\n  <div\r\n    class=\"\r\n      origin-top-right\r\n      absolute\r\n      right-0\r\n      mt-2\r\n      w-56\r\n      rounded-md\r\n      shadow-lg\r\n      bg-white\r\n      ring-1 ring-black ring-opacity-5\r\n      divide-y divide-gray-100\r\n      focus:outline-none\r\n    \"\r\n    role=\"menu\"\r\n    aria-orientation=\"vertical\"\r\n    aria-labelledby=\"menu-button\"\r\n    tabindex=\"-1\"\r\n  >\r\n    <div class=\"py-1\" role=\"none\">\r\n      <!-- Active: \"bg-gray-100 text-gray-900\", Not Active: \"text-gray-700\" -->\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-0\"\r\n        >Modifier</a\r\n      >\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-1\"\r\n        >Dupliquer</a\r\n      >\r\n    </div>\r\n    <div class=\"py-1\" role=\"none\">\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-2\"\r\n        >Archive</a\r\n      >\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-3\"\r\n        >Déplacer</a\r\n      >\r\n    </div>\r\n    <div class=\"py-1\" role=\"none\">\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-4\"\r\n        >Partager</a\r\n      >\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-5\"\r\n        >Ajouter aux favoris</a\r\n      >\r\n    </div>\r\n    <div class=\"py-1\" role=\"none\">\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-6\"\r\n        >Supprimer</a\r\n      >\r\n    </div>\r\n  </div>\r\n</div>\r\n";
       /***/
     },
 
@@ -982,98 +584,6 @@
     },
 
     /***/
-    "7S+c":
-    /*!*********************************************************************!*\
-      !*** ./src/app/components/table-saloons/table-saloons.component.ts ***!
-      \*********************************************************************/
-
-    /*! exports provided: TableSaloonsComponent */
-
-    /***/
-    function SC(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "TableSaloonsComponent", function () {
-        return TableSaloonsComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_table_saloons_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./table-saloons.component.html */
-      "uEih");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-      /* harmony import */
-
-
-      var src_app_services_manage_saloons_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-      /*! src/app/services/manage-saloons.service */
-      "40b+");
-
-      var TableSaloonsComponent = /*#__PURE__*/function () {
-        function TableSaloonsComponent(manageSaloons) {
-          var _this = this;
-
-          _classCallCheck(this, TableSaloonsComponent);
-
-          this.manageSaloons = manageSaloons;
-          this._color = "light";
-          this.live = true;
-          this.manageSaloons.getSaloons().subscribe(function (res) {
-            _this.saloons = res;
-          });
-        }
-
-        _createClass(TableSaloonsComponent, [{
-          key: "color",
-          get: function get() {
-            return this._color;
-          },
-          set: function set(color) {
-            this._color = color !== "light" && color !== "dark" ? "light" : color;
-          }
-        }, {
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }]);
-
-        return TableSaloonsComponent;
-      }();
-
-      TableSaloonsComponent.ctorParameters = function () {
-        return [{
-          type: src_app_services_manage_saloons_service__WEBPACK_IMPORTED_MODULE_3__["ManageSaloonsService"]
-        }];
-      };
-
-      TableSaloonsComponent.propDecorators = {
-        color: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }]
-      };
-      TableSaloonsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: 'app-table-saloons',
-        template: _raw_loader_table_saloons_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], TableSaloonsComponent);
-      /***/
-    },
-
-    /***/
     "7aL3":
     /*!*****************************************************!*\
       !*** ./src/app/components/modal/modal.component.ts ***!
@@ -1134,13 +644,13 @@
         }, {
           key: "sendMail",
           value: function sendMail() {
-            var _this2 = this;
+            var _this = this;
 
             this.mailerService.sendMail(this.email).subscribe(function (res) {
               console.log(res);
-              _this2.email = '';
+              _this.email = '';
 
-              _this2.toggleModal();
+              _this.toggleModal();
             });
           }
         }]);
@@ -1244,6 +754,26 @@
     },
 
     /***/
+    "9yi7":
+    /*!******************************************************************************************************!*\
+      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/views/create-salon/create-salon.component.html ***!
+      \******************************************************************************************************/
+
+    /*! exports provided: default */
+
+    /***/
+    function yi7(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony default export */
+
+
+      __webpack_exports__["default"] = "<div class=\"mx-auto\" *ngIf=\"success\">\r\n  <h1 class=\"text-4xl py-16 px-48\">\r\n    {{ success }}\r\n  </h1>\r\n</div>\r\n<div *ngIf=\"!success\">\r\n  <form\r\n    class=\"space-y-8 divide-y divide-teal-600 p-8\"\r\n    [formGroup]=\"profileForm\"\r\n    (ngSubmit)=\"onSubmit()\"\r\n  >\r\n    <div class=\"space-y-8 divide-y divide-teal-600 sm:space-y-5\">\r\n      <div class=\"flex flex-col gap-6 divide-y divide-teal-600\">\r\n        <div>\r\n          <h3 class=\"text-lg leading-6 font-medium text-gray-900\">\r\n            Profile Manager\r\n          </h3>\r\n          <p class=\"mt-1 max-w-xl text-sm text-gray-500\">\r\n            Ces informations apparaitrons sur l'application iCoiff. Faites bien attention aux informations que vous partagez.\r\n          </p>\r\n        </div>\r\n\r\n        <div class=\"mt-6 sm:mt-5 space-y-6 sm:space-y-5\">\r\n          <div\r\n            class=\"\r\n              sm:grid\r\n              sm:grid-cols-3\r\n              sm:gap-4\r\n              sm:items-start\r\n              sm:border-t\r\n              sm:border-gray-200\r\n              sm:pt-5\r\n            \"\r\n          >\r\n            <label\r\n              for=\"first_name\"\r\n              class=\"block text-md font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n            >\r\n              Prénom\r\n            </label>\r\n            <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n              <div class=\"max-w-4xl flex rounded-md shadow-sm\">\r\n                <input\r\n                  required\r\n                  type=\"text\"\r\n                  name=\"first_name\"\r\n                  id=\"first_name\"\r\n                  autocomplete=\"given-name\"\r\n                  class=\"\r\n                    flex-1\r\n                    block\r\n                    w-full\r\n                    focus:ring-indigo-500 focus:border-indigo-500\r\n                    min-w-0\r\n                    rounded-none rounded-r-md\r\n                    sm:text-sm\r\n                    border-gray-300\r\n                  \"\r\n                  formControlName=\"first_name\"\r\n                />\r\n              </div>\r\n            </div>\r\n            <label\r\n              for=\"last_name\"\r\n              class=\"block text-md font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n            >\r\n              Nom\r\n            </label>\r\n            <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n              <div class=\"max-w-4xl flex rounded-md shadow-sm\">\r\n                <input\r\n                  type=\"text\"\r\n                  name=\"last_name\"\r\n                  id=\"last_name\"\r\n                  autocomplete=\"family-name\"\r\n                  class=\"\r\n                    flex-1\r\n                    block\r\n                    w-full\r\n                    focus:ring-indigo-500 focus:border-indigo-500\r\n                    min-w-0\r\n                    rounded-none rounded-r-md\r\n                    sm:text-sm\r\n                    border-gray-300\r\n                  \"\r\n                  formControlName=\"last_name\"\r\n                />\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div\r\n            class=\"\r\n              sm:grid\r\n              sm:grid-cols-3\r\n              sm:gap-4\r\n              sm:items-start\r\n              sm:border-t\r\n              sm:border-gray-200\r\n              sm:pt-5\r\n            \"\r\n          >\r\n            <label\r\n              for=\"email\"\r\n              class=\"block text-lg font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n            >\r\n              Email\r\n            </label>\r\n            <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n              <div class=\"max-w-4xl flex rounded-md shadow-sm\">\r\n                <input\r\n                  type=\"email\"\r\n                  name=\"email\"\r\n                  id=\"email\"\r\n                  autocomplete=\"email\"\r\n                  class=\"\r\n                    flex-1\r\n                    block\r\n                    w-full\r\n                    focus:ring-indigo-500 focus:border-indigo-500\r\n                    min-w-0\r\n                    rounded-none rounded-r-md\r\n                    sm:text-lg\r\n                    border-gray-300\r\n                  \"\r\n                  formControlName=\"email\"\r\n                />\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div\r\n            class=\"\r\n              sm:grid\r\n              sm:grid-cols-3\r\n              sm:gap-4\r\n              sm:items-start\r\n              sm:border-t\r\n              sm:border-gray-200\r\n              sm:pt-5\r\n            \"\r\n          >\r\n            <label\r\n              for=\"password\"\r\n              class=\"block text-lg font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n            >\r\n              Mot de passe\r\n            </label>\r\n            <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n              <div class=\"max-w-4xl flex rounded-md shadow-sm\">\r\n                <input\r\n                  type=\"password\"\r\n                  name=\"password\"\r\n                  id=\"password\"\r\n                  autocomplete=\"password\"\r\n                  class=\"\r\n                    flex-1\r\n                    block\r\n                    w-full\r\n                    focus:ring-indigo-500 focus:border-indigo-500\r\n                    min-w-0\r\n                    rounded-none rounded-r-md\r\n                    sm:text-lg\r\n                    border-gray-300\r\n                  \"\r\n                  formControlName=\"password\"\r\n                />\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div\r\n            class=\"\r\n              sm:grid\r\n              sm:grid-cols-3\r\n              sm:gap-4\r\n              sm:items-center\r\n              sm:border-t\r\n              sm:border-gray-200\r\n              sm:pt-5\r\n              mb-6\r\n            \"\r\n          >\r\n            <label for=\"photo\" class=\"block text-lg font-medium text-gray-700\">\r\n              Photo Manager\r\n            </label>\r\n            <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n              <div class=\"flex items-center\">\r\n                <span\r\n                  class=\"h-12 w-12 rounded-full overflow-hidden bg-gray-100\"\r\n                >\r\n                  <img\r\n                    *ngIf=\"profileImagePath\"\r\n                    [src]=\"profileImagePath\"\r\n                    alt=\"\"\r\n                    srcset=\"\"\r\n                  />\r\n                  <svg\r\n                    *ngIf=\"!profileImagePath\"\r\n                    class=\"h-full w-full text-gray-300\"\r\n                    fill=\"currentColor\"\r\n                    viewBox=\"0 0 24 24\"\r\n                  >\r\n                    <path\r\n                      d=\"M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z\"\r\n                    />\r\n                  </svg>\r\n                </span>\r\n                <input\r\n                  style=\"display: none\"\r\n                  type=\"file\"\r\n                  (change)=\"onProfileImageChanged($event)\"\r\n                  #fileInput\r\n                />\r\n                <button\r\n                  type=\"button\"\r\n                  class=\"\r\n                    ml-5\r\n                    bg-white\r\n                    py-2\r\n                    px-3\r\n                    border border-gray-300\r\n                    rounded-md\r\n                    shadow-sm\r\n                    text-sm\r\n                    leading-4\r\n                    font-medium\r\n                    text-gray-700\r\n                    hover:bg-gray-50\r\n                    focus:outline-none\r\n                    focus:ring-2\r\n                    focus:ring-offset-2\r\n                    focus:ring-indigo-500\r\n                  \"\r\n                  (click)=\"fileInput.click()\"\r\n                >\r\n                  Changer\r\n                </button>\r\n                {{ uploaded }}\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <div\r\n        class=\"pt-8 space-y-8 sm:pt-10 sm:space-y-8 divide-y divide-teal-600\"\r\n      >\r\n        <div>\r\n          <h3 class=\"text-lg leading-6 font-medium text-gray-900\">\r\n            Informations du Salon\r\n          </h3>\r\n          <p class=\"mt-1 max-w-4xl text-sm text-gray-500 mb-6\">\r\n            Prière de fournir les informations relatives à votre salon.\r\n          </p>\r\n        </div>\r\n        <div class=\"flex flex-col gap-6\">\r\n          <div\r\n            class=\"\r\n              pt-6\r\n              sm:grid\r\n              sm:grid-cols-3\r\n              sm:gap-4\r\n              sm:items-start\r\n              sm:border-t\r\n              sm:border-gray-200\r\n              sm:pt-5\r\n            \"\r\n          >\r\n            <label\r\n              for=\"salon-name\"\r\n              class=\"block text-lg font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n            >\r\n              Nom du Salon\r\n            </label>\r\n            <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n              <input\r\n                type=\"text\"\r\n                name=\"salon-name\"\r\n                id=\"salon-name\"\r\n                class=\"\r\n                  max-w-lg\r\n                  block\r\n                  w-full\r\n                  shadow-sm\r\n                  focus:ring-indigo-500 focus:border-indigo-500\r\n                  sm:max-w-xs sm:text-sm\r\n                  border-gray-300\r\n                  rounded-md\r\n                \"\r\n                formControlName=\"name\"\r\n              />\r\n            </div>\r\n          </div>\r\n\r\n          <div\r\n            class=\"\r\n              sm:grid\r\n              sm:grid-cols-3\r\n              sm:gap-4\r\n              sm:items-start\r\n              sm:border-t\r\n              sm:border-gray-200\r\n              sm:pt-5\r\n            \"\r\n          >\r\n            <label\r\n              for=\"cover_photo\"\r\n              class=\"block text-lg font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n            >\r\n              Logo du Salon\r\n            </label>\r\n            <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n              <div\r\n                class=\"\r\n                  max-w-lg\r\n                  flex\r\n                  justify-center\r\n                  px-6\r\n                  pt-5\r\n                  pb-6\r\n                  border-2 border-gray-300 border-dashed\r\n                  rounded-md\r\n                \"\r\n              >\r\n                <div class=\"space-y-1 text-center\">\r\n                  <svg\r\n                    class=\"mx-auto h-12 w-12 text-gray-400\"\r\n                    stroke=\"currentColor\"\r\n                    fill=\"none\"\r\n                    viewBox=\"0 0 48 48\"\r\n                    aria-hidden=\"true\"\r\n                  >\r\n                    <path\r\n                      d=\"M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02\"\r\n                      stroke-width=\"2\"\r\n                      stroke-linecap=\"round\"\r\n                      stroke-linejoin=\"round\"\r\n                    />\r\n                  </svg>\r\n                  <div class=\"flex text-lg text-gray-600\">\r\n                    <label\r\n                      for=\"file-upload\"\r\n                      class=\"\r\n                        relative\r\n                        cursor-pointer\r\n                        bg-white\r\n                        rounded-md\r\n                        font-medium\r\n                        text-indigo-600\r\n                        hover:text-indigo-500\r\n                        focus-within:outline-none\r\n                        focus-within:ring-2\r\n                        focus-within:ring-offset-2\r\n                        focus-within:ring-indigo-500\r\n                      \"\r\n                    >\r\n                      <span>Upload a file</span>\r\n                      <input\r\n                        id=\"file-upload\"\r\n                        name=\"file-upload\"\r\n                        type=\"file\"\r\n                        class=\"sr-only\"\r\n                        (change)=\"onSalonImageChanged($event)\"\r\n                      />\r\n                    </label>\r\n                    <p class=\"pl-1\">or drag and drop</p>\r\n                  </div>\r\n                  <p class=\"text-xs text-gray-500\">PNG, JPG, GIF up to 10MB</p>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"pt-6\">\r\n      <div class=\"flex justify-end\">\r\n        <button\r\n          type=\"button\"\r\n          class=\"\r\n            bg-red-500\r\n            py-2\r\n            px-4\r\n            border border-gray-300\r\n            rounded-md\r\n            shadow-sm\r\n            text-sm\r\n            font-medium\r\n            text-white\r\n            hover:bg-gray-500\r\n            focus:outline-none\r\n            focus:ring-2\r\n            focus:ring-offset-2\r\n            focus:ring-indigo-500\r\n          \"\r\n        >\r\n          Réinitialiser\r\n        </button>\r\n        <button\r\n          type=\"submit\"\r\n          class=\"\r\n            ml-3\r\n            inline-flex\r\n            justify-center\r\n            py-2\r\n            px-4\r\n            border border-transparent\r\n            shadow-sm\r\n            text-sm\r\n            font-medium\r\n            rounded-md\r\n            text-white\r\n            bg-emerald-500\r\n            hover:bg-emerald-800\r\n            focus:outline-none\r\n            focus:ring-2\r\n            focus:ring-offset-2\r\n            focus:ring-indigo-500\r\n          \"\r\n        >\r\n          Enregistrer\r\n        </button>\r\n      </div>\r\n    </div>\r\n  </form>\r\n</div>\r\n";
+      /***/
+    },
+
+    /***/
     "A8uX":
     /*!*************************************************************************************************************!*\
       !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/table-clients/table-clients.component.html ***!
@@ -1259,7 +789,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<div\r\n  class=\"\r\n    relative\r\n    flex flex-col\r\n    min-w-0\r\n    break-words\r\n    w-full\r\n    mb-6\r\n    shadow-lg\r\n    rounded\r\n  \"\r\n  [ngClass]=\"color === 'light' ? 'bg-white' : 'bg-red-900 text-white'\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 border-0\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow flex-1\">\r\n        <h3\r\n          class=\"font-semibold text-lg\"\r\n          [ngClass]=\"color === 'light' ? 'text-blueGray-700' : 'text-white'\"\r\n        >\r\n          Customers\r\n        </h3>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"block w-full overflow-x-auto\">\r\n    <!-- Projects table -->\r\n    <table class=\"items-center w-full bg-transparent border-collapse\">\r\n      <thead>\r\n        <tr>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            ID\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Name\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Email\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Signed up At\r\n          </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr *ngFor=\"let client of clients; let i = index\" [attr.data-index]=\"i\">\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ i }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ client.full_name }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ client.email }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ client.createdAt | timeago:live }}\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n</div>\r\n";
+      __webpack_exports__["default"] = "<div\r\n  class=\"\r\n    relative\r\n    flex flex-col\r\n    min-w-0\r\n    break-words\r\n    w-full\r\n    mb-6\r\n    shadow-lg\r\n    rounded\r\n  \"\r\n  [ngClass]=\"color === 'light' ? 'bg-white' : 'bg-red-900 text-white'\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 border-0\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow flex-1\">\r\n        <h3\r\n          class=\"font-semibold text-lg\"\r\n          [ngClass]=\"color === 'light' ? 'text-blueGray-700' : 'text-white'\"\r\n        >\r\n          Clients\r\n        </h3>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"block w-full overflow-x-auto\">\r\n    <!-- Projects table -->\r\n    <table class=\"items-center w-full bg-transparent border-collapse\">\r\n      <thead>\r\n        <tr>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            ID\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Nom\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Numéro de téléphone\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Date d'inscription\r\n          </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr *ngFor=\"let client of clients; let i = index\" [attr.data-index]=\"i\">\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ i }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ client.full_name }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ client.phone_number }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ client.createdAt | timeago:live }}\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n</div>\r\n";
       /***/
     },
 
@@ -1342,6 +872,26 @@
         selector: "app-index",
         template: _raw_loader_index_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
       })], IndexComponent);
+      /***/
+    },
+
+    /***/
+    "AvFx":
+    /*!***********************************************************************************************************!*\
+      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/table-salons/table-salons.component.html ***!
+      \***********************************************************************************************************/
+
+    /*! exports provided: default */
+
+    /***/
+    function AvFx(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony default export */
+
+
+      __webpack_exports__["default"] = "<div\r\n  class=\"\r\n    relative\r\n    flex flex-col\r\n    min-w-0\r\n    break-words\r\n    w-full\r\n    mb-6\r\n    shadow-lg\r\n    rounded\r\n  \"\r\n  [ngClass]=\"color === 'light' ? 'bg-white' : 'bg-red-900 text-white'\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 border-0\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow justify-between\">\r\n        <h3\r\n          class=\"font-semibold text-lg\"\r\n          [ngClass]=\"color === 'light' ? 'text-blueGray-700' : 'text-white'\"\r\n        >\r\n          Salons\r\n        </h3>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"block w-full overflow-x-auto\">\r\n    <!-- Projects table -->\r\n    <table class=\"items-center w-full bg-transparent border-collapse\">\r\n      <thead>\r\n        <tr>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            ID\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Nom\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Managers\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Coiffeurs\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Formules\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Date de création\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Image\r\n          </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr *ngFor=\"let salon of salons; let i = index\" [attr.data-index]=\"i\">\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ i }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ salon.name }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <ul *ngFor=\"let manager of salon.managers\">\r\n              <li>{{ manager.first_name }} {{ manager.last_name }}</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <ul *ngFor=\"let hairdresser of salon.hairdressers\">\r\n              <li>{{ hairdresser.first_name }} {{ hairdresser.last_name }}</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n            \"\r\n          >\r\n            <ul class=\"list-disc\" *ngFor=\"let formula of salon.formulas\">\r\n              <li>{{ formula.formula.name }} | {{ formula.price }} DT</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ salon.createdAt | timeago: live }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <img\r\n              class=\"inline-block h-6 w-6 rounded-md max-w-100-px\"\r\n              [src]=\"salon.image\"\r\n              alt=\"\"\r\n            />\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n</div>\r\n<div class=\"flex justify-end\">\r\n  <app-modal></app-modal>\r\n</div>\r\n";
       /***/
     },
 
@@ -1445,6 +995,98 @@
     },
 
     /***/
+    "GB+I":
+    /*!*******************************************************************!*\
+      !*** ./src/app/components/table-salons/table-salons.component.ts ***!
+      \*******************************************************************/
+
+    /*! exports provided: TableSalonsComponent */
+
+    /***/
+    function GBI(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "TableSalonsComponent", function () {
+        return TableSalonsComponent;
+      });
+      /* harmony import */
+
+
+      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! tslib */
+      "mrSG");
+      /* harmony import */
+
+
+      var _raw_loader_table_salons_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! raw-loader!./table-salons.component.html */
+      "AvFx");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var src_app_services_manage_salons_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! src/app/services/manage-salons.service */
+      "RV1I");
+
+      var TableSalonsComponent = /*#__PURE__*/function () {
+        function TableSalonsComponent(manageSalons) {
+          var _this2 = this;
+
+          _classCallCheck(this, TableSalonsComponent);
+
+          this.manageSalons = manageSalons;
+          this._color = "light";
+          this.live = true;
+          this.manageSalons.getSalons().subscribe(function (res) {
+            _this2.salons = res;
+          });
+        }
+
+        _createClass(TableSalonsComponent, [{
+          key: "color",
+          get: function get() {
+            return this._color;
+          },
+          set: function set(color) {
+            this._color = color !== "light" && color !== "dark" ? "light" : color;
+          }
+        }, {
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return TableSalonsComponent;
+      }();
+
+      TableSalonsComponent.ctorParameters = function () {
+        return [{
+          type: src_app_services_manage_salons_service__WEBPACK_IMPORTED_MODULE_3__["ManageSalonsService"]
+        }];
+      };
+
+      TableSalonsComponent.propDecorators = {
+        color: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
+        }]
+      };
+      TableSalonsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+        selector: "app-table-salons",
+        template: _raw_loader_table_salons_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
+      })], TableSalonsComponent);
+      /***/
+    },
+
+    /***/
     "H3xT":
     /*!***********************************************************************************************************************!*\
       !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/dropdowns/user-dropdown/user-dropdown.component.html ***!
@@ -1461,192 +1103,6 @@
 
 
       __webpack_exports__["default"] = "<a\r\n  class=\"text-blueGray-500 block\"\r\n  href=\"#pablo\"\r\n  (click)=\"toggleDropdown($event)\"\r\n  #btnDropdownRef\r\n>\r\n  <div class=\"items-center flex\">\r\n    <span\r\n      class=\"\r\n        w-12\r\n        h-12\r\n        text-sm text-white\r\n        bg-blueGray-200\r\n        inline-flex\r\n        items-center\r\n        justify-center\r\n        rounded-full\r\n      \"\r\n    >\r\n      <img\r\n        alt=\"...\"\r\n        class=\"w-full rounded-full align-middle border-none shadow-lg\"\r\n        src=\"assets/img/team-1-800x800.jpg\"\r\n      />\r\n    </span>\r\n  </div>\r\n</a>\r\n<div class=\"min-w-48 z-50\" #popoverDropdownRef>\r\n  <div\r\n    class=\"\r\n      bg-white\r\n      text-base\r\n      z-50\r\n      float-left\r\n      py-2\r\n      list-none\r\n      text-left\r\n      rounded\r\n      shadow-lg\r\n      mt-1\r\n      min-w-48\r\n    \"\r\n    [ngClass]=\"dropdownPopoverShow ? 'block' : 'hidden'\"\r\n  >\r\n    <a\r\n      [routerLink]=\"['/admin/profile']\"\r\n      routerLinkActive\r\n      class=\"\r\n        text-sm\r\n        py-2\r\n        px-4\r\n        font-normal\r\n        block\r\n        w-full\r\n        whitespace-nowrap\r\n        bg-transparent\r\n        text-blueGray-700\r\n        cursor-pointer\r\n      \"\r\n    >\r\n    <i\r\n    class=\"fas fa-id-badge mr-2 text-sm\"\r\n    ></i>\r\n    Profile\r\n    </a>\r\n    <div class=\"h-0 my-2 border border-solid border-blueGray-100\"></div>\r\n    <a\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700 cursor-pointer\"\r\n      (click)= \"logout()\"\r\n    >\r\n      <i\r\n        class=\"fas fa-sign-out-alt mr-2 text-sm\"\r\n      ></i>\r\n      Logout\r\n    </a>\r\n  </div>\r\n</div>\r\n";
-      /***/
-    },
-
-    /***/
-    "HEly":
-    /*!*************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/card-stats/card-stats.component.html ***!
-      \*************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function HEly(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div\r\n  class=\"relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg\"\r\n>\r\n  <div class=\"flex-auto p-4\">\r\n    <div class=\"flex flex-wrap\">\r\n      <div class=\"relative w-full pr-4 max-w-full flex-grow flex-1\">\r\n        <h5 class=\"text-blueGray-400 uppercase font-bold text-xs\">\r\n          {{ statSubtitle }}\r\n        </h5>\r\n        <span class=\"font-semibold text-xl text-blueGray-700\">\r\n          {{ statTitle }}\r\n        </span>\r\n      </div>\r\n      <div class=\"relative w-auto pl-4 flex-initial\">\r\n        <div\r\n          class=\"text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 shadow-lg rounded-full\"\r\n          [ngClass]=\"[statIconColor]\"\r\n        >\r\n          <i [ngClass]=\"statIconName\"></i>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <p class=\"text-sm text-blueGray-400 mt-4\">\r\n      <span class=\"mr-2\" [ngClass]=\"statPercentColor\">\r\n        <i\r\n          [ngClass]=\"\r\n            statArrow === 'up' ? 'fas fa-arrow-up' : 'fas fa-arrow-down'\r\n          \"\r\n        ></i>\r\n        {{ statPercent }}%\r\n      </span>\r\n      <span class=\"whitespace-nowrap\">{{ statDescripiron }}</span>\r\n    </p>\r\n  </div>\r\n</div>\r\n";
-      /***/
-    },
-
-    /***/
-    "J87Q":
-    /*!*********************************************************************!*\
-      !*** ./src/app/components/cards/card-stats/card-stats.component.ts ***!
-      \*********************************************************************/
-
-    /*! exports provided: CardStatsComponent */
-
-    /***/
-    function J87Q(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "CardStatsComponent", function () {
-        return CardStatsComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_card_stats_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./card-stats.component.html */
-      "HEly");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-
-      var CardStatsComponent = /*#__PURE__*/function () {
-        function CardStatsComponent() {
-          _classCallCheck(this, CardStatsComponent);
-
-          this._statSubtitle = "Traffic";
-          this._statTitle = "350,897";
-          this._statArrow = "up";
-          this._statPercent = "3.48";
-          this._statPercentColor = "text-emerald-500";
-          this._statDescripiron = "Since last month";
-          this._statIconName = "far fa-chart-bar";
-          this._statIconColor = "bg-red-500";
-        }
-
-        _createClass(CardStatsComponent, [{
-          key: "statSubtitle",
-          get: function get() {
-            return this._statSubtitle;
-          },
-          set: function set(statSubtitle) {
-            this._statSubtitle = statSubtitle === undefined ? "Traffic" : statSubtitle;
-          }
-        }, {
-          key: "statTitle",
-          get: function get() {
-            return this._statTitle;
-          },
-          set: function set(statTitle) {
-            this._statTitle = statTitle === undefined ? "350,897" : statTitle;
-          } // The value must match one of up or down
-
-        }, {
-          key: "statArrow",
-          get: function get() {
-            return this._statArrow;
-          },
-          set: function set(statArrow) {
-            this._statArrow = statArrow !== "down" && statArrow !== "up" ? "up" : statArrow;
-          }
-        }, {
-          key: "statPercent",
-          get: function get() {
-            return this._statPercent;
-          },
-          set: function set(statPercent) {
-            this._statPercent = statPercent === undefined ? "3.48" : statPercent;
-          } // can be any of the text color utilities
-          // from tailwindcss
-
-        }, {
-          key: "statPercentColor",
-          get: function get() {
-            return this._statPercentColor;
-          },
-          set: function set(statPercentColor) {
-            this._statPercentColor = statPercentColor === undefined ? "text-emerald-500" : statPercentColor;
-          }
-        }, {
-          key: "statDescripiron",
-          get: function get() {
-            return this._statDescripiron;
-          },
-          set: function set(statDescripiron) {
-            this._statDescripiron = statDescripiron === undefined ? "Since last month" : statDescripiron;
-          }
-        }, {
-          key: "statIconName",
-          get: function get() {
-            return this._statIconName;
-          },
-          set: function set(statIconName) {
-            this._statIconName = statIconName === undefined ? "far fa-chart-bar" : statIconName;
-          } // can be any of the background color utilities
-          // from tailwindcss
-
-        }, {
-          key: "statIconColor",
-          get: function get() {
-            return this._statIconColor;
-          },
-          set: function set(statIconColor) {
-            this._statIconColor = statIconColor === undefined ? "bg-red-500" : statIconColor;
-          }
-        }, {
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }]);
-
-        return CardStatsComponent;
-      }();
-
-      CardStatsComponent.ctorParameters = function () {
-        return [];
-      };
-
-      CardStatsComponent.propDecorators = {
-        statSubtitle: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }],
-        statTitle: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }],
-        statArrow: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }],
-        statPercent: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }],
-        statPercentColor: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }],
-        statDescripiron: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }],
-        statIconName: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }],
-        statIconColor: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }]
-      };
-      CardStatsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-card-stats",
-        template: _raw_loader_card_stats_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], CardStatsComponent);
       /***/
     },
 
@@ -1842,186 +1298,6 @@
     },
 
     /***/
-    "K8FB":
-    /*!****************************************************************!*\
-      !*** ./src/app/views/create-saloon/create-saloon.component.ts ***!
-      \****************************************************************/
-
-    /*! exports provided: CreateSaloonComponent */
-
-    /***/
-    function K8FB(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "CreateSaloonComponent", function () {
-        return CreateSaloonComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_create_saloon_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./create-saloon.component.html */
-      "W6Sf");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-      /* harmony import */
-
-
-      var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-      /*! @angular/forms */
-      "3Pt+");
-      /* harmony import */
-
-
-      var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-      /*! @angular/router */
-      "tyNb");
-      /* harmony import */
-
-
-      var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-      /*! src/app/services/auth.service */
-      "lGQG");
-      /* harmony import */
-
-
-      var src_app_services_manage_saloons_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-      /*! src/app/services/manage-saloons.service */
-      "40b+");
-
-      var CreateSaloonComponent = /*#__PURE__*/function () {
-        function CreateSaloonComponent(route, router, manageSaloons, authService) {
-          var _this4 = this;
-
-          _classCallCheck(this, CreateSaloonComponent);
-
-          this.route = route;
-          this.router = router;
-          this.manageSaloons = manageSaloons;
-          this.authService = authService;
-          this.success = null;
-          this.profileImagePath = '';
-          this.saloonImagePath = '';
-          this.uploaded = '';
-          this.access_token = '';
-          this.profileForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroup"]({
-            first_name: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
-            last_name: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
-            email: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
-            password: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
-            name: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]('')
-          });
-          this.route.queryParams.subscribe(function (params) {
-            _this4.access_token = params.access_token;
-
-            if (!_this4.access_token) {
-              _this4.router.navigate(['/error-404']);
-            }
-
-            _this4.authService.verifyToken(_this4.access_token).subscribe(function (response) {
-              if (response.error) {
-                _this4.router.navigate(['/error-404']);
-              }
-            });
-          });
-        }
-
-        _createClass(CreateSaloonComponent, [{
-          key: "onProfileImageChanged",
-          value: function onProfileImageChanged(event) {
-            var _this5 = this;
-
-            this.selectedFile = event.target.files[0];
-            var uploadData = new FormData();
-            uploadData.append('profile-photo', this.selectedFile, this.selectedFile.name);
-            this.manageSaloons.sendImage(uploadData).subscribe(function (response) {
-              console.log(response);
-              _this5.profileImagePath = response.url;
-              _this5.uploaded = 'image uploaded';
-            });
-          }
-        }, {
-          key: "onSaloonImageChanged",
-          value: function onSaloonImageChanged(event) {
-            var _this6 = this;
-
-            this.selectedFile = event.target.files[0];
-            var uploadData = new FormData();
-            uploadData.append('profile-photo', this.selectedFile, this.selectedFile.name + this.selectedFile.type);
-            this.manageSaloons.sendImage(uploadData).subscribe(function (response) {
-              console.log(response);
-              _this6.saloonImagePath = response.url;
-            });
-          }
-        }, {
-          key: "onSubmit",
-          value: function onSubmit() {
-            var _this7 = this;
-
-            var manager = {
-              first_name: this.profileForm.value.first_name,
-              last_name: this.profileForm.value.last_name,
-              email: this.profileForm.value.email,
-              password: this.profileForm.value.password,
-              role: 'Manager',
-              salon: ''
-            };
-            var salon = {
-              name: this.profileForm.value.name,
-              image: this.saloonImagePath
-            };
-            this.manageSaloons.createSaloon(salon).subscribe(function (response) {
-              manager.salon = response === null || response === void 0 ? void 0 : response._id;
-
-              _this7.manageSaloons.createManager(manager).subscribe(function (response) {
-                if (response.user) {
-                  _this7.success = "Your account has been created you will be redirected shortly";
-                }
-              });
-            });
-          }
-        }, {
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }]);
-
-        return CreateSaloonComponent;
-      }();
-
-      CreateSaloonComponent.ctorParameters = function () {
-        return [{
-          type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"]
-        }, {
-          type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
-        }, {
-          type: src_app_services_manage_saloons_service__WEBPACK_IMPORTED_MODULE_6__["ManageSaloonsService"]
-        }, {
-          type: src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthService"]
-        }];
-      };
-
-      CreateSaloonComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: 'app-create-saloon',
-        template: _raw_loader_create_saloon_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], CreateSaloonComponent);
-      /***/
-    },
-
-    /***/
     "KKA+":
     /*!*************************************************************************************************!*\
       !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/sidebar/sidebar.component.html ***!
@@ -2037,7 +1313,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<nav\r\n  class=\"md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6\"\r\n>\r\n  <div\r\n    class=\"md:flex-col md:items-stretch md:min-h-full md:flex-nowrap px-0 flex flex-wrap items-center justify-between w-full mx-auto\"\r\n  >\r\n    <!-- Toggler -->\r\n    <button\r\n      class=\"cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent\"\r\n      type=\"button\"\r\n      (click)=\"toggleCollapseShow('bg-white m-2 py-3 px-6')\"\r\n    >\r\n      <i class=\"fas fa-bars\"></i>\r\n    </button>\r\n    <!-- Brand -->\r\n    <a\r\n      [routerLink]=\"['/']\"\r\n      class=\"md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0\"\r\n    >\r\n      <span class=\"block sm:hidden\"> ICoiff </span>\r\n      <span class=\"hidden sm:block\"> ICoiff </span>\r\n    </a>\r\n    <!-- User -->\r\n    <ul class=\"md:hidden items-center flex flex-wrap list-none\">\r\n      <li class=\"inline-block relative\">\r\n        <app-notification-dropdown class=\"block\"></app-notification-dropdown>\r\n      </li>\r\n      <li class=\"inline-block relative\">\r\n        <app-user-dropdown class=\"block\"></app-user-dropdown>\r\n      </li>\r\n    </ul>\r\n    <!-- Collapse -->\r\n    <div\r\n      class=\"md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded\"\r\n      [ngClass]=\"collapseShow\"\r\n    >\r\n      <!-- Collapse header -->\r\n      <div\r\n        class=\"md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200\"\r\n      >\r\n        <div class=\"flex flex-wrap\">\r\n          <div class=\"w-6/12\">\r\n            <a\r\n              [routerLink]=\"['/']\"\r\n              class=\"md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0\"\r\n            >\r\n              ICoiff\r\n            </a>\r\n          </div>\r\n          <div class=\"w-6/12 flex justify-end\">\r\n            <button\r\n              type=\"button\"\r\n              class=\"cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent\"\r\n              (click)=\"toggleCollapseShow('hidden')\"\r\n            >\r\n              <i class=\"fas fa-times\"></i>\r\n            </button>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <!-- Form -->\r\n      <form class=\"mt-6 mb-4 md:hidden\">\r\n        <div class=\"mb-3 pt-0\">\r\n          <input\r\n            type=\"text\"\r\n            placeholder=\"Search\"\r\n            class=\"border-0 px-3 py-2 h-12 border border-solid border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal\"\r\n          />\r\n        </div>\r\n      </form>\r\n\r\n      <!-- Divider -->\r\n      <hr class=\"my-4 md:min-w-full\" />\r\n      <!-- Heading -->\r\n      <h6\r\n        class=\"md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline\"\r\n      >\r\n        Back Office\r\n      </h6>\r\n      <!-- Navigation -->\r\n\r\n      <ul class=\"md:flex-col md:min-w-full flex flex-col list-none\">\r\n        <li class=\"items-center\">\r\n          <a\r\n            [routerLink]=\"['/admin/clients']\"\r\n            class=\"text-xs uppercase py-3 font-bold block\"\r\n            routerLinkActive\r\n            #adminDashboard=\"routerLinkActive\"\r\n            [ngClass]=\"\r\n              adminDashboard.isActive\r\n                ? 'text-red-600 hover:text-red-700'\r\n                : 'text-blueGray-700 hover:text-blueGray-500'\r\n            \"\r\n          >\r\n            <i\r\n              class=\"fas fa-user-circle mr-2 text-sm\"\r\n              [ngClass]=\"\r\n                adminDashboard.isActive ? 'opacity-75' : 'text-blueGray-300'\r\n              \"\r\n            ></i>\r\n            Manage Clients\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"items-center\">\r\n          <a\r\n            [routerLink]=\"['/admin/saloons']\"\r\n            class=\"text-xs uppercase py-3 font-bold block\"\r\n            routerLinkActive\r\n            #adminSettings=\"routerLinkActive\"\r\n            [ngClass]=\"\r\n              adminSettings.isActive\r\n                ? 'text-red-600 hover:text-red-700'\r\n                : 'text-blueGray-700 hover:text-blueGray-500'\r\n            \"\r\n          >\r\n            <i\r\n              class=\"fas fa-bed mr-2 text-sm\"\r\n              [ngClass]=\"\r\n                adminSettings.isActive ? 'opacity-75' : 'text-blueGray-300'\r\n              \"\r\n            ></i>\r\n            Manage Saloons\r\n          </a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n";
+      __webpack_exports__["default"] = "<nav\r\n  class=\"\r\n    md:left-0\r\n    md:block\r\n    md:fixed\r\n    md:top-0\r\n    md:bottom-0\r\n    md:overflow-y-auto\r\n    md:flex-row\r\n    md:flex-nowrap\r\n    md:overflow-hidden\r\n    shadow-xl\r\n    bg-white\r\n    flex flex-wrap\r\n    items-center\r\n    justify-between\r\n    relative\r\n    md:w-64\r\n    z-10\r\n    py-4\r\n    px-6\r\n  \"\r\n>\r\n  <div\r\n    class=\"\r\n      md:flex-col md:items-stretch md:min-h-full md:flex-nowrap\r\n      px-0\r\n      flex flex-wrap\r\n      items-center\r\n      justify-between\r\n      w-full\r\n      mx-auto\r\n    \"\r\n  >\r\n    <!-- Toggler -->\r\n    <button\r\n      class=\"\r\n        cursor-pointer\r\n        text-black\r\n        opacity-50\r\n        md:hidden\r\n        px-3\r\n        py-1\r\n        text-xl\r\n        leading-none\r\n        bg-transparent\r\n        rounded\r\n        border border-solid border-transparent\r\n      \"\r\n      type=\"button\"\r\n      (click)=\"toggleCollapseShow('bg-white m-2 py-3 px-6')\"\r\n    >\r\n      <i class=\"fas fa-bars\"></i>\r\n    </button>\r\n    <!-- Brand -->\r\n    <a\r\n      [routerLink]=\"['/']\"\r\n      class=\"\r\n        md:block\r\n        text-left\r\n        md:pb-2\r\n        text-blueGray-600\r\n        mr-0\r\n        inline-block\r\n        whitespace-nowrap\r\n        text-sm\r\n        uppercase\r\n        font-bold\r\n        p-4\r\n        px-0\r\n      \"\r\n    >\r\n      <span class=\"block sm:hidden\"> ICoiff </span>\r\n      <span class=\"hidden sm:block\"> ICoiff </span>\r\n    </a>\r\n    <!-- User -->\r\n    <ul class=\"md:hidden items-center flex flex-wrap list-none\">\r\n      <li class=\"inline-block relative\">\r\n        <app-notification-dropdown class=\"block\"></app-notification-dropdown>\r\n      </li>\r\n      <li class=\"inline-block relative\">\r\n        <app-user-dropdown class=\"block\"></app-user-dropdown>\r\n      </li>\r\n    </ul>\r\n    <!-- Collapse -->\r\n    <div\r\n      class=\"\r\n        md:flex\r\n        md:flex-col\r\n        md:items-stretch\r\n        md:opacity-100\r\n        md:relative\r\n        md:mt-4\r\n        md:shadow-none\r\n        shadow\r\n        absolute\r\n        top-0\r\n        left-0\r\n        right-0\r\n        z-40\r\n        overflow-y-auto overflow-x-hidden\r\n        h-auto\r\n        items-center\r\n        flex-1\r\n        rounded\r\n      \"\r\n      [ngClass]=\"collapseShow\"\r\n    >\r\n      <!-- Collapse header -->\r\n      <div\r\n        class=\"\r\n          md:min-w-full md:hidden\r\n          block\r\n          pb-4\r\n          mb-4\r\n          border-b border-solid border-blueGray-200\r\n        \"\r\n      >\r\n        <div class=\"flex flex-wrap\">\r\n          <div class=\"w-6/12\">\r\n            <a\r\n              [routerLink]=\"['/']\"\r\n              class=\"\r\n                md:block\r\n                text-left\r\n                md:pb-2\r\n                text-blueGray-600\r\n                mr-0\r\n                inline-block\r\n                whitespace-nowrap\r\n                text-sm\r\n                uppercase\r\n                font-bold\r\n                p-4\r\n                px-0\r\n              \"\r\n            >\r\n              ICoiff\r\n            </a>\r\n          </div>\r\n          <div class=\"w-6/12 flex justify-end\">\r\n            <button\r\n              type=\"button\"\r\n              class=\"\r\n                cursor-pointer\r\n                text-black\r\n                opacity-50\r\n                md:hidden\r\n                px-3\r\n                py-1\r\n                text-xl\r\n                leading-none\r\n                bg-transparent\r\n                rounded\r\n                border border-solid border-transparent\r\n              \"\r\n              (click)=\"toggleCollapseShow('hidden')\"\r\n            >\r\n              <i class=\"fas fa-times\"></i>\r\n            </button>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <!-- Form -->\r\n      <form class=\"mt-6 mb-4 md:hidden\">\r\n        <div class=\"mb-3 pt-0\">\r\n          <input\r\n            type=\"text\"\r\n            placeholder=\"Search\"\r\n            class=\"\r\n              border-0\r\n              px-3\r\n              py-2\r\n              h-12\r\n              border border-solid border-blueGray-500\r\n              placeholder-blueGray-300\r\n              text-blueGray-600\r\n              bg-white\r\n              rounded\r\n              text-base\r\n              leading-snug\r\n              shadow-none\r\n              outline-none\r\n              focus:outline-none\r\n              w-full\r\n              font-normal\r\n            \"\r\n          />\r\n        </div>\r\n      </form>\r\n\r\n      <!-- Divider -->\r\n      <hr class=\"my-4 md:min-w-full\" />\r\n      <!-- Heading -->\r\n      <h6\r\n        class=\"\r\n          md:min-w-full\r\n          text-blueGray-500 text-xs\r\n          uppercase\r\n          font-bold\r\n          block\r\n          pt-1\r\n          pb-4\r\n          no-underline\r\n        \"\r\n      >\r\n        Back Office\r\n      </h6>\r\n      <!-- Navigation -->\r\n\r\n      <ul class=\"md:flex-col md:min-w-full flex flex-col list-none\">\r\n        <li class=\"items-center\">\r\n          <a\r\n            [routerLink]=\"['/admin/clients']\"\r\n            class=\"text-xs uppercase py-3 font-bold block\"\r\n            routerLinkActive\r\n            #adminDashboard=\"routerLinkActive\"\r\n            [ngClass]=\"\r\n              adminDashboard.isActive\r\n                ? 'text-red-600 hover:text-red-700'\r\n                : 'text-blueGray-700 hover:text-blueGray-500'\r\n            \"\r\n          >\r\n            <i\r\n              class=\"fas fa-user-circle mr-2 text-sm\"\r\n              [ngClass]=\"\r\n                adminDashboard.isActive ? 'opacity-75' : 'text-blueGray-300'\r\n              \"\r\n            ></i>\r\n            Gestion des clients\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"items-center\">\r\n          <a\r\n            [routerLink]=\"['/admin/salons']\"\r\n            class=\"text-xs uppercase py-3 font-bold block\"\r\n            routerLinkActive\r\n            #adminSettings=\"routerLinkActive\"\r\n            [ngClass]=\"\r\n              adminSettings.isActive\r\n                ? 'text-red-600 hover:text-red-700'\r\n                : 'text-blueGray-700 hover:text-blueGray-500'\r\n            \"\r\n          >\r\n            <i\r\n              class=\"fas fa-bed mr-2 text-sm\"\r\n              [ngClass]=\"\r\n                adminSettings.isActive ? 'opacity-75' : 'text-blueGray-300'\r\n              \"\r\n            ></i>\r\n            Gestion des salons\r\n          </a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n";
       /***/
     },
 
@@ -2058,26 +1334,6 @@
 
 
       __webpack_exports__["default"] = "<app-table-clients></app-table-clients>\r\n";
-      /***/
-    },
-
-    /***/
-    "L/HX":
-    /*!*************************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/card-page-visits/card-page-visits.component.html ***!
-      \*************************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function LHX(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div\r\n  class=\"relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 border-0\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow flex-1\">\r\n        <h3 class=\"font-semibold text-base text-blueGray-700\">Page visits</h3>\r\n      </div>\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow flex-1 text-right\">\r\n        <button\r\n          class=\"bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150\"\r\n          type=\"button\"\r\n        >\r\n          See all\r\n        </button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"block w-full overflow-x-auto\">\r\n    <!-- Projects table -->\r\n    <table class=\"items-center w-full bg-transparent border-collapse\">\r\n      <thead>\r\n        <tr>\r\n          <th\r\n            class=\"px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n          >\r\n            Page name\r\n          </th>\r\n          <th\r\n            class=\"px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n          >\r\n            Visitors\r\n          </th>\r\n          <th\r\n            class=\"px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n          >\r\n            Unique users\r\n          </th>\r\n          <th\r\n            class=\"px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n          >\r\n            Bounce rate\r\n          </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            /argon/\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            4,569\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            340\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-arrow-up text-emerald-500 mr-4\"></i>\r\n            46,53%\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            /argon/index.html\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            3,985\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            319\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-arrow-down text-orange-500 mr-4\"></i>\r\n            46,53%\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            /argon/charts.html\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            3,513\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            294\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-arrow-down text-orange-500 mr-4\"></i>\r\n            36,49%\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            /argon/tables.html\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            2,050\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            147\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-arrow-up text-emerald-500 mr-4\"></i>\r\n            50,87%\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            /argon/profile.html\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            1,795\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            190\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-arrow-down text-red-500 mr-4\"></i>\r\n            46,53%\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n</div>\r\n";
       /***/
     },
 
@@ -2117,7 +1373,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<div class=\"container mx-auto px-4 h-full\">\r\n  <div class=\"flex content-center items-center justify-center h-full\">\r\n    <div class=\"w-full lg:w-4/12 px-4\">\r\n      <div\r\n        class=\"relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0\"\r\n      >\r\n        <div class=\"rounded-t mb-0 px-6 py-6\">\r\n          <div class=\"text-center mb-3\">\r\n            <h6 class=\"text-blueGray-500 text-sm font-bold\">Sign in</h6>\r\n          </div>\r\n          <hr class=\"mt-6 border-b-1 border-blueGray-300\" />\r\n        </div>\r\n        <div class=\"flex-auto px-4 lg:px-10 py-10 pt-0\">\r\n          <form [formGroup]=\"signinForm\" (ngSubmit)=\"loginUser()\">\r\n            <div class=\"relative w-full mb-3\">\r\n              <label\r\n                class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n                htmlFor=\"grid-password\"\r\n              >\r\n                Email\r\n              </label>\r\n              <input\r\n                type=\"email\"\r\n                class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n                formControlName=\"email\" placeholder=\"Enter email\" required\r\n              />\r\n            </div>\r\n\r\n            <div class=\"relative w-full mb-3\">\r\n              <label\r\n                class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n                htmlFor=\"grid-password\"\r\n              >\r\n                Password\r\n              </label>\r\n              <input\r\n                type=\"password\"\r\n                class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n                formControlName=\"password\" placeholder=\"Password\" required\r\n              />\r\n            </div>\r\n            <div>\r\n              <label class=\"inline-flex items-center cursor-pointer\">\r\n                <input\r\n                  id=\"customCheckLogin\"\r\n                  type=\"checkbox\"\r\n                  class=\"form-checkbox border-0 text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150 rounded\"\r\n                />\r\n                <span class=\"ml-2 text-sm font-semibold text-blueGray-600\">\r\n                  Remember me\r\n                </span>\r\n              </label>\r\n            </div>\r\n\r\n            <div class=\"text-center mt-6\">\r\n              <button\r\n                class=\"bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150\"\r\n                type=\"submit\"\r\n              >\r\n                Sign In\r\n              </button>\r\n            </div>\r\n          </form>\r\n        </div>\r\n      </div>\r\n      <div class=\"flex flex-wrap mt-6 relative\">\r\n        <div class=\"w-1/2\">\r\n          <a href=\"javascript:void(0)\" class=\"text-blueGray-200\">\r\n            <small>Forgot password?</small>\r\n          </a>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n";
+      __webpack_exports__["default"] = "<div class=\"container mx-auto px-4 h-full\">\r\n  <div class=\"flex content-center items-center justify-center h-full\">\r\n    <div class=\"w-full lg:w-4/12 px-4\">\r\n      <div\r\n        class=\"relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0\"\r\n      >\r\n        <div class=\"rounded-t mb-0 px-6 py-6\">\r\n          <div class=\"text-center mb-3\">\r\n            <h6 class=\"text-blueGray-500 text-sm font-bold\">Se connecter</h6>\r\n          </div>\r\n          <hr class=\"mt-6 border-b-1 border-blueGray-300\" />\r\n        </div>\r\n        <div class=\"flex-auto px-4 lg:px-10 py-10 pt-0\">\r\n          <form [formGroup]=\"signinForm\" (ngSubmit)=\"loginUser()\">\r\n            <div class=\"relative w-full mb-3\">\r\n              <label\r\n                class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n                htmlFor=\"grid-password\"\r\n              >\r\n                Email\r\n              </label>\r\n              <input\r\n                type=\"email\"\r\n                class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n                formControlName=\"email\" placeholder=\"Votre email\" required\r\n              />\r\n            </div>\r\n\r\n            <div class=\"relative w-full mb-3\">\r\n              <label\r\n                class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n                htmlFor=\"grid-password\"\r\n              >\r\n                Mot de passe\r\n              </label>\r\n              <input\r\n                type=\"password\"\r\n                class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n                formControlName=\"password\" placeholder=\"Votre mot de passe\" required\r\n              />\r\n            </div>\r\n            <div>\r\n              <label class=\"inline-flex items-center cursor-pointer\">\r\n                <input\r\n                  id=\"customCheckLogin\"\r\n                  type=\"checkbox\"\r\n                  class=\"form-checkbox border-0 text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150 rounded\"\r\n                />\r\n                <span class=\"ml-2 text-sm font-semibold text-blueGray-600\">\r\n                  Se souvenir de moi\r\n                </span>\r\n              </label>\r\n            </div>\r\n\r\n            <div class=\"text-center mt-6\">\r\n              <button\r\n                class=\"bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150\"\r\n                type=\"submit\"\r\n              >\r\n                Se connecter\r\n              </button>\r\n            </div>\r\n          </form>\r\n        </div>\r\n      </div>\r\n      <div class=\"flex flex-wrap mt-6 relative\">\r\n        <div class=\"w-1/2\">\r\n          <a href=\"javascript:void(0)\" class=\"text-blueGray-200\">\r\n            <small>Mot de passe oublié?</small>\r\n          </a>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n";
       /***/
     },
 
@@ -2137,7 +1393,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<button\r\n  class=\"\r\n    bg-emerald-500\r\n    text-white\r\n    active:bg-emerald-600\r\n    font-bold\r\n    uppercase\r\n    text-sm\r\n    px-6\r\n    py-3\r\n    rounded\r\n    shadow\r\n    hover:shadow-lg\r\n    outline-none\r\n    focus:outline-none\r\n    mr-1\r\n    mb-1\r\n    ease-linear\r\n    transition-all\r\n    duration-150\r\n  \"\r\n  type=\"button\"\r\n  (click)=\"toggleModal()\"\r\n>\r\n  <i class=\"fas fa-plus\"></i> Add Saloon\r\n</button>\r\n<div\r\n  *ngIf=\"showModal\"\r\n  class=\"\r\n    border-1 border-blueGray-500 border-solid\r\n    overflow-x-hidden overflow-y-auto\r\n    fixed\r\n    inset-0\r\n    z-50\r\n    px-16\r\n    justify-center\r\n    items-center\r\n    flex\r\n  \"\r\n>\r\n  <div class=\"relative w-auto mx-auto max-w-xl bg-red-100 \">\r\n    <!--content-->\r\n    <div\r\n      class=\"\r\n        border-2 border-blueGray-500 border-solid\r\n        rounded-lg\r\n        shadow-lg\r\n        relative\r\n        flex flex-col\r\n        w-full\r\n        bg-white\r\n        outline-none\r\n        focus:outline-none\r\n      \"\r\n    >\r\n      <!--header-->\r\n      <div\r\n        class=\"\r\n          flex\r\n          items-center\r\n          justify-between\r\n          p-5\r\n          border-b border-solid border-blueGray-200\r\n          rounded-t\r\n        \"\r\n      >\r\n        <h3 class=\"text-sm font-semibold\">Add Manager to Saloon</h3>\r\n        <button\r\n          class=\"\r\n            p-1\r\n            ml-auto\r\n            bg-transparent\r\n            border-0\r\n            text-black\r\n            opacity-5\r\n            float-right\r\n            text-3xl\r\n            leading-none\r\n            font-semibold\r\n            outline-none\r\n            focus:outline-none\r\n          \"\r\n          (click)=\"toggleModal()\"\r\n        >\r\n          <span\r\n            class=\"\r\n              bg-transparent\r\n              text-black\r\n              opacity-5\r\n              h-6\r\n              w-6\r\n              text-2xl\r\n              block\r\n              outline-none\r\n              focus:outline-none\r\n            \"\r\n          >\r\n            ×\r\n          </span>\r\n        </button>\r\n      </div>\r\n      <!--body-->\r\n      <div class=\"relative px-6 py-6 sm:px-16 flex-auto\">\r\n        <div>\r\n          <label for=\"email\" class=\"block text-sm font-medium text-gray-700\"\r\n            >Email</label\r\n          >\r\n          <div class=\"mt-1\">\r\n            <input\r\n              type=\"text\"\r\n              name=\"email\"\r\n              id=\"email\"\r\n              class=\"\r\n                shadow-sm\r\n                focus:ring-indigo-500 focus:border-indigo-500\r\n                block\r\n                w-full\r\n                sm:text-sm\r\n                border-gray-300\r\n                rounded-md\r\n              \"\r\n              [(ngModel)]=\"email\"\r\n              placeholder=\"you@example.com\"\r\n            />\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <!--footer-->\r\n      <div\r\n        class=\"\r\n          flex\r\n          items-center\r\n          justify-end\r\n          p-6\r\n          border-t border-solid border-blueGray-200\r\n          rounded-b\r\n        \"\r\n      >\r\n        <button\r\n          class=\"\r\n          bg-red-500\r\n          text-white\r\n          active:bg-red-600\r\n          font-bold\r\n          uppercase\r\n          text-sm\r\n          px-6\r\n          py-2\r\n          rounded\r\n          shadow\r\n          hover:shadow-lg\r\n          outline-none\r\n          focus:outline-none\r\n          mr-1\r\n          mb-1\r\n          ease-linear\r\n          transition-all\r\n          duration-150\r\n          \"\r\n          type=\"button\"\r\n          (click)=\"toggleModal()\"\r\n        >\r\n          Close\r\n        </button>\r\n        <button\r\n          class=\"\r\n            bg-emerald-500\r\n            text-white\r\n            active:bg-emerald-600\r\n            font-bold\r\n            uppercase\r\n            text-sm\r\n            px-6\r\n            py-2\r\n            rounded\r\n            shadow\r\n            hover:shadow-lg\r\n            outline-none\r\n            focus:outline-none\r\n            mr-1\r\n            mb-1\r\n            ease-linear\r\n            transition-all\r\n            duration-150\r\n          \"\r\n          type=\"button\"\r\n          (click)=\"sendMail()\"\r\n        >\r\n          Save Changes\r\n        </button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<div *ngIf=\"showModal\" class=\"border-1 border-blueGray-500 border-solid opacity-25 fixed inset-0 z-40 bg-black\"></div>\r\n`\r\n";
+      __webpack_exports__["default"] = "<button\r\n  class=\"\r\n    bg-emerald-500\r\n    text-white\r\n    active:bg-emerald-600\r\n    font-bold\r\n    uppercase\r\n    text-sm\r\n    px-6\r\n    py-3\r\n    rounded\r\n    shadow\r\n    hover:shadow-lg\r\n    outline-none\r\n    focus:outline-none\r\n    mr-1\r\n    mb-1\r\n    ease-linear\r\n    transition-all\r\n    duration-150\r\n  \"\r\n  type=\"button\"\r\n  (click)=\"toggleModal()\"\r\n>\r\n  <i class=\"fas fa-plus\"></i> Ajouter un Salon\r\n</button>\r\n<div\r\n  *ngIf=\"showModal\"\r\n  class=\"\r\n    border-1 border-blueGray-500 border-solid\r\n    overflow-x-hidden overflow-y-auto\r\n    fixed\r\n    inset-0\r\n    z-50\r\n    px-16\r\n    justify-center\r\n    items-center\r\n    flex\r\n  \"\r\n>\r\n  <div class=\"relative w-auto mx-auto max-w-xl bg-red-100\">\r\n    <!--content-->\r\n    <div\r\n      class=\"\r\n        border-2 border-blueGray-500 border-solid\r\n        rounded-lg\r\n        shadow-lg\r\n        relative\r\n        flex flex-col\r\n        w-full\r\n        bg-white\r\n        outline-none\r\n        focus:outline-none\r\n      \"\r\n    >\r\n      <!--header-->\r\n      <div\r\n        class=\"\r\n          flex\r\n          items-center\r\n          justify-between\r\n          p-5\r\n          border-b border-solid border-blueGray-200\r\n          rounded-t\r\n        \"\r\n      >\r\n        <h3 class=\"text-sm font-semibold\">Ajouter un manager au salon</h3>\r\n        <button\r\n          class=\"\r\n            p-1\r\n            ml-auto\r\n            bg-transparent\r\n            border-0\r\n            text-black\r\n            opacity-5\r\n            float-right\r\n            text-3xl\r\n            leading-none\r\n            font-semibold\r\n            outline-none\r\n            focus:outline-none\r\n          \"\r\n          (click)=\"toggleModal()\"\r\n        >\r\n          <span\r\n            class=\"\r\n              bg-transparent\r\n              text-black\r\n              opacity-5\r\n              h-6\r\n              w-6\r\n              text-2xl\r\n              block\r\n              outline-none\r\n              focus:outline-none\r\n            \"\r\n          >\r\n            ×\r\n          </span>\r\n        </button>\r\n      </div>\r\n      <!--body-->\r\n      <div class=\"relative px-6 py-6 sm:px-16 flex-auto\">\r\n        <div>\r\n          <label for=\"email\" class=\"block text-sm font-medium text-gray-700\"\r\n            >Email</label\r\n          >\r\n          <div class=\"mt-1\">\r\n            <input\r\n              type=\"text\"\r\n              name=\"email\"\r\n              id=\"email\"\r\n              class=\"\r\n                shadow-sm\r\n                focus:ring-indigo-500 focus:border-indigo-500\r\n                block\r\n                w-full\r\n                sm:text-sm\r\n                border-gray-300\r\n                rounded-md\r\n              \"\r\n              [(ngModel)]=\"email\"\r\n              placeholder=\"you@example.com\"\r\n            />\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <!--footer-->\r\n      <div\r\n        class=\"\r\n          flex\r\n          items-center\r\n          justify-end\r\n          p-6\r\n          border-t border-solid border-blueGray-200\r\n          rounded-b\r\n        \"\r\n      >\r\n        <button\r\n          class=\"\r\n            bg-red-500\r\n            text-white\r\n            active:bg-red-600\r\n            font-bold\r\n            uppercase\r\n            text-sm\r\n            px-6\r\n            py-2\r\n            rounded\r\n            shadow\r\n            hover:shadow-lg\r\n            outline-none\r\n            focus:outline-none\r\n            mr-1\r\n            mb-1\r\n            ease-linear\r\n            transition-all\r\n            duration-150\r\n          \"\r\n          type=\"button\"\r\n          (click)=\"toggleModal()\"\r\n        >\r\n          Fermer\r\n        </button>\r\n        <button\r\n          class=\"\r\n            bg-emerald-500\r\n            text-white\r\n            active:bg-emerald-600\r\n            font-bold\r\n            uppercase\r\n            text-sm\r\n            px-6\r\n            py-2\r\n            rounded\r\n            shadow\r\n            hover:shadow-lg\r\n            outline-none\r\n            focus:outline-none\r\n            mr-1\r\n            mb-1\r\n            ease-linear\r\n            transition-all\r\n            duration-150\r\n          \"\r\n          type=\"button\"\r\n          (click)=\"sendMail()\"\r\n        >\r\n          Enregistrer\r\n        </button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<div\r\n  *ngIf=\"showModal\"\r\n  class=\"\r\n    border-1 border-blueGray-500 border-solid\r\n    opacity-25\r\n    fixed\r\n    inset-0\r\n    z-40\r\n    bg-black\r\n  \"\r\n></div>\r\n`\r\n";
       /***/
     },
 
@@ -2388,310 +1644,112 @@
     },
 
     /***/
-    "RnhZ":
-    /*!**************************************************!*\
-      !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
-      \**************************************************/
+    "RV1I":
+    /*!***************************************************!*\
+      !*** ./src/app/services/manage-salons.service.ts ***!
+      \***************************************************/
 
-    /*! no static exports found */
+    /*! exports provided: ManageSalonsService */
 
     /***/
-    function RnhZ(module, exports, __webpack_require__) {
-      var map = {
-        "./af": "K/tc",
-        "./af.js": "K/tc",
-        "./ar": "jnO4",
-        "./ar-dz": "o1bE",
-        "./ar-dz.js": "o1bE",
-        "./ar-kw": "Qj4J",
-        "./ar-kw.js": "Qj4J",
-        "./ar-ly": "HP3h",
-        "./ar-ly.js": "HP3h",
-        "./ar-ma": "CoRJ",
-        "./ar-ma.js": "CoRJ",
-        "./ar-sa": "gjCT",
-        "./ar-sa.js": "gjCT",
-        "./ar-tn": "bYM6",
-        "./ar-tn.js": "bYM6",
-        "./ar.js": "jnO4",
-        "./az": "SFxW",
-        "./az.js": "SFxW",
-        "./be": "H8ED",
-        "./be.js": "H8ED",
-        "./bg": "hKrs",
-        "./bg.js": "hKrs",
-        "./bm": "p/rL",
-        "./bm.js": "p/rL",
-        "./bn": "kEOa",
-        "./bn-bd": "loYQ",
-        "./bn-bd.js": "loYQ",
-        "./bn.js": "kEOa",
-        "./bo": "0mo+",
-        "./bo.js": "0mo+",
-        "./br": "aIdf",
-        "./br.js": "aIdf",
-        "./bs": "JVSJ",
-        "./bs.js": "JVSJ",
-        "./ca": "1xZ4",
-        "./ca.js": "1xZ4",
-        "./cs": "PA2r",
-        "./cs.js": "PA2r",
-        "./cv": "A+xa",
-        "./cv.js": "A+xa",
-        "./cy": "l5ep",
-        "./cy.js": "l5ep",
-        "./da": "DxQv",
-        "./da.js": "DxQv",
-        "./de": "tGlX",
-        "./de-at": "s+uk",
-        "./de-at.js": "s+uk",
-        "./de-ch": "u3GI",
-        "./de-ch.js": "u3GI",
-        "./de.js": "tGlX",
-        "./dv": "WYrj",
-        "./dv.js": "WYrj",
-        "./el": "jUeY",
-        "./el.js": "jUeY",
-        "./en-au": "Dmvi",
-        "./en-au.js": "Dmvi",
-        "./en-ca": "OIYi",
-        "./en-ca.js": "OIYi",
-        "./en-gb": "Oaa7",
-        "./en-gb.js": "Oaa7",
-        "./en-ie": "4dOw",
-        "./en-ie.js": "4dOw",
-        "./en-il": "czMo",
-        "./en-il.js": "czMo",
-        "./en-in": "7C5Q",
-        "./en-in.js": "7C5Q",
-        "./en-nz": "b1Dy",
-        "./en-nz.js": "b1Dy",
-        "./en-sg": "t+mt",
-        "./en-sg.js": "t+mt",
-        "./eo": "Zduo",
-        "./eo.js": "Zduo",
-        "./es": "iYuL",
-        "./es-do": "CjzT",
-        "./es-do.js": "CjzT",
-        "./es-mx": "tbfe",
-        "./es-mx.js": "tbfe",
-        "./es-us": "Vclq",
-        "./es-us.js": "Vclq",
-        "./es.js": "iYuL",
-        "./et": "7BjC",
-        "./et.js": "7BjC",
-        "./eu": "D/JM",
-        "./eu.js": "D/JM",
-        "./fa": "jfSC",
-        "./fa.js": "jfSC",
-        "./fi": "gekB",
-        "./fi.js": "gekB",
-        "./fil": "1ppg",
-        "./fil.js": "1ppg",
-        "./fo": "ByF4",
-        "./fo.js": "ByF4",
-        "./fr": "nyYc",
-        "./fr-ca": "2fjn",
-        "./fr-ca.js": "2fjn",
-        "./fr-ch": "Dkky",
-        "./fr-ch.js": "Dkky",
-        "./fr.js": "nyYc",
-        "./fy": "cRix",
-        "./fy.js": "cRix",
-        "./ga": "USCx",
-        "./ga.js": "USCx",
-        "./gd": "9rRi",
-        "./gd.js": "9rRi",
-        "./gl": "iEDd",
-        "./gl.js": "iEDd",
-        "./gom-deva": "qvJo",
-        "./gom-deva.js": "qvJo",
-        "./gom-latn": "DKr+",
-        "./gom-latn.js": "DKr+",
-        "./gu": "4MV3",
-        "./gu.js": "4MV3",
-        "./he": "x6pH",
-        "./he.js": "x6pH",
-        "./hi": "3E1r",
-        "./hi.js": "3E1r",
-        "./hr": "S6ln",
-        "./hr.js": "S6ln",
-        "./hu": "WxRl",
-        "./hu.js": "WxRl",
-        "./hy-am": "1rYy",
-        "./hy-am.js": "1rYy",
-        "./id": "UDhR",
-        "./id.js": "UDhR",
-        "./is": "BVg3",
-        "./is.js": "BVg3",
-        "./it": "bpih",
-        "./it-ch": "bxKX",
-        "./it-ch.js": "bxKX",
-        "./it.js": "bpih",
-        "./ja": "B55N",
-        "./ja.js": "B55N",
-        "./jv": "tUCv",
-        "./jv.js": "tUCv",
-        "./ka": "IBtZ",
-        "./ka.js": "IBtZ",
-        "./kk": "bXm7",
-        "./kk.js": "bXm7",
-        "./km": "6B0Y",
-        "./km.js": "6B0Y",
-        "./kn": "PpIw",
-        "./kn.js": "PpIw",
-        "./ko": "Ivi+",
-        "./ko.js": "Ivi+",
-        "./ku": "JCF/",
-        "./ku.js": "JCF/",
-        "./ky": "lgnt",
-        "./ky.js": "lgnt",
-        "./lb": "RAwQ",
-        "./lb.js": "RAwQ",
-        "./lo": "sp3z",
-        "./lo.js": "sp3z",
-        "./lt": "JvlW",
-        "./lt.js": "JvlW",
-        "./lv": "uXwI",
-        "./lv.js": "uXwI",
-        "./me": "KTz0",
-        "./me.js": "KTz0",
-        "./mi": "aIsn",
-        "./mi.js": "aIsn",
-        "./mk": "aQkU",
-        "./mk.js": "aQkU",
-        "./ml": "AvvY",
-        "./ml.js": "AvvY",
-        "./mn": "lYtQ",
-        "./mn.js": "lYtQ",
-        "./mr": "Ob0Z",
-        "./mr.js": "Ob0Z",
-        "./ms": "6+QB",
-        "./ms-my": "ZAMP",
-        "./ms-my.js": "ZAMP",
-        "./ms.js": "6+QB",
-        "./mt": "G0Uy",
-        "./mt.js": "G0Uy",
-        "./my": "honF",
-        "./my.js": "honF",
-        "./nb": "bOMt",
-        "./nb.js": "bOMt",
-        "./ne": "OjkT",
-        "./ne.js": "OjkT",
-        "./nl": "+s0g",
-        "./nl-be": "2ykv",
-        "./nl-be.js": "2ykv",
-        "./nl.js": "+s0g",
-        "./nn": "uEye",
-        "./nn.js": "uEye",
-        "./oc-lnc": "Fnuy",
-        "./oc-lnc.js": "Fnuy",
-        "./pa-in": "8/+R",
-        "./pa-in.js": "8/+R",
-        "./pl": "jVdC",
-        "./pl.js": "jVdC",
-        "./pt": "8mBD",
-        "./pt-br": "0tRk",
-        "./pt-br.js": "0tRk",
-        "./pt.js": "8mBD",
-        "./ro": "lyxo",
-        "./ro.js": "lyxo",
-        "./ru": "lXzo",
-        "./ru.js": "lXzo",
-        "./sd": "Z4QM",
-        "./sd.js": "Z4QM",
-        "./se": "//9w",
-        "./se.js": "//9w",
-        "./si": "7aV9",
-        "./si.js": "7aV9",
-        "./sk": "e+ae",
-        "./sk.js": "e+ae",
-        "./sl": "gVVK",
-        "./sl.js": "gVVK",
-        "./sq": "yPMs",
-        "./sq.js": "yPMs",
-        "./sr": "zx6S",
-        "./sr-cyrl": "E+lV",
-        "./sr-cyrl.js": "E+lV",
-        "./sr.js": "zx6S",
-        "./ss": "Ur1D",
-        "./ss.js": "Ur1D",
-        "./sv": "X709",
-        "./sv.js": "X709",
-        "./sw": "dNwA",
-        "./sw.js": "dNwA",
-        "./ta": "PeUW",
-        "./ta.js": "PeUW",
-        "./te": "XLvN",
-        "./te.js": "XLvN",
-        "./tet": "V2x9",
-        "./tet.js": "V2x9",
-        "./tg": "Oxv6",
-        "./tg.js": "Oxv6",
-        "./th": "EOgW",
-        "./th.js": "EOgW",
-        "./tk": "Wv91",
-        "./tk.js": "Wv91",
-        "./tl-ph": "Dzi0",
-        "./tl-ph.js": "Dzi0",
-        "./tlh": "z3Vd",
-        "./tlh.js": "z3Vd",
-        "./tr": "DoHr",
-        "./tr.js": "DoHr",
-        "./tzl": "z1FC",
-        "./tzl.js": "z1FC",
-        "./tzm": "wQk9",
-        "./tzm-latn": "tT3J",
-        "./tzm-latn.js": "tT3J",
-        "./tzm.js": "wQk9",
-        "./ug-cn": "YRex",
-        "./ug-cn.js": "YRex",
-        "./uk": "raLr",
-        "./uk.js": "raLr",
-        "./ur": "UpQW",
-        "./ur.js": "UpQW",
-        "./uz": "Loxo",
-        "./uz-latn": "AQ68",
-        "./uz-latn.js": "AQ68",
-        "./uz.js": "Loxo",
-        "./vi": "KSF8",
-        "./vi.js": "KSF8",
-        "./x-pseudo": "/X5v",
-        "./x-pseudo.js": "/X5v",
-        "./yo": "fzPg",
-        "./yo.js": "fzPg",
-        "./zh-cn": "XDpg",
-        "./zh-cn.js": "XDpg",
-        "./zh-hk": "SatO",
-        "./zh-hk.js": "SatO",
-        "./zh-mo": "OmwH",
-        "./zh-mo.js": "OmwH",
-        "./zh-tw": "kOpN",
-        "./zh-tw.js": "kOpN"
-      };
+    function RV1I(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
 
-      function webpackContext(req) {
-        var id = webpackContextResolve(req);
-        return __webpack_require__(id);
-      }
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
 
-      function webpackContextResolve(req) {
-        if (!__webpack_require__.o(map, req)) {
-          var e = new Error("Cannot find module '" + req + "'");
-          e.code = 'MODULE_NOT_FOUND';
-          throw e;
+
+      __webpack_require__.d(__webpack_exports__, "ManageSalonsService", function () {
+        return ManageSalonsService;
+      });
+      /* harmony import */
+
+
+      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! tslib */
+      "mrSG");
+      /* harmony import */
+
+
+      var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! @angular/common/http */
+      "tk/3");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var src_environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! src/environments/environment */
+      "AytR");
+
+      var ManageSalonsService = /*#__PURE__*/function () {
+        function ManageSalonsService(http) {
+          _classCallCheck(this, ManageSalonsService);
+
+          this.http = http;
+          this.endpoint = src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl;
+          this.headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]().set("Content-Type", "application/json");
         }
 
-        return map[req];
-      }
+        _createClass(ManageSalonsService, [{
+          key: "getSalons",
+          value: function getSalons() {
+            return this.http.get("".concat(this.endpoint, "/salon"));
+          }
+        }, {
+          key: "sendImage",
+          value: function sendImage(uploadData) {
+            return this.http.post("".concat(this.endpoint, "/file-upload"), uploadData);
+          }
+        }, {
+          key: "createSalon",
+          value: function createSalon(salon) {
+            return this.http.post("".concat(this.endpoint, "/salon"), salon);
+          }
+        }, {
+          key: "createManager",
+          value: function createManager(manager) {
+            return this.http.post("".concat(this.endpoint, "/auth/signup"), manager);
+          }
+        }]);
 
-      webpackContext.keys = function webpackContextKeys() {
-        return Object.keys(map);
+        return ManageSalonsService;
+      }();
+
+      ManageSalonsService.ctorParameters = function () {
+        return [{
+          type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]
+        }];
       };
 
-      webpackContext.resolve = webpackContextResolve;
-      module.exports = webpackContext;
-      webpackContext.id = "RnhZ";
+      ManageSalonsService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])({
+        providedIn: "root"
+      })], ManageSalonsService);
+      /***/
+    },
+
+    /***/
+    "S1No":
+    /*!**************************************************************************************************************!*\
+      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/views/admin/manage-salons/manage-salons.component.html ***!
+      \**************************************************************************************************************/
+
+    /*! exports provided: default */
+
+    /***/
+    function S1No(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony default export */
+
+
+      __webpack_exports__["default"] = "<div class=\"w-full mb-12 xl:mb-0 px-4\">\r\n  <app-table-salons color=\"light\"></app-table-salons>\r\n</div>\r\n";
       /***/
     },
 
@@ -2842,23 +1900,23 @@
     },
 
     /***/
-    "TmC4":
-    /*!*****************************************************************************!*\
-      !*** ./src/app/components/cards/card-bar-chart/card-bar-chart.component.ts ***!
-      \*****************************************************************************/
+    "T8Xr":
+    /*!**************************************************************!*\
+      !*** ./src/app/views/create-salon/create-salon.component.ts ***!
+      \**************************************************************/
 
-    /*! exports provided: CardBarChartComponent */
+    /*! exports provided: CreateSalonComponent */
 
     /***/
-    function TmC4(module, __webpack_exports__, __webpack_require__) {
+    function T8Xr(module, __webpack_exports__, __webpack_require__) {
       "use strict";
 
       __webpack_require__.r(__webpack_exports__);
       /* harmony export (binding) */
 
 
-      __webpack_require__.d(__webpack_exports__, "CardBarChartComponent", function () {
-        return CardBarChartComponent;
+      __webpack_require__.d(__webpack_exports__, "CreateSalonComponent", function () {
+        return CreateSalonComponent;
       });
       /* harmony import */
 
@@ -2869,9 +1927,9 @@
       /* harmony import */
 
 
-      var _raw_loader_card_bar_chart_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./card-bar-chart.component.html */
-      "/GnJ");
+      var _raw_loader_create_salon_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! raw-loader!./create-salon.component.html */
+      "9yi7");
       /* harmony import */
 
 
@@ -2881,119 +1939,143 @@
       /* harmony import */
 
 
-      var chart_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-      /*! chart.js */
-      "MO+k");
+      var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! @angular/forms */
+      "3Pt+");
       /* harmony import */
 
 
-      var chart_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(chart_js__WEBPACK_IMPORTED_MODULE_3__);
+      var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+      /* harmony import */
 
-      var CardBarChartComponent = /*#__PURE__*/function () {
-        function CardBarChartComponent() {
-          _classCallCheck(this, CardBarChartComponent);
+
+      var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! src/app/services/auth.service */
+      "lGQG");
+      /* harmony import */
+
+
+      var src_app_services_manage_salons_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      /*! src/app/services/manage-salons.service */
+      "RV1I");
+
+      var CreateSalonComponent = /*#__PURE__*/function () {
+        function CreateSalonComponent(route, router, manageSalons, authService) {
+          var _this4 = this;
+
+          _classCallCheck(this, CreateSalonComponent);
+
+          this.route = route;
+          this.router = router;
+          this.manageSalons = manageSalons;
+          this.authService = authService;
+          this.success = null;
+          this.profileImagePath = "";
+          this.salonImagePath = "";
+          this.uploaded = "";
+          this.access_token = "";
+          this.profileForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroup"]({
+            first_name: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](""),
+            last_name: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](""),
+            email: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](""),
+            password: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](""),
+            name: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]("")
+          });
+          this.route.queryParams.subscribe(function (params) {
+            _this4.access_token = params.access_token;
+
+            if (!_this4.access_token) {
+              _this4.router.navigate(["/error-404"]);
+            }
+
+            _this4.authService.verifyToken(_this4.access_token).subscribe(function (response) {
+              if (response.error) {
+                _this4.router.navigate(["/error-404"]);
+              }
+            });
+          });
         }
 
-        _createClass(CardBarChartComponent, [{
+        _createClass(CreateSalonComponent, [{
+          key: "onProfileImageChanged",
+          value: function onProfileImageChanged(event) {
+            var _this5 = this;
+
+            this.selectedFile = event.target.files[0];
+            var uploadData = new FormData();
+            uploadData.append("profile-photo", this.selectedFile, this.selectedFile.name);
+            this.manageSalons.sendImage(uploadData).subscribe(function (response) {
+              console.log(response);
+              _this5.profileImagePath = response.url;
+              _this5.uploaded = "image uploaded";
+            });
+          }
+        }, {
+          key: "onSalonImageChanged",
+          value: function onSalonImageChanged(event) {
+            var _this6 = this;
+
+            this.selectedFile = event.target.files[0];
+            var uploadData = new FormData();
+            uploadData.append("profile-photo", this.selectedFile, this.selectedFile.name + this.selectedFile.type);
+            this.manageSalons.sendImage(uploadData).subscribe(function (response) {
+              console.log(response);
+              _this6.salonImagePath = response.url;
+            });
+          }
+        }, {
+          key: "onSubmit",
+          value: function onSubmit() {
+            var _this7 = this;
+
+            var manager = {
+              first_name: this.profileForm.value.first_name,
+              last_name: this.profileForm.value.last_name,
+              email: this.profileForm.value.email,
+              password: this.profileForm.value.password,
+              role: "Manager",
+              salon: ""
+            };
+            var salon = {
+              name: this.profileForm.value.name,
+              image: this.salonImagePath
+            };
+            this.manageSalons.createSalon(salon).subscribe(function (response) {
+              manager.salon = response === null || response === void 0 ? void 0 : response._id;
+
+              _this7.manageSalons.createManager(manager).subscribe(function (response) {
+                if (response.user) {
+                  _this7.success = "Your account has been created you will be redirected shortly";
+                }
+              });
+            });
+          }
+        }, {
           key: "ngOnInit",
           value: function ngOnInit() {}
-        }, {
-          key: "ngAfterViewInit",
-          value: function ngAfterViewInit() {
-            var config = {
-              type: "bar",
-              data: {
-                labels: ["January", "February", "March", "April", "May", "June", "July"],
-                datasets: [{
-                  label: new Date().getFullYear(),
-                  backgroundColor: "#ed64a6",
-                  borderColor: "#ed64a6",
-                  data: [30, 78, 56, 34, 100, 45, 13],
-                  fill: false,
-                  barThickness: 8
-                }, {
-                  label: new Date().getFullYear() - 1,
-                  fill: false,
-                  backgroundColor: "#4c51bf",
-                  borderColor: "#4c51bf",
-                  data: [27, 68, 86, 74, 10, 4, 87],
-                  barThickness: 8
-                }]
-              },
-              options: {
-                maintainAspectRatio: false,
-                responsive: true,
-                title: {
-                  display: false,
-                  text: "Orders Chart"
-                },
-                tooltips: {
-                  mode: "index",
-                  intersect: false
-                },
-                hover: {
-                  mode: "nearest",
-                  intersect: true
-                },
-                legend: {
-                  labels: {
-                    fontColor: "rgba(0,0,0,.4)"
-                  },
-                  align: "end",
-                  position: "bottom"
-                },
-                scales: {
-                  xAxes: [{
-                    display: false,
-                    scaleLabel: {
-                      display: true,
-                      labelString: "Month"
-                    },
-                    gridLines: {
-                      borderDash: [2],
-                      borderDashOffset: [2],
-                      color: "rgba(33, 37, 41, 0.3)",
-                      zeroLineColor: "rgba(33, 37, 41, 0.3)",
-                      zeroLineBorderDash: [2],
-                      zeroLineBorderDashOffset: [2]
-                    }
-                  }],
-                  yAxes: [{
-                    display: true,
-                    scaleLabel: {
-                      display: false,
-                      labelString: "Value"
-                    },
-                    gridLines: {
-                      borderDash: [2],
-                      drawBorder: false,
-                      borderDashOffset: [2],
-                      color: "rgba(33, 37, 41, 0.2)",
-                      zeroLineColor: "rgba(33, 37, 41, 0.15)",
-                      zeroLineBorderDash: [2],
-                      zeroLineBorderDashOffset: [2]
-                    }
-                  }]
-                }
-              }
-            };
-            var ctx = document.getElementById("bar-chart");
-            ctx = ctx.getContext("2d");
-            new chart_js__WEBPACK_IMPORTED_MODULE_3___default.a(ctx, config);
-          }
         }]);
 
-        return CardBarChartComponent;
+        return CreateSalonComponent;
       }();
 
-      CardBarChartComponent.ctorParameters = function () {
-        return [];
+      CreateSalonComponent.ctorParameters = function () {
+        return [{
+          type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"]
+        }, {
+          type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
+        }, {
+          type: src_app_services_manage_salons_service__WEBPACK_IMPORTED_MODULE_6__["ManageSalonsService"]
+        }, {
+          type: src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthService"]
+        }];
       };
 
-      CardBarChartComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-card-bar-chart",
-        template: _raw_loader_card_bar_chart_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], CardBarChartComponent);
+      CreateSalonComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+        selector: "app-create-salon",
+        template: _raw_loader_create_salon_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
+      })], CreateSalonComponent);
       /***/
     },
 
@@ -3172,7 +2254,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<!-- Header -->\r\n<div class=\"relative bg-red-600 md:pt-32 pb-32 pt-12\">\r\n</div>\r\n";
+      __webpack_exports__["default"] = "<!-- Header -->\r\n<div class=\"relative bg-red-600 md:pt-32 pb-32 pt-12\">\r\n</div>";
       /***/
     },
 
@@ -3321,26 +2403,6 @@
     },
 
     /***/
-    "W6Sf":
-    /*!********************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/views/create-saloon/create-saloon.component.html ***!
-      \********************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function W6Sf(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div class=\"mx-auto \" *ngIf=\"success\">\r\n  <h1 class=\"text-4xl py-16 px-48\">\r\n    {{success}}\r\n  </h1>\r\n</div>\r\n<div *ngIf=\"!success\">\r\n<form class=\"space-y-8 divide-y divide-teal-600 p-8\" [formGroup]=\"profileForm\" (ngSubmit)=\"onSubmit()\">\r\n  <div class=\"space-y-8 divide-y divide-teal-600 sm:space-y-5\">\r\n    <div class=\"flex flex-col gap-6 divide-y divide-teal-600\">\r\n      <div>\r\n        <h3 class=\"text-lg leading-6 font-medium text-gray-900\">\r\n          Manager Profile\r\n        </h3>\r\n        <p class=\"mt-1 max-w-xl text-sm text-gray-500\">\r\n          This information will be displayed publicly aso be creful what you\r\n          share.\r\n        </p>\r\n      </div>\r\n\r\n      <div class=\"mt-6 sm:mt-5 space-y-6 sm:space-y-5\">\r\n        <div\r\n          class=\"\r\n            sm:grid\r\n            sm:grid-cols-3\r\n            sm:gap-4\r\n            sm:items-start\r\n            sm:border-t\r\n            sm:border-gray-200\r\n            sm:pt-5\r\n          \"\r\n        >\r\n          <label\r\n            for=\"first_name\"\r\n            class=\"block text-md font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n          >\r\n            First Name\r\n          </label>\r\n          <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n            <div class=\"max-w-4xl flex rounded-md shadow-sm\">\r\n              <input\r\n                required\r\n                type=\"text\"\r\n                name=\"first_name\"\r\n                id=\"first_name\"\r\n                autocomplete=\"given-name\"\r\n                class=\"\r\n                  flex-1\r\n                  block\r\n                  w-full\r\n                  focus:ring-indigo-500 focus:border-indigo-500\r\n                  min-w-0\r\n                  rounded-none rounded-r-md\r\n                  sm:text-sm\r\n                  border-gray-300\r\n                \"\r\n                formControlName=\"first_name\"\r\n              />\r\n            </div>\r\n          </div>\r\n          <label\r\n            for=\"last_name\"\r\n            class=\"block text-md font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n          >\r\n            Last Name\r\n          </label>\r\n          <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n            <div class=\"max-w-4xl flex rounded-md shadow-sm\">\r\n              <input\r\n                type=\"text\"\r\n                name=\"last_name\"\r\n                id=\"last_name\"\r\n                autocomplete=\"family-name\"\r\n                class=\"\r\n                  flex-1\r\n                  block\r\n                  w-full\r\n                  focus:ring-indigo-500 focus:border-indigo-500\r\n                  min-w-0\r\n                  rounded-none rounded-r-md\r\n                  sm:text-sm\r\n                  border-gray-300\r\n                \"\r\n                formControlName=\"last_name\"\r\n\r\n              />\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div\r\n          class=\"\r\n            sm:grid\r\n            sm:grid-cols-3\r\n            sm:gap-4\r\n            sm:items-start\r\n            sm:border-t\r\n            sm:border-gray-200\r\n            sm:pt-5\r\n          \"\r\n        >\r\n          <label\r\n            for=\"email\"\r\n            class=\"block text-lg font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n          >\r\n            Email\r\n          </label>\r\n          <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n            <div class=\"max-w-4xl flex rounded-md shadow-sm\">\r\n              <input\r\n                type=\"email\"\r\n                name=\"email\"\r\n                id=\"email\"\r\n                autocomplete=\"email\"\r\n                class=\"\r\n                  flex-1\r\n                  block\r\n                  w-full\r\n                  focus:ring-indigo-500 focus:border-indigo-500\r\n                  min-w-0\r\n                  rounded-none rounded-r-md\r\n                  sm:text-lg\r\n                  border-gray-300\r\n                \"\r\n                formControlName=\"email\"\r\n              />\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div\r\n          class=\"\r\n            sm:grid\r\n            sm:grid-cols-3\r\n            sm:gap-4\r\n            sm:items-start\r\n            sm:border-t\r\n            sm:border-gray-200\r\n            sm:pt-5\r\n          \"\r\n        >\r\n          <label\r\n            for=\"password\"\r\n            class=\"block text-lg font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n          >\r\n            Password\r\n          </label>\r\n          <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n            <div class=\"max-w-4xl flex rounded-md shadow-sm\">\r\n              <input\r\n                type=\"password\"\r\n                name=\"password\"\r\n                id=\"password\"\r\n                autocomplete=\"password\"\r\n                class=\"\r\n                  flex-1\r\n                  block\r\n                  w-full\r\n                  focus:ring-indigo-500 focus:border-indigo-500\r\n                  min-w-0\r\n                  rounded-none rounded-r-md\r\n                  sm:text-lg\r\n                  border-gray-300\r\n                \"\r\n                formControlName=\"password\"\r\n\r\n              />\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div\r\n          class=\"\r\n            sm:grid\r\n            sm:grid-cols-3\r\n            sm:gap-4\r\n            sm:items-center\r\n            sm:border-t\r\n            sm:border-gray-200\r\n            sm:pt-5\r\n            mb-6\r\n          \"\r\n        >\r\n          <label for=\"photo\" class=\"block text-lg font-medium text-gray-700\">\r\n            Photo\r\n          </label>\r\n          <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n            <div class=\"flex items-center\">\r\n              <span class=\"h-12 w-12 rounded-full overflow-hidden bg-gray-100\">\r\n                <img *ngIf=\"profileImagePath\" [src] = \"profileImagePath\" alt=\"\" srcset=\"\">\r\n                <svg \r\n                  *ngIf=\"!profileImagePath\"\r\n                  class=\"h-full w-full text-gray-300\"\r\n                  fill=\"currentColor\"\r\n                  viewBox=\"0 0 24 24\"\r\n                >\r\n                  <path\r\n                    d=\"M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z\"\r\n                  />\r\n                </svg>\r\n              </span>\r\n              <input\r\n                style=\"display: none\"\r\n                type=\"file\"\r\n                (change)=\"onProfileImageChanged($event)\"\r\n                #fileInput\r\n              />\r\n              <button\r\n                type=\"button\"\r\n                class=\"\r\n                  ml-5\r\n                  bg-white\r\n                  py-2\r\n                  px-3\r\n                  border border-gray-300\r\n                  rounded-md\r\n                  shadow-sm\r\n                  text-sm\r\n                  leading-4\r\n                  font-medium\r\n                  text-gray-700\r\n                  hover:bg-gray-50\r\n                  focus:outline-none\r\n                  focus:ring-2\r\n                  focus:ring-offset-2\r\n                  focus:ring-indigo-500\r\n                \"\r\n                (click)=\"fileInput.click()\"\r\n              >\r\n                Change\r\n              </button> {{uploaded}}\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"pt-8 space-y-8 sm:pt-10 sm:space-y-8 divide-y divide-teal-600\">\r\n      <div>\r\n        <h3 class=\"text-lg leading-6 font-medium text-gray-900\">\r\n          Saloon Information\r\n        </h3>\r\n        <p class=\"mt-1 max-w-4xl text-sm text-gray-500 mb-6\">\r\n          Please Provide us with all the information about your saloon\r\n        </p>\r\n      </div>\r\n      <div class=\"flex flex-col gap-6\">\r\n        <div\r\n          class=\"\r\n            pt-6\r\n            sm:grid\r\n            sm:grid-cols-3\r\n            sm:gap-4\r\n            sm:items-start\r\n            sm:border-t\r\n            sm:border-gray-200\r\n            sm:pt-5\r\n          \"\r\n        >\r\n          <label\r\n            for=\"saloon-name\"\r\n            class=\"block text-lg font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n          >\r\n            Saloon name\r\n          </label>\r\n          <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n            <input\r\n              type=\"text\"\r\n              name=\"saloon-name\"\r\n              id=\"saloon-name\"\r\n              class=\"\r\n                max-w-lg\r\n                block\r\n                w-full\r\n                shadow-sm\r\n                focus:ring-indigo-500 focus:border-indigo-500\r\n                sm:max-w-xs sm:text-sm\r\n                border-gray-300\r\n                rounded-md\r\n              \"\r\n              formControlName=\"name\"\r\n            />\r\n          </div>\r\n        </div>\r\n\r\n        <div\r\n          class=\"\r\n            sm:grid\r\n            sm:grid-cols-3\r\n            sm:gap-4\r\n            sm:items-start\r\n            sm:border-t\r\n            sm:border-gray-200\r\n            sm:pt-5\r\n          \"\r\n        >\r\n          <label\r\n            for=\"cover_photo\"\r\n            class=\"block text-lg font-medium text-gray-700 sm:mt-px sm:pt-2\"\r\n          >\r\n            Saloon photo\r\n          </label>\r\n          <div class=\"mt-1 sm:mt-0 sm:col-span-2\">\r\n            <div\r\n              class=\"\r\n                max-w-lg\r\n                flex\r\n                justify-center\r\n                px-6\r\n                pt-5\r\n                pb-6\r\n                border-2 border-gray-300 border-dashed\r\n                rounded-md\r\n              \"\r\n            >\r\n              <div class=\"space-y-1 text-center\">\r\n                <svg\r\n                  class=\"mx-auto h-12 w-12 text-gray-400\"\r\n                  stroke=\"currentColor\"\r\n                  fill=\"none\"\r\n                  viewBox=\"0 0 48 48\"\r\n                  aria-hidden=\"true\"\r\n                >\r\n                  <path\r\n                    d=\"M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02\"\r\n                    stroke-width=\"2\"\r\n                    stroke-linecap=\"round\"\r\n                    stroke-linejoin=\"round\"\r\n                  />\r\n                </svg>\r\n                <div class=\"flex text-lg text-gray-600\">\r\n                  <label\r\n                    for=\"file-upload\"\r\n                    class=\"\r\n                      relative\r\n                      cursor-pointer\r\n                      bg-white\r\n                      rounded-md\r\n                      font-medium\r\n                      text-indigo-600\r\n                      hover:text-indigo-500\r\n                      focus-within:outline-none\r\n                      focus-within:ring-2\r\n                      focus-within:ring-offset-2\r\n                      focus-within:ring-indigo-500\r\n                    \"\r\n                  >\r\n                    <span>Upload a file</span>\r\n                    <input\r\n                      id=\"file-upload\"\r\n                      name=\"file-upload\"\r\n                      type=\"file\"\r\n                      class=\"sr-only\"\r\n                      (change)=\"onSaloonImageChanged($event)\"\r\n                    />\r\n                  </label> \r\n                  <p class=\"pl-1\">or drag and drop</p>\r\n                </div>\r\n                <p class=\"text-xs text-gray-500\">PNG, JPG, GIF up to 10MB</p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"pt-6\">\r\n    <div class=\"flex justify-end\">\r\n      <button\r\n        type=\"button\"\r\n        class=\"\r\n          bg-red-500\r\n          py-2\r\n          px-4\r\n          border border-gray-300\r\n          rounded-md\r\n          shadow-sm\r\n          text-sm\r\n          font-medium\r\n          text-white\r\n          hover:bg-gray-500\r\n          focus:outline-none\r\n          focus:ring-2\r\n          focus:ring-offset-2\r\n          focus:ring-indigo-500\r\n        \"\r\n      >\r\n        Reset\r\n      </button>\r\n      <button\r\n        type=\"submit\"\r\n        class=\"\r\n          ml-3\r\n          inline-flex\r\n          justify-center\r\n          py-2\r\n          px-4\r\n          border border-transparent\r\n          shadow-sm\r\n          text-sm\r\n          font-medium\r\n          rounded-md\r\n          text-white\r\n          bg-emerald-500\r\n          hover:bg-emerald-800\r\n          focus:outline-none\r\n          focus:ring-2\r\n          focus:ring-offset-2\r\n          focus:ring-indigo-500\r\n        \"\r\n      >\r\n        Save\r\n      </button>\r\n    </div>\r\n  </div>\r\n</form>\r\n\r\n</div>";
-      /***/
-    },
-
-    /***/
     "W8yq":
     /*!****************************************************************************************!*\
       !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/views/index/index.component.html ***!
@@ -3459,26 +2521,6 @@
 
 
       __webpack_exports__["default"] = "<div class=\"flex flex-wrap\">\r\n  <div class=\"w-full lg:w-8/12 px-4\">\r\n    <app-card-settings></app-card-settings>\r\n  </div>\r\n  <div class=\"w-full lg:w-4/12 px-4\">\r\n    <app-card-profile></app-card-profile>\r\n  </div>\r\n</div>\r\n";
-      /***/
-    },
-
-    /***/
-    "YpXG":
-    /*!*******************************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/card-social-traffic/card-social-traffic.component.html ***!
-      \*******************************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function YpXG(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div\r\n  class=\"relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 border-0\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow flex-1\">\r\n        <h3 class=\"font-semibold text-base text-blueGray-700\">\r\n          Social traffic\r\n        </h3>\r\n      </div>\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow flex-1 text-right\">\r\n        <button\r\n          class=\"bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150\"\r\n          type=\"button\"\r\n        >\r\n          See all\r\n        </button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"block w-full overflow-x-auto\">\r\n    <!-- Projects table -->\r\n    <table class=\"items-center w-full bg-transparent border-collapse\">\r\n      <thead class=\"thead-light\">\r\n        <tr>\r\n          <th\r\n            class=\"px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n          >\r\n            Referral\r\n          </th>\r\n          <th\r\n            class=\"px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n          >\r\n            Visitors\r\n          </th>\r\n          <th\r\n            class=\"px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left min-w-140-px\"\r\n          ></th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            Facebook\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            1,480\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">60%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-red-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 60%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            Facebook\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            5,480\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">70%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-emerald-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 70%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            Google\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            4,807\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">80%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-purple-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 80%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            Instagram\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            3,678\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">75%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-lightBlue-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 75%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-lightBlue-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left\"\r\n          >\r\n            twitter\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            2,645\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">30%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-orange-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 30%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-orange-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n</div>\r\n";
       /***/
     },
 
@@ -3612,193 +2654,139 @@
       /* harmony import */
 
 
-      var _components_cards_card_bar_chart_card_bar_chart_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
-      /*! ./components/cards/card-bar-chart/card-bar-chart.component */
-      "TmC4");
-      /* harmony import */
-
-
-      var _components_cards_card_line_chart_card_line_chart_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
-      /*! ./components/cards/card-line-chart/card-line-chart.component */
-      "+Kwz");
-      /* harmony import */
-
-
-      var _components_cards_card_page_visits_card_page_visits_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
-      /*! ./components/cards/card-page-visits/card-page-visits.component */
-      "3IhM");
-      /* harmony import */
-
-
-      var _components_cards_card_profile_card_profile_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
-      /*! ./components/cards/card-profile/card-profile.component */
-      "diaN");
-      /* harmony import */
-
-
-      var _components_cards_card_settings_card_settings_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
-      /*! ./components/cards/card-settings/card-settings.component */
-      "vwLF");
-      /* harmony import */
-
-
-      var _components_cards_card_social_traffic_card_social_traffic_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
-      /*! ./components/cards/card-social-traffic/card-social-traffic.component */
-      "xud4");
-      /* harmony import */
-
-
-      var _components_cards_card_stats_card_stats_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
-      /*! ./components/cards/card-stats/card-stats.component */
-      "J87Q");
-      /* harmony import */
-
-
-      var _components_cards_card_table_card_table_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
-      /*! ./components/cards/card-table/card-table.component */
-      "uhhN");
-      /* harmony import */
-
-
-      var _components_footers_footer_admin_footer_admin_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
+      var _components_footers_footer_admin_footer_admin_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
       /*! ./components/footers/footer-admin/footer-admin.component */
       "UIMn");
       /* harmony import */
 
 
-      var _components_footers_footer_footer_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
+      var _components_footers_footer_footer_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
       /*! ./components/footers/footer/footer.component */
       "1DoU");
       /* harmony import */
 
 
-      var _components_footers_footer_small_footer_small_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
+      var _components_footers_footer_small_footer_small_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
       /*! ./components/footers/footer-small/footer-small.component */
       "xlab");
       /* harmony import */
 
 
-      var _components_headers_header_stats_header_stats_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
+      var _components_headers_header_stats_header_stats_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
       /*! ./components/headers/header-stats/header-stats.component */
       "RLAj");
       /* harmony import */
 
 
-      var _components_navbars_index_navbar_index_navbar_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+      var _components_navbars_index_navbar_index_navbar_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
       /*! ./components/navbars/index-navbar/index-navbar.component */
       "4b2p");
       /* harmony import */
 
 
-      var _components_maps_map_example_map_example_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
-      /*! ./components/maps/map-example/map-example.component */
-      "u/sr");
-      /* harmony import */
-
-
-      var _components_dropdowns_index_dropdown_index_dropdown_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
+      var _components_dropdowns_index_dropdown_index_dropdown_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
       /*! ./components/dropdowns/index-dropdown/index-dropdown.component */
       "J8Ne");
       /* harmony import */
 
 
-      var _components_dropdowns_table_dropdown_table_dropdown_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
+      var _components_dropdowns_table_dropdown_table_dropdown_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
       /*! ./components/dropdowns/table-dropdown/table-dropdown.component */
       "UY35");
       /* harmony import */
 
 
-      var _components_dropdowns_pages_dropdown_pages_dropdown_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(
+      var _components_dropdowns_pages_dropdown_pages_dropdown_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
       /*! ./components/dropdowns/pages-dropdown/pages-dropdown.component */
       "wcq5");
       /* harmony import */
 
 
-      var _components_dropdowns_notification_dropdown_notification_dropdown_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(
+      var _components_dropdowns_notification_dropdown_notification_dropdown_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
       /*! ./components/dropdowns/notification-dropdown/notification-dropdown.component */
       "Skd6");
       /* harmony import */
 
 
-      var _components_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(
+      var _components_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
       /*! ./components/sidebar/sidebar.component */
       "zBoC");
       /* harmony import */
 
 
-      var _components_dropdowns_user_dropdown_user_dropdown_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(
+      var _components_dropdowns_user_dropdown_user_dropdown_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
       /*! ./components/dropdowns/user-dropdown/user-dropdown.component */
       "0slC");
       /* harmony import */
 
 
-      var _views_admin_manage_saloons_manage_saloons_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(
-      /*! ./views/admin/manage-saloons/manage-saloons.component */
-      "0uaz");
+      var _views_admin_manage_salons_manage_salons_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
+      /*! ./views/admin/manage-salons/manage-salons.component */
+      "gFck");
       /* harmony import */
 
 
-      var _components_table_saloons_table_saloons_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(
-      /*! ./components/table-saloons/table-saloons.component */
-      "7S+c");
+      var _components_table_salons_table_salons_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+      /*! ./components/table-salons/table-salons.component */
+      "GB+I");
       /* harmony import */
 
 
-      var _services_auth_service__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(
+      var _services_auth_service__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
       /*! ./services/auth.service */
       "lGQG");
       /* harmony import */
 
 
-      var _services_manage_saloons_service__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(
-      /*! ./services/manage-saloons.service */
-      "40b+");
+      var _services_manage_salons_service__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
+      /*! ./services/manage-salons.service */
+      "RV1I");
       /* harmony import */
 
 
-      var _angular_common_http__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(
+      var _angular_common_http__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
       /*! @angular/common/http */
       "tk/3");
       /* harmony import */
 
 
-      var _services_authConfig_interceptor__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(
+      var _services_authConfig_interceptor__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(
       /*! ./services/authConfig.interceptor */
       "rD10");
       /* harmony import */
 
 
-      var _angular_forms__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(
+      var _angular_forms__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(
       /*! @angular/forms */
       "3Pt+");
       /* harmony import */
 
 
-      var _components_table_clients_table_clients_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(
+      var _components_table_clients_table_clients_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(
       /*! ./components/table-clients/table-clients.component */
       "JkxU");
       /* harmony import */
 
 
-      var _components_dropdowns_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(
+      var _components_dropdowns_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(
       /*! ./components/dropdowns/dropdown/dropdown.component */
       "vWvs");
       /* harmony import */
 
 
-      var _components_modal_modal_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(
+      var _components_modal_modal_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(
       /*! ./components/modal/modal.component */
       "7aL3");
       /* harmony import */
 
 
-      var _views_create_saloon_create_saloon_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(
-      /*! ./views/create-saloon/create-saloon.component */
-      "K8FB");
+      var _views_create_salon_create_salon_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(
+      /*! ./views/create-salon/create-salon.component */
+      "T8Xr");
       /* harmony import */
 
 
-      var _views_error404_error404_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(
+      var _views_error404_error404_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(
       /*! ./views/error404/error404.component */
       "kku7"); // layouts
       // admin views
@@ -3812,11 +2800,11 @@
       };
 
       AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _views_admin_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_8__["DashboardComponent"], _components_cards_card_bar_chart_card_bar_chart_component__WEBPACK_IMPORTED_MODULE_18__["CardBarChartComponent"], _components_cards_card_line_chart_card_line_chart_component__WEBPACK_IMPORTED_MODULE_19__["CardLineChartComponent"], _components_dropdowns_index_dropdown_index_dropdown_component__WEBPACK_IMPORTED_MODULE_32__["IndexDropdownComponent"], _components_dropdowns_pages_dropdown_pages_dropdown_component__WEBPACK_IMPORTED_MODULE_34__["PagesDropdownComponent"], _components_dropdowns_table_dropdown_table_dropdown_component__WEBPACK_IMPORTED_MODULE_33__["TableDropdownComponent"], _components_dropdowns_notification_dropdown_notification_dropdown_component__WEBPACK_IMPORTED_MODULE_35__["NotificationDropdownComponent"], _components_dropdowns_user_dropdown_user_dropdown_component__WEBPACK_IMPORTED_MODULE_37__["UserDropdownComponent"], _components_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_36__["SidebarComponent"], _components_footers_footer_footer_component__WEBPACK_IMPORTED_MODULE_27__["FooterComponent"], _components_footers_footer_small_footer_small_component__WEBPACK_IMPORTED_MODULE_28__["FooterSmallComponent"], _components_footers_footer_admin_footer_admin_component__WEBPACK_IMPORTED_MODULE_26__["FooterAdminComponent"], _components_cards_card_page_visits_card_page_visits_component__WEBPACK_IMPORTED_MODULE_20__["CardPageVisitsComponent"], _components_cards_card_profile_card_profile_component__WEBPACK_IMPORTED_MODULE_21__["CardProfileComponent"], _components_cards_card_settings_card_settings_component__WEBPACK_IMPORTED_MODULE_22__["CardSettingsComponent"], _components_cards_card_social_traffic_card_social_traffic_component__WEBPACK_IMPORTED_MODULE_23__["CardSocialTrafficComponent"], _components_cards_card_stats_card_stats_component__WEBPACK_IMPORTED_MODULE_24__["CardStatsComponent"], _components_cards_card_table_card_table_component__WEBPACK_IMPORTED_MODULE_25__["CardTableComponent"], _components_headers_header_stats_header_stats_component__WEBPACK_IMPORTED_MODULE_29__["HeaderStatsComponent"], _components_maps_map_example_map_example_component__WEBPACK_IMPORTED_MODULE_31__["MapExampleComponent"], _components_navbars_auth_navbar_auth_navbar_component__WEBPACK_IMPORTED_MODULE_17__["AuthNavbarComponent"], _components_navbars_admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_16__["AdminNavbarComponent"], _components_navbars_index_navbar_index_navbar_component__WEBPACK_IMPORTED_MODULE_30__["IndexNavbarComponent"], _layouts_admin_admin_component__WEBPACK_IMPORTED_MODULE_6__["AdminComponent"], _layouts_auth_auth_component__WEBPACK_IMPORTED_MODULE_7__["AuthComponent"], _views_admin_maps_maps_component__WEBPACK_IMPORTED_MODULE_9__["MapsComponent"], _views_admin_settings_settings_component__WEBPACK_IMPORTED_MODULE_10__["SettingsComponent"], _views_admin_tables_tables_component__WEBPACK_IMPORTED_MODULE_11__["TablesComponent"], _views_auth_login_login_component__WEBPACK_IMPORTED_MODULE_12__["LoginComponent"], _views_index_index_component__WEBPACK_IMPORTED_MODULE_13__["IndexComponent"], _views_landing_landing_component__WEBPACK_IMPORTED_MODULE_14__["LandingComponent"], _views_profile_profile_component__WEBPACK_IMPORTED_MODULE_15__["ProfileComponent"], _views_admin_manage_saloons_manage_saloons_component__WEBPACK_IMPORTED_MODULE_38__["ManageSaloonsComponent"], _components_table_saloons_table_saloons_component__WEBPACK_IMPORTED_MODULE_39__["TableSaloonsComponent"], _components_table_clients_table_clients_component__WEBPACK_IMPORTED_MODULE_45__["TableClientsComponent"], _components_dropdowns_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_46__["DropdownComponent"], _components_modal_modal_component__WEBPACK_IMPORTED_MODULE_47__["ModalComponent"], _views_create_saloon_create_saloon_component__WEBPACK_IMPORTED_MODULE_48__["CreateSaloonComponent"], _views_error404_error404_component__WEBPACK_IMPORTED_MODULE_49__["Error404Component"]],
-        imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_42__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_44__["ReactiveFormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_44__["FormsModule"], ngx_timeago__WEBPACK_IMPORTED_MODULE_5__["TimeagoModule"].forRoot()],
-        providers: [_services_auth_service__WEBPACK_IMPORTED_MODULE_40__["AuthService"], _services_manage_saloons_service__WEBPACK_IMPORTED_MODULE_41__["ManageSaloonsService"], {
-          provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_42__["HTTP_INTERCEPTORS"],
-          useClass: _services_authConfig_interceptor__WEBPACK_IMPORTED_MODULE_43__["AuthInterceptor"],
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _views_admin_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_8__["DashboardComponent"], _components_dropdowns_index_dropdown_index_dropdown_component__WEBPACK_IMPORTED_MODULE_23__["IndexDropdownComponent"], _components_dropdowns_pages_dropdown_pages_dropdown_component__WEBPACK_IMPORTED_MODULE_25__["PagesDropdownComponent"], _components_dropdowns_table_dropdown_table_dropdown_component__WEBPACK_IMPORTED_MODULE_24__["TableDropdownComponent"], _components_dropdowns_notification_dropdown_notification_dropdown_component__WEBPACK_IMPORTED_MODULE_26__["NotificationDropdownComponent"], _components_dropdowns_user_dropdown_user_dropdown_component__WEBPACK_IMPORTED_MODULE_28__["UserDropdownComponent"], _components_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_27__["SidebarComponent"], _components_footers_footer_footer_component__WEBPACK_IMPORTED_MODULE_19__["FooterComponent"], _components_footers_footer_small_footer_small_component__WEBPACK_IMPORTED_MODULE_20__["FooterSmallComponent"], _components_footers_footer_admin_footer_admin_component__WEBPACK_IMPORTED_MODULE_18__["FooterAdminComponent"], _components_headers_header_stats_header_stats_component__WEBPACK_IMPORTED_MODULE_21__["HeaderStatsComponent"], _components_navbars_auth_navbar_auth_navbar_component__WEBPACK_IMPORTED_MODULE_17__["AuthNavbarComponent"], _components_navbars_admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_16__["AdminNavbarComponent"], _components_navbars_index_navbar_index_navbar_component__WEBPACK_IMPORTED_MODULE_22__["IndexNavbarComponent"], _layouts_admin_admin_component__WEBPACK_IMPORTED_MODULE_6__["AdminComponent"], _layouts_auth_auth_component__WEBPACK_IMPORTED_MODULE_7__["AuthComponent"], _views_admin_maps_maps_component__WEBPACK_IMPORTED_MODULE_9__["MapsComponent"], _views_admin_settings_settings_component__WEBPACK_IMPORTED_MODULE_10__["SettingsComponent"], _views_admin_tables_tables_component__WEBPACK_IMPORTED_MODULE_11__["TablesComponent"], _views_auth_login_login_component__WEBPACK_IMPORTED_MODULE_12__["LoginComponent"], _views_index_index_component__WEBPACK_IMPORTED_MODULE_13__["IndexComponent"], _views_landing_landing_component__WEBPACK_IMPORTED_MODULE_14__["LandingComponent"], _views_profile_profile_component__WEBPACK_IMPORTED_MODULE_15__["ProfileComponent"], _views_admin_manage_salons_manage_salons_component__WEBPACK_IMPORTED_MODULE_29__["ManageSalonsComponent"], _components_table_salons_table_salons_component__WEBPACK_IMPORTED_MODULE_30__["TableSalonsComponent"], _components_table_clients_table_clients_component__WEBPACK_IMPORTED_MODULE_36__["TableClientsComponent"], _components_dropdowns_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_37__["DropdownComponent"], _components_modal_modal_component__WEBPACK_IMPORTED_MODULE_38__["ModalComponent"], _views_create_salon_create_salon_component__WEBPACK_IMPORTED_MODULE_39__["CreateSalonComponent"], _views_error404_error404_component__WEBPACK_IMPORTED_MODULE_40__["Error404Component"]],
+        imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_33__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_35__["ReactiveFormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_35__["FormsModule"], ngx_timeago__WEBPACK_IMPORTED_MODULE_5__["TimeagoModule"].forRoot()],
+        providers: [_services_auth_service__WEBPACK_IMPORTED_MODULE_31__["AuthService"], _services_manage_salons_service__WEBPACK_IMPORTED_MODULE_32__["ManageSalonsService"], {
+          provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_33__["HTTP_INTERCEPTORS"],
+          useClass: _services_authConfig_interceptor__WEBPACK_IMPORTED_MODULE_34__["AuthInterceptor"],
           multi: true
         }],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -3841,88 +2829,6 @@
 
 
       __webpack_exports__["default"] = "<div class=\"flex flex-wrap mt-4\">\r\n  <div class=\"w-full mb-12 px-4\">\r\n    <app-card-table></app-card-table>\r\n  </div>\r\n  <div class=\"w-full mb-12 px-4\">\r\n    <app-card-table color=\"dark\"></app-card-table>\r\n  </div>\r\n</div>\r\n";
-      /***/
-    },
-
-    /***/
-    "c9Li":
-    /*!*****************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/card-profile/card-profile.component.html ***!
-      \*****************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function c9Li(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div\r\n  class=\"relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16\"\r\n>\r\n  <div class=\"px-6\">\r\n    <div class=\"flex flex-wrap justify-center\">\r\n      <div class=\"w-full px-4 flex justify-center\">\r\n        <div class=\"relative\">\r\n          <img\r\n            alt=\"...\"\r\n            src=\"assets/img/team-2-800x800.jpg\"\r\n            class=\"shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px\"\r\n          />\r\n        </div>\r\n      </div>\r\n      <div class=\"w-full px-4 text-center mt-20\">\r\n        <div class=\"flex justify-center py-4 lg:pt-4 pt-8\">\r\n          <div class=\"mr-4 p-3 text-center\">\r\n            <span\r\n              class=\"text-xl font-bold block uppercase tracking-wide text-blueGray-600\"\r\n            >\r\n              22\r\n            </span>\r\n            <span class=\"text-sm text-blueGray-400\">Friends</span>\r\n          </div>\r\n          <div class=\"mr-4 p-3 text-center\">\r\n            <span\r\n              class=\"text-xl font-bold block uppercase tracking-wide text-blueGray-600\"\r\n            >\r\n              10\r\n            </span>\r\n            <span class=\"text-sm text-blueGray-400\">Photos</span>\r\n          </div>\r\n          <div class=\"lg:mr-4 p-3 text-center\">\r\n            <span\r\n              class=\"text-xl font-bold block uppercase tracking-wide text-blueGray-600\"\r\n            >\r\n              89\r\n            </span>\r\n            <span class=\"text-sm text-blueGray-400\">Comments</span>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"text-center mt-12\">\r\n      <h3\r\n        class=\"text-xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2\"\r\n      >\r\n        Jenna Stones\r\n      </h3>\r\n      <div\r\n        class=\"text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase\"\r\n      >\r\n        <i class=\"fas fa-map-marker-alt mr-2 text-lg text-blueGray-400\"></i>\r\n        Los Angeles, California\r\n      </div>\r\n      <div class=\"mb-2 text-blueGray-600 mt-10\">\r\n        <i class=\"fas fa-briefcase mr-2 text-lg text-blueGray-400\"></i>\r\n        Solution Manager - Creative Tim Officer\r\n      </div>\r\n      <div class=\"mb-2 text-blueGray-600\">\r\n        <i class=\"fas fa-university mr-2 text-lg text-blueGray-400\"></i>\r\n        University of Computer Science\r\n      </div>\r\n    </div>\r\n    <div class=\"mt-10 py-10 border-t border-blueGray-200 text-center\">\r\n      <div class=\"flex flex-wrap justify-center\">\r\n        <div class=\"w-full lg:w-9/12 px-4\">\r\n          <p class=\"mb-4 text-lg leading-relaxed text-blueGray-700\">\r\n            An artist of considerable range, Jenna the name taken by\r\n            Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and\r\n            records all of his own music, giving it a warm, intimate feel with a\r\n            solid groove structure. An artist of considerable range.\r\n          </p>\r\n          <a href=\"javascript:void(0);\" class=\"font-normal text-red-600\">\r\n            Show more\r\n          </a>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n";
-      /***/
-    },
-
-    /***/
-    "diaN":
-    /*!*************************************************************************!*\
-      !*** ./src/app/components/cards/card-profile/card-profile.component.ts ***!
-      \*************************************************************************/
-
-    /*! exports provided: CardProfileComponent */
-
-    /***/
-    function diaN(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "CardProfileComponent", function () {
-        return CardProfileComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_card_profile_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./card-profile.component.html */
-      "c9Li");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-
-      var CardProfileComponent = /*#__PURE__*/function () {
-        function CardProfileComponent() {
-          _classCallCheck(this, CardProfileComponent);
-        }
-
-        _createClass(CardProfileComponent, [{
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }]);
-
-        return CardProfileComponent;
-      }();
-
-      CardProfileComponent.ctorParameters = function () {
-        return [];
-      };
-
-      CardProfileComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-card-profile",
-        template: _raw_loader_card_profile_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], CardProfileComponent);
       /***/
     },
 
@@ -3987,22 +2893,64 @@
     },
 
     /***/
-    "eix7":
-    /*!*******************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/card-settings/card-settings.component.html ***!
-      \*******************************************************************************************************************/
+    "gFck":
+    /*!**********************************************************************!*\
+      !*** ./src/app/views/admin/manage-salons/manage-salons.component.ts ***!
+      \**********************************************************************/
 
-    /*! exports provided: default */
+    /*! exports provided: ManageSalonsComponent */
 
     /***/
-    function eix7(module, __webpack_exports__, __webpack_require__) {
+    function gFck(module, __webpack_exports__, __webpack_require__) {
       "use strict";
 
       __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
+      /* harmony export (binding) */
 
 
-      __webpack_exports__["default"] = "<div\r\n  class=\"relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0\"\r\n>\r\n  <div class=\"rounded-t bg-white mb-0 px-6 py-6\">\r\n    <div class=\"text-center flex justify-between\">\r\n      <h6 class=\"text-blueGray-700 text-xl font-bold\">My account</h6>\r\n      <button\r\n        class=\"bg-red-600 text-white active:bg-red-700 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150\"\r\n        type=\"button\"\r\n      >\r\n        Settings\r\n      </button>\r\n    </div>\r\n  </div>\r\n  <div class=\"flex-auto px-4 lg:px-10 py-10 pt-0\">\r\n    <form>\r\n      <h6 class=\"text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase\">\r\n        User Information\r\n      </h6>\r\n      <div class=\"flex flex-wrap\">\r\n        <div class=\"w-full lg:w-6/12 px-4\">\r\n          <div class=\"relative w-full mb-3\">\r\n            <label\r\n              class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n              htmlFor=\"grid-password\"\r\n            >\r\n              Username\r\n            </label>\r\n            <input\r\n              type=\"text\"\r\n              class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n              value=\"lucky.jesse\"\r\n            />\r\n          </div>\r\n        </div>\r\n        <div class=\"w-full lg:w-6/12 px-4\">\r\n          <div class=\"relative w-full mb-3\">\r\n            <label\r\n              class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n              htmlFor=\"grid-password\"\r\n            >\r\n              Email address\r\n            </label>\r\n            <input\r\n              type=\"email\"\r\n              class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n              value=\"jesse@example.com\"\r\n            />\r\n          </div>\r\n        </div>\r\n        <div class=\"w-full lg:w-6/12 px-4\">\r\n          <div class=\"relative w-full mb-3\">\r\n            <label\r\n              class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n              htmlFor=\"grid-password\"\r\n            >\r\n              First Name\r\n            </label>\r\n            <input\r\n              type=\"text\"\r\n              class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n              value=\"Lucky\"\r\n            />\r\n          </div>\r\n        </div>\r\n        <div class=\"w-full lg:w-6/12 px-4\">\r\n          <div class=\"relative w-full mb-3\">\r\n            <label\r\n              class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n              htmlFor=\"grid-password\"\r\n            >\r\n              Last Name\r\n            </label>\r\n            <input\r\n              type=\"text\"\r\n              class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n              value=\"Jesse\"\r\n            />\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <hr class=\"mt-6 border-b-1 border-blueGray-300\" />\r\n\r\n      <h6 class=\"text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase\">\r\n        Contact Information\r\n      </h6>\r\n      <div class=\"flex flex-wrap\">\r\n        <div class=\"w-full lg:w-12/12 px-4\">\r\n          <div class=\"relative w-full mb-3\">\r\n            <label\r\n              class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n              htmlFor=\"grid-password\"\r\n            >\r\n              Address\r\n            </label>\r\n            <input\r\n              type=\"text\"\r\n              class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n              value=\"Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09\"\r\n            />\r\n          </div>\r\n        </div>\r\n        <div class=\"w-full lg:w-4/12 px-4\">\r\n          <div class=\"relative w-full mb-3\">\r\n            <label\r\n              class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n              htmlFor=\"grid-password\"\r\n            >\r\n              City\r\n            </label>\r\n            <input\r\n              type=\"email\"\r\n              class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n              value=\"New York\"\r\n            />\r\n          </div>\r\n        </div>\r\n        <div class=\"w-full lg:w-4/12 px-4\">\r\n          <div class=\"relative w-full mb-3\">\r\n            <label\r\n              class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n              htmlFor=\"grid-password\"\r\n            >\r\n              Country\r\n            </label>\r\n            <input\r\n              type=\"text\"\r\n              class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n              value=\"United States\"\r\n            />\r\n          </div>\r\n        </div>\r\n        <div class=\"w-full lg:w-4/12 px-4\">\r\n          <div class=\"relative w-full mb-3\">\r\n            <label\r\n              class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n              htmlFor=\"grid-password\"\r\n            >\r\n              Postal Code\r\n            </label>\r\n            <input\r\n              type=\"text\"\r\n              class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n              value=\"Postal Code\"\r\n            />\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <hr class=\"mt-6 border-b-1 border-blueGray-300\" />\r\n\r\n      <h6 class=\"text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase\">\r\n        About Me\r\n      </h6>\r\n      <div class=\"flex flex-wrap\">\r\n        <div class=\"w-full lg:w-12/12 px-4\">\r\n          <div class=\"relative w-full mb-3\">\r\n            <label\r\n              class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n              htmlFor=\"grid-password\"\r\n            >\r\n              About me\r\n            </label>\r\n            <textarea\r\n              type=\"text\"\r\n              class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n              rows=\"4\"\r\n            >\r\n                  A beautiful UI Kit and Admin for Angular & Tailwind CSS. It is Free\r\n                  and Open Source.\r\n                </textarea\r\n            >\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </form>\r\n  </div>\r\n</div>\r\n";
+      __webpack_require__.d(__webpack_exports__, "ManageSalonsComponent", function () {
+        return ManageSalonsComponent;
+      });
+      /* harmony import */
+
+
+      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! tslib */
+      "mrSG");
+      /* harmony import */
+
+
+      var _raw_loader_manage_salons_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! raw-loader!./manage-salons.component.html */
+      "S1No");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+
+      var ManageSalonsComponent = /*#__PURE__*/function () {
+        function ManageSalonsComponent() {
+          _classCallCheck(this, ManageSalonsComponent);
+        }
+
+        _createClass(ManageSalonsComponent, [{
+          key: "ngOnInit",
+          value: function ngOnInit() {}
+        }]);
+
+        return ManageSalonsComponent;
+      }();
+
+      ManageSalonsComponent.ctorParameters = function () {
+        return [];
+      };
+
+      ManageSalonsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+        selector: "app-manage-salons",
+        template: _raw_loader_manage_salons_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
+      })], ManageSalonsComponent);
       /***/
     },
 
@@ -4218,26 +3166,6 @@
     },
 
     /***/
-    "lLla":
-    /*!***********************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/card-line-chart/card-line-chart.component.html ***!
-      \***********************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function lLla(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div\r\n  class=\"relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-blueGray-700\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 bg-transparent\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full max-w-full flex-grow flex-1\">\r\n        <h6 class=\"uppercase text-blueGray-100 mb-1 text-xs font-semibold\">\r\n          Overview\r\n        </h6>\r\n        <h2 class=\"text-white text-xl font-semibold\">Sales value</h2>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"p-4 flex-auto\">\r\n    <!-- Chart -->\r\n    <div class=\"relative\" style=\"height: 350px\">\r\n      <canvas id=\"line-chart\"></canvas>\r\n    </div>\r\n  </div>\r\n</div>\r\n";
-      /***/
-    },
-
-    /***/
     "owMO":
     /*!*************************************************************************************************************************!*\
       !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/dropdowns/pages-dropdown/pages-dropdown.component.html ***!
@@ -4254,26 +3182,6 @@
 
 
       __webpack_exports__["default"] = "<a\r\n  class=\"lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold\"\r\n  href=\"#pablo\"\r\n  (click)=\"toggleDropdown($event)\"\r\n  #btnDropdownRef\r\n>\r\n  Demo Pages\r\n</a>\r\n<div\r\n  class=\"bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48\"\r\n  [ngClass]=\"dropdownPopoverShow ? 'block' : 'hidden'\"\r\n  #popoverDropdownRef\r\n>\r\n  <span\r\n    class=\"text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400\"\r\n  >\r\n    Admin Layout\r\n  </span>\r\n  <a\r\n    [routerLink]=\"['/admin/dashboard']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Dashboard\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/admin/settings']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Settings\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/admin/tables']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Tables\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/admin/maps']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Maps\r\n  </a>\r\n  <div class=\"h-0 mx-4 my-2 border border-solid border-blueGray-100\"></div>\r\n  <span\r\n    class=\"text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400\"\r\n  >\r\n    Auth Layout\r\n  </span>\r\n  <a\r\n    [routerLink]=\"['/auth/login']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Login\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/auth/register']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Register\r\n  </a>\r\n  <div class=\"h-0 mx-4 my-2 border border-solid border-blueGray-100\"></div>\r\n  <span\r\n    class=\"text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400\"\r\n  >\r\n    No Layout\r\n  </span>\r\n  <a\r\n    [routerLink]=\"['/landing']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Landing\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/profile']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Profile\r\n  </a>\r\n</div>\r\n";
-      /***/
-    },
-
-    /***/
-    "pzeq":
-    /*!****************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/views/admin/manage-saloons/manage-saloons.component.html ***!
-      \****************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function pzeq(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div class=\"w-full mb-12 xl:mb-0 px-4\">\r\n  <app-table-saloons color=\"light\"></app-table-saloons>\r\n</div>\r\n";
       /***/
     },
 
@@ -4506,243 +3414,6 @@
     },
 
     /***/
-    "u/sr":
-    /*!**********************************************************************!*\
-      !*** ./src/app/components/maps/map-example/map-example.component.ts ***!
-      \**********************************************************************/
-
-    /*! exports provided: MapExampleComponent */
-
-    /***/
-    function uSr(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "MapExampleComponent", function () {
-        return MapExampleComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_map_example_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./map-example.component.html */
-      "xkbx");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-
-      var MapExampleComponent = /*#__PURE__*/function () {
-        function MapExampleComponent() {
-          _classCallCheck(this, MapExampleComponent);
-        }
-
-        _createClass(MapExampleComponent, [{
-          key: "ngOnInit",
-          value: function ngOnInit() {
-            var map = document.getElementById("map-canvas");
-            var lat = map.getAttribute("data-lat");
-            var lng = map.getAttribute("data-lng");
-            var myLatlng = new google.maps.LatLng(lat, lng);
-            var mapOptions = {
-              zoom: 12,
-              scrollwheel: false,
-              center: myLatlng,
-              mapTypeId: google.maps.MapTypeId.ROADMAP,
-              styles: [{
-                featureType: "administrative",
-                elementType: "labels.text.fill",
-                stylers: [{
-                  color: "#444444"
-                }]
-              }, {
-                featureType: "landscape",
-                elementType: "all",
-                stylers: [{
-                  color: "#f2f2f2"
-                }]
-              }, {
-                featureType: "poi",
-                elementType: "all",
-                stylers: [{
-                  visibility: "off"
-                }]
-              }, {
-                featureType: "road",
-                elementType: "all",
-                stylers: [{
-                  saturation: -100
-                }, {
-                  lightness: 45
-                }]
-              }, {
-                featureType: "road.highway",
-                elementType: "all",
-                stylers: [{
-                  visibility: "simplified"
-                }]
-              }, {
-                featureType: "road.arterial",
-                elementType: "labels.icon",
-                stylers: [{
-                  visibility: "off"
-                }]
-              }, {
-                featureType: "transit",
-                elementType: "all",
-                stylers: [{
-                  visibility: "off"
-                }]
-              }, {
-                featureType: "water",
-                elementType: "all",
-                stylers: [{
-                  color: "#feb2b2"
-                }, {
-                  visibility: "on"
-                }]
-              }]
-            };
-            map = new google.maps.Map(map, mapOptions);
-            var marker = new google.maps.Marker({
-              position: myLatlng,
-              map: map,
-              animation: google.maps.Animation.DROP,
-              title: "Hello World!"
-            });
-            var contentString = '<div class="info-window-content"><h2>Notus Angular</h2>' + "<p>A beautiful UI Kit and Admin for Tailwind CSS. It is Free and Open Source.</p></div>";
-            var infowindow = new google.maps.InfoWindow({
-              content: contentString
-            });
-            google.maps.event.addListener(marker, "click", function () {
-              infowindow.open(map, marker);
-            });
-          }
-        }]);
-
-        return MapExampleComponent;
-      }();
-
-      MapExampleComponent.ctorParameters = function () {
-        return [];
-      };
-
-      MapExampleComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-map-example",
-        template: _raw_loader_map_example_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], MapExampleComponent);
-      /***/
-    },
-
-    /***/
-    "uEih":
-    /*!*************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/table-saloons/table-saloons.component.html ***!
-      \*************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function uEih(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div\r\n  class=\"\r\n    relative\r\n    flex flex-col\r\n    min-w-0\r\n    break-words\r\n    w-full\r\n    mb-6\r\n    shadow-lg\r\n    rounded\r\n  \"\r\n  [ngClass]=\"color === 'light' ? 'bg-white' : 'bg-red-900 text-white'\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 border-0\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow justify-between\">\r\n        <h3\r\n          class=\"font-semibold text-lg\"\r\n          [ngClass]=\"color === 'light' ? 'text-blueGray-700' : 'text-white'\"\r\n        >\r\n          Saloons\r\n        </h3>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"block w-full overflow-x-auto\">\r\n    <!-- Projects table -->\r\n    <table class=\"items-center w-full bg-transparent border-collapse\">\r\n      <thead>\r\n        <tr>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            ID\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Name\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Managers\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Hairdressers\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Formulas\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Created\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Image\r\n          </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr *ngFor=\"let saloon of saloons; let i = index\" [attr.data-index]=\"i\">\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ i }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ saloon.name }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <ul *ngFor=\"let manager of saloon.managers\">\r\n              <li>{{ manager.first_name }} {{ manager.last_name }}</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <ul *ngFor=\"let hairdresser of saloon.hairdressers\">\r\n              <li>{{ hairdresser.first_name }} {{ hairdresser.last_name }}</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n            \"\r\n          >\r\n            <ul class=\"list-disc\" *ngFor=\"let formula of saloon.formulas\">\r\n              <li>{{ formula.formula.name }} | {{ formula.price }} DT</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ saloon.createdAt | timeago: live }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n              <img\r\n                class=\"inline-block h-6 w-6 rounded-md max-w-100-px\"\r\n                [src]=\"saloon.image\"\r\n                alt=\"\"\r\n              />\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n</div>\r\n<div class=\"flex justify-end\">\r\n  <app-modal></app-modal>\r\n</div>\r\n";
-      /***/
-    },
-
-    /***/
-    "uhhN":
-    /*!*********************************************************************!*\
-      !*** ./src/app/components/cards/card-table/card-table.component.ts ***!
-      \*********************************************************************/
-
-    /*! exports provided: CardTableComponent */
-
-    /***/
-    function uhhN(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "CardTableComponent", function () {
-        return CardTableComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_card_table_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./card-table.component.html */
-      "wMhV");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-
-      var CardTableComponent = /*#__PURE__*/function () {
-        function CardTableComponent() {
-          _classCallCheck(this, CardTableComponent);
-
-          this._color = "light";
-        }
-
-        _createClass(CardTableComponent, [{
-          key: "color",
-          get: function get() {
-            return this._color;
-          },
-          set: function set(color) {
-            this._color = color !== "light" && color !== "dark" ? "light" : color;
-          }
-        }, {
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }]);
-
-        return CardTableComponent;
-      }();
-
-      CardTableComponent.ctorParameters = function () {
-        return [];
-      };
-
-      CardTableComponent.propDecorators = {
-        color: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"]
-        }]
-      };
-      CardTableComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-card-table",
-        template: _raw_loader_card_table_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], CardTableComponent);
-      /***/
-    },
-
-    /***/
     "vWvs":
     /*!*********************************************************************!*\
       !*** ./src/app/components/dropdowns/dropdown/dropdown.component.ts ***!
@@ -4868,9 +3539,9 @@
       /* harmony import */
 
 
-      var _views_admin_manage_saloons_manage_saloons_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-      /*! ./views/admin/manage-saloons/manage-saloons.component */
-      "0uaz");
+      var _views_admin_manage_salons_manage_salons_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+      /*! ./views/admin/manage-salons/manage-salons.component */
+      "gFck");
       /* harmony import */
 
 
@@ -4880,9 +3551,9 @@
       /* harmony import */
 
 
-      var _views_create_saloon_create_saloon_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
-      /*! ./views/create-saloon/create-saloon.component */
-      "K8FB");
+      var _views_create_salon_create_salon_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+      /*! ./views/create-salon/create-salon.component */
+      "T8Xr");
       /* harmony import */
 
 
@@ -4901,8 +3572,8 @@
 
 
       var routes = [{
-        path: "create/saloon",
-        component: _views_create_saloon_create_saloon_component__WEBPACK_IMPORTED_MODULE_9__["CreateSaloonComponent"]
+        path: "create/salon",
+        component: _views_create_salon_create_salon_component__WEBPACK_IMPORTED_MODULE_9__["CreateSalonComponent"]
       }, // admin views
       {
         path: "admin",
@@ -4916,8 +3587,8 @@
           component: _views_admin_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"],
           canActivate: [_services_auth_guard__WEBPACK_IMPORTED_MODULE_5__["AuthGuard"]]
         }, {
-          path: "saloons",
-          component: _views_admin_manage_saloons_manage_saloons_component__WEBPACK_IMPORTED_MODULE_7__["ManageSaloonsComponent"],
+          path: "salons",
+          component: _views_admin_manage_salons_manage_salons_component__WEBPACK_IMPORTED_MODULE_7__["ManageSalonsComponent"],
           canActivate: [_services_auth_guard__WEBPACK_IMPORTED_MODULE_5__["AuthGuard"]]
         }, {
           path: "",
@@ -4937,15 +3608,15 @@
           pathMatch: "full"
         }]
       }, {
-        path: 'error-404',
+        path: "error-404",
         component: _views_error404_error404_component__WEBPACK_IMPORTED_MODULE_10__["Error404Component"]
       }, {
         path: "",
         redirectTo: "auth/login",
         pathMatch: "full"
       }, {
-        path: '**',
-        redirectTo: 'error-404',
+        path: "**",
+        redirectTo: "error-404",
         pathMatch: "full"
       }];
 
@@ -4957,68 +3628,6 @@
         imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
         exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
       })], AppRoutingModule);
-      /***/
-    },
-
-    /***/
-    "vwLF":
-    /*!***************************************************************************!*\
-      !*** ./src/app/components/cards/card-settings/card-settings.component.ts ***!
-      \***************************************************************************/
-
-    /*! exports provided: CardSettingsComponent */
-
-    /***/
-    function vwLF(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "CardSettingsComponent", function () {
-        return CardSettingsComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_card_settings_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./card-settings.component.html */
-      "eix7");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-
-      var CardSettingsComponent = /*#__PURE__*/function () {
-        function CardSettingsComponent() {
-          _classCallCheck(this, CardSettingsComponent);
-        }
-
-        _createClass(CardSettingsComponent, [{
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }]);
-
-        return CardSettingsComponent;
-      }();
-
-      CardSettingsComponent.ctorParameters = function () {
-        return [];
-      };
-
-      CardSettingsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-card-settings",
-        template: _raw_loader_card_settings_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], CardSettingsComponent);
       /***/
     },
 
@@ -5081,26 +3690,6 @@
         selector: "app-profile",
         template: _raw_loader_profile_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
       })], ProfileComponent);
-      /***/
-    },
-
-    /***/
-    "wMhV":
-    /*!*************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/cards/card-table/card-table.component.html ***!
-      \*************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function wMhV(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div\r\n  class=\"relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded\"\r\n  [ngClass]=\"color === 'light' ? 'bg-white' : 'bg-red-900 text-white'\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 border-0\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow flex-1\">\r\n        <h3\r\n          class=\"font-semibold text-lg\"\r\n          [ngClass]=\"color === 'light' ? 'text-blueGray-700' : 'text-white'\"\r\n        >\r\n          Card Tables\r\n        </h3>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"block w-full overflow-x-auto\">\r\n    <!-- Projects table -->\r\n    <table class=\"items-center w-full bg-transparent border-collapse\">\r\n      <thead>\r\n        <tr>\r\n          <th\r\n            class=\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Project\r\n          </th>\r\n          <th\r\n            class=\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Budget\r\n          </th>\r\n          <th\r\n            class=\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Status\r\n          </th>\r\n          <th\r\n            class=\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Users\r\n          </th>\r\n          <th\r\n            class=\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Completion\r\n          </th>\r\n          <th\r\n            class=\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left\"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          ></th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center\"\r\n          >\r\n            <img\r\n              src=\"assets/img/bootstrap.jpg\"\r\n              class=\"h-12 w-12 bg-white rounded-full border\"\r\n              alt=\"...\"\r\n            />\r\n            <span\r\n              class=\"ml-3 font-bold\"\r\n              [ngClass]=\"color === 'light' ? 'text-blueGray-600' : 'text-white'\"\r\n            >\r\n              Argon Design System\r\n            </span>\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            $2,500 USD\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-circle text-orange-500 mr-2\"></i> pending\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex\">\r\n              <img\r\n                src=\"assets/img/team-1-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-2-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-3-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-4-470x470.png\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">60%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-red-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 60%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right\"\r\n          >\r\n            <app-table-dropdown></app-table-dropdown>\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center\"\r\n          >\r\n            <img\r\n              src=\"assets/img/angular.jpg\"\r\n              class=\"h-12 w-12 bg-white rounded-full border\"\r\n              alt=\"...\"\r\n            />\r\n            <span\r\n              class=\"ml-3 font-bold\"\r\n              [ngClass]=\"color === 'light' ? 'text-blueGray-600' : 'text-white'\"\r\n            >\r\n              Angular Now UI Kit PRO\r\n            </span>\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            $1,800 USD\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-circle text-emerald-500 mr-2\"></i>\r\n            completed\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex\">\r\n              <img\r\n                src=\"assets/img/team-1-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-2-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-3-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-4-470x470.png\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">100%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-emerald-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 100%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right\"\r\n          >\r\n            <app-table-dropdown></app-table-dropdown>\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center\"\r\n          >\r\n            <img\r\n              src=\"assets/img/sketch.jpg\"\r\n              class=\"h-12 w-12 bg-white rounded-full border\"\r\n              alt=\"...\"\r\n            />\r\n            <span\r\n              class=\"ml-3 font-bold\"\r\n              [ngClass]=\"color === 'light' ? 'text-blueGray-600' : 'text-white'\"\r\n            >\r\n              Black Dashboard Sketch\r\n            </span>\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            $3,150 USD\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-circle text-red-500 mr-2\"></i> delayed\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex\">\r\n              <img\r\n                src=\"assets/img/team-1-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-2-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-3-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-4-470x470.png\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">73%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-red-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 73%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right\"\r\n          >\r\n            <app-table-dropdown></app-table-dropdown>\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center\"\r\n          >\r\n            <img\r\n              src=\"assets/img/react.jpg\"\r\n              class=\"h-12 w-12 bg-white rounded-full border\"\r\n              alt=\"...\"\r\n            />\r\n            <span\r\n              class=\"ml-3 font-bold\"\r\n              [ngClass]=\"color === 'light' ? 'text-blueGray-600' : 'text-white'\"\r\n            >\r\n              React Material Dashboard\r\n            </span>\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            $4,400 USD\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-circle text-teal-500 mr-2\"></i> on schedule\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex\">\r\n              <img\r\n                src=\"assets/img/team-1-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-2-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-3-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-4-470x470.png\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">90%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-teal-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 90%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right\"\r\n          >\r\n            <app-table-dropdown></app-table-dropdown>\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <th\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center\"\r\n          >\r\n            <img\r\n              src=\"assets/img/vue.jpg\"\r\n              class=\"h-12 w-12 bg-white rounded-full border\"\r\n              alt=\"...\"\r\n            />\r\n            <span\r\n              class=\"ml-3 font-bold\"\r\n              [ngClass]=\"color === 'light' ? 'text-blueGray-600' : 'text-white'\"\r\n            >\r\n              React Material Dashboard\r\n            </span>\r\n          </th>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            $2,200 USD\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <i class=\"fas fa-circle text-emerald-500 mr-2\"></i>\r\n            completed\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex\">\r\n              <img\r\n                src=\"assets/img/team-1-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-2-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-3-800x800.jpg\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n              <img\r\n                src=\"assets/img/team-4-470x470.png\"\r\n                alt=\"...\"\r\n                class=\"w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4\"\r\n              />\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4\"\r\n          >\r\n            <div class=\"flex items-center\">\r\n              <span class=\"mr-2\">100%</span>\r\n              <div class=\"relative w-full\">\r\n                <div\r\n                  class=\"overflow-hidden h-2 text-xs flex rounded bg-emerald-200\"\r\n                >\r\n                  <div\r\n                    style=\"width: 100%\"\r\n                    class=\"shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500\"\r\n                  ></div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </td>\r\n          <td\r\n            class=\"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right\"\r\n          >\r\n            <app-table-dropdown></app-table-dropdown>\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n</div>\r\n";
       /***/
     },
 
@@ -5204,26 +3793,6 @@
     },
 
     /***/
-    "xkbx":
-    /*!**************************************************************************************************************!*\
-      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/maps/map-example/map-example.component.html ***!
-      \**************************************************************************************************************/
-
-    /*! exports provided: default */
-
-    /***/
-    function xkbx(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony default export */
-
-
-      __webpack_exports__["default"] = "<div\r\n  id=\"map-canvas\"\r\n  class=\"relative w-full rounded h-600-px\"\r\n  data-lat=\"40.748817\"\r\n  data-lng=\"-73.985428\"\r\n></div>\r\n";
-      /***/
-    },
-
-    /***/
     "xlab":
     /*!***************************************************************************!*\
       !*** ./src/app/components/footers/footer-small/footer-small.component.ts ***!
@@ -5298,68 +3867,6 @@
         selector: "app-footer-small",
         template: _raw_loader_footer_small_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
       })], FooterSmallComponent);
-      /***/
-    },
-
-    /***/
-    "xud4":
-    /*!***************************************************************************************!*\
-      !*** ./src/app/components/cards/card-social-traffic/card-social-traffic.component.ts ***!
-      \***************************************************************************************/
-
-    /*! exports provided: CardSocialTrafficComponent */
-
-    /***/
-    function xud4(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "CardSocialTrafficComponent", function () {
-        return CardSocialTrafficComponent;
-      });
-      /* harmony import */
-
-
-      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-      /*! tslib */
-      "mrSG");
-      /* harmony import */
-
-
-      var _raw_loader_card_social_traffic_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! raw-loader!./card-social-traffic.component.html */
-      "YpXG");
-      /* harmony import */
-
-
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/core */
-      "fXoL");
-
-      var CardSocialTrafficComponent = /*#__PURE__*/function () {
-        function CardSocialTrafficComponent() {
-          _classCallCheck(this, CardSocialTrafficComponent);
-        }
-
-        _createClass(CardSocialTrafficComponent, [{
-          key: "ngOnInit",
-          value: function ngOnInit() {}
-        }]);
-
-        return CardSocialTrafficComponent;
-      }();
-
-      CardSocialTrafficComponent.ctorParameters = function () {
-        return [];
-      };
-
-      CardSocialTrafficComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-card-social-traffic",
-        template: _raw_loader_card_social_traffic_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      })], CardSocialTrafficComponent);
       /***/
     },
 
