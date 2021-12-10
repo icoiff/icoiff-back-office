@@ -9,15 +9,11 @@ import { AuthGuard } from "./services/auth.guard";
 // admin views
 import { DashboardComponent } from "./views/admin/dashboard/dashboard.component";
 import { ManageSalonsComponent } from "./views/admin/manage-salons/manage-salons.component";
-import { SettingsComponent } from "./views/admin/settings/settings.component";
 
 // auth views
 import { LoginComponent } from "./views/auth/login/login.component";
 import { CreateSalonComponent } from "./views/create-salon/create-salon.component";
 import { Error404Component } from "./views/error404/error404.component";
-
-// no layouts views
-import { ProfileComponent } from "./views/profile/profile.component";
 
 const routes: Routes = [
   {
@@ -29,11 +25,6 @@ const routes: Routes = [
     path: "admin",
     component: AdminComponent,
     children: [
-      {
-        path: "profile",
-        component: ProfileComponent,
-        canActivate: [AuthGuard],
-      },
       {
         path: "clients",
         component: DashboardComponent,

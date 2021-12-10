@@ -43,28 +43,6 @@
     [ngClass]="dropdownPopoverShow ? 'block' : 'hidden'"
   >
     <a
-      [routerLink]="['/admin/profile']"
-      routerLinkActive
-      class="
-        text-sm
-        py-2
-        px-4
-        font-normal
-        block
-        w-full
-        whitespace-nowrap
-        bg-transparent
-        text-blueGray-700
-        cursor-pointer
-      "
-    >
-    <i
-    class="fas fa-id-badge mr-2 text-sm"
-    ></i>
-    Profile
-    </a>
-    <div class="h-0 my-2 border border-solid border-blueGray-100"></div>
-    <a
       class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700 cursor-pointer"
       (click)= "logout()"
     >

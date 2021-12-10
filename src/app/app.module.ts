@@ -19,9 +19,7 @@ import { TablesComponent } from "./views/admin/tables/tables.component";
 import { LoginComponent } from "./views/auth/login/login.component";
 
 // no layouts views
-import { IndexComponent } from "./views/index/index.component";
 import { LandingComponent } from "./views/landing/landing.component";
-import { ProfileComponent } from "./views/profile/profile.component";
 
 // components for views and layouts
 
@@ -74,9 +72,7 @@ import { Error404Component } from "./views/error404/error404.component";
     SettingsComponent,
     TablesComponent,
     LoginComponent,
-    IndexComponent,
     LandingComponent,
-    ProfileComponent,
     ManageSalonsComponent,
     TableSalonsComponent,
     TableClientsComponent,
