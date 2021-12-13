@@ -196,40 +196,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "1DoU":
-/*!***************************************************************!*\
-  !*** ./src/app/components/footers/footer/footer.component.ts ***!
-  \***************************************************************/
-/*! exports provided: FooterComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
-/* harmony import */ var _raw_loader_footer_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./footer.component.html */ "CzbP");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
-
-
-let FooterComponent = class FooterComponent {
-    constructor() {
-        this.date = new Date().getFullYear();
-    }
-    ngOnInit() { }
-};
-FooterComponent.ctorParameters = () => [];
-FooterComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-footer",
-        template: _raw_loader_footer_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-    })
-], FooterComponent);
-
-
-
-/***/ }),
-
 /***/ "1Xo0":
 /*!****************************************************!*\
   !*** ./src/app/services/mailer-service.service.ts ***!
@@ -282,43 +248,6 @@ MailerServiceService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])(
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<!-- This example requires Tailwind CSS v2.0+ -->\r\n<div class=\"relative inline-block text-left\">\r\n  <div>\r\n    <button\r\n      type=\"button\"\r\n      class=\"\r\n        inline-flex\r\n        justify-center\r\n        w-full\r\n        rounded-md\r\n        border border-gray-300\r\n        shadow-sm\r\n        px-4\r\n        py-2\r\n        bg-white\r\n        text-sm\r\n        font-medium\r\n        text-gray-700\r\n        hover:bg-gray-50\r\n        focus:outline-none\r\n        focus:ring-2\r\n        focus:ring-offset-2\r\n        focus:ring-offset-gray-100\r\n        focus:ring-indigo-500\r\n      \"\r\n      id=\"menu-button\"\r\n      aria-expanded=\"true\"\r\n      aria-haspopup=\"true\"\r\n    >\r\n      Ajouter un Salon\r\n    </button>\r\n  </div>\r\n\r\n  <div\r\n    class=\"\r\n      origin-top-right\r\n      absolute\r\n      right-0\r\n      mt-2\r\n      w-56\r\n      rounded-md\r\n      shadow-lg\r\n      bg-white\r\n      ring-1 ring-black ring-opacity-5\r\n      divide-y divide-gray-100\r\n      focus:outline-none\r\n    \"\r\n    role=\"menu\"\r\n    aria-orientation=\"vertical\"\r\n    aria-labelledby=\"menu-button\"\r\n    tabindex=\"-1\"\r\n  >\r\n    <div class=\"py-1\" role=\"none\">\r\n      <!-- Active: \"bg-gray-100 text-gray-900\", Not Active: \"text-gray-700\" -->\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-0\"\r\n        >Modifier</a\r\n      >\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-1\"\r\n        >Dupliquer</a\r\n      >\r\n    </div>\r\n    <div class=\"py-1\" role=\"none\">\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-2\"\r\n        >Archive</a\r\n      >\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-3\"\r\n        >Déplacer</a\r\n      >\r\n    </div>\r\n    <div class=\"py-1\" role=\"none\">\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-4\"\r\n        >Partager</a\r\n      >\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-5\"\r\n        >Ajouter aux favoris</a\r\n      >\r\n    </div>\r\n    <div class=\"py-1\" role=\"none\">\r\n      <a\r\n        href=\"#\"\r\n        class=\"text-gray-700 block px-4 py-2 text-sm\"\r\n        role=\"menuitem\"\r\n        tabindex=\"-1\"\r\n        id=\"menu-item-6\"\r\n        >Supprimer</a\r\n      >\r\n    </div>\r\n  </div>\r\n</div>\r\n");
-
-/***/ }),
-
-/***/ "4b2p":
-/*!***************************************************************************!*\
-  !*** ./src/app/components/navbars/index-navbar/index-navbar.component.ts ***!
-  \***************************************************************************/
-/*! exports provided: IndexNavbarComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndexNavbarComponent", function() { return IndexNavbarComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
-/* harmony import */ var _raw_loader_index_navbar_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./index-navbar.component.html */ "RORk");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
-
-
-let IndexNavbarComponent = class IndexNavbarComponent {
-    constructor() {
-        this.navbarOpen = false;
-    }
-    ngOnInit() { }
-    setNavbarOpen() {
-        this.navbarOpen = !this.navbarOpen;
-    }
-};
-IndexNavbarComponent.ctorParameters = () => [];
-IndexNavbarComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-index-navbar",
-        template: _raw_loader_index_navbar_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-    })
-], IndexNavbarComponent);
-
-
 
 /***/ }),
 
@@ -429,19 +358,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "AN84":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/views/landing/landing.component.html ***!
-  \********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-auth-navbar></app-auth-navbar>\r\n<main>\r\n  <div\r\n    class=\"relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75\"\r\n  >\r\n    <div\r\n      class=\"absolute top-0 w-full h-full bg-center bg-cover\"\r\n      style=\"\r\n        background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80');\r\n      \"\r\n    >\r\n      <span\r\n        id=\"blackOverlay\"\r\n        class=\"w-full h-full absolute opacity-75 bg-black\"\r\n      ></span>\r\n    </div>\r\n    <div class=\"container relative mx-auto\">\r\n      <div class=\"items-center flex flex-wrap\">\r\n        <div class=\"w-full lg:w-6/12 px-4 ml-auto mr-auto text-center\">\r\n          <div class=\"pr-12\">\r\n            <h1 class=\"text-white font-semibold text-5xl\">\r\n              Your story starts with us.\r\n            </h1>\r\n            <p class=\"mt-4 text-lg text-blueGray-200\">\r\n              This is a simple example of a Landing Page you can build using\r\n              Notus Angular. It features multiple CSS components based on the\r\n              Tailwind CSS design system.\r\n            </p>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div\r\n      class=\"top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px\"\r\n      style=\"transform: translateZ(0)\"\r\n    >\r\n      <svg\r\n        class=\"absolute bottom-0 overflow-hidden\"\r\n        xmlns=\"http://www.w3.org/2000/svg\"\r\n        preserveAspectRatio=\"none\"\r\n        version=\"1.1\"\r\n        viewBox=\"0 0 2560 100\"\r\n        x=\"0\"\r\n        y=\"0\"\r\n      >\r\n        <polygon\r\n          class=\"text-blueGray-200 fill-current\"\r\n          points=\"2560 0 2560 100 0 100\"\r\n        ></polygon>\r\n      </svg>\r\n    </div>\r\n  </div>\r\n\r\n  <section class=\"pb-20 bg-blueGray-200 -mt-24\">\r\n    <div class=\"container mx-auto px-4\">\r\n      <div class=\"flex flex-wrap\">\r\n        <div class=\"lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center\">\r\n          <div\r\n            class=\"relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg\"\r\n          >\r\n            <div class=\"px-4 py-5 flex-auto\">\r\n              <div\r\n                class=\"text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400\"\r\n              >\r\n                <i class=\"fas fa-award\"></i>\r\n              </div>\r\n              <h6 class=\"text-xl font-semibold\">Awarded Agency</h6>\r\n              <p class=\"mt-2 mb-4 text-blueGray-500\">\r\n                Divide details about your product or agency work into parts. A\r\n                paragraph describing a feature will be enough.\r\n              </p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"w-full md:w-4/12 px-4 text-center\">\r\n          <div\r\n            class=\"relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg\"\r\n          >\r\n            <div class=\"px-4 py-5 flex-auto\">\r\n              <div\r\n                class=\"text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400\"\r\n              >\r\n                <i class=\"fas fa-retweet\"></i>\r\n              </div>\r\n              <h6 class=\"text-xl font-semibold\">Free Revisions</h6>\r\n              <p class=\"mt-2 mb-4 text-blueGray-500\">\r\n                Keep you user engaged by providing meaningful information.\r\n                Remember that by this time, the user is curious.\r\n              </p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"pt-6 w-full md:w-4/12 px-4 text-center\">\r\n          <div\r\n            class=\"relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg\"\r\n          >\r\n            <div class=\"px-4 py-5 flex-auto\">\r\n              <div\r\n                class=\"text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400\"\r\n              >\r\n                <i class=\"fas fa-fingerprint\"></i>\r\n              </div>\r\n              <h6 class=\"text-xl font-semibold\">Verified Company</h6>\r\n              <p class=\"mt-2 mb-4 text-blueGray-500\">\r\n                Write a few lines about each one. A paragraph describing a\r\n                feature will be enough. Keep you user engaged!\r\n              </p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"flex flex-wrap items-center mt-32\">\r\n        <div class=\"w-full md:w-5/12 px-4 mr-auto ml-auto\">\r\n          <div\r\n            class=\"text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white\"\r\n          >\r\n            <i class=\"fas fa-user-friends text-xl\"></i>\r\n          </div>\r\n          <h3 class=\"text-3xl mb-2 font-semibold leading-normal\">\r\n            Working with us is a pleasure\r\n          </h3>\r\n          <p\r\n            class=\"text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600\"\r\n          >\r\n            Don't let your uses guess by attaching tooltips and popoves to any\r\n            element. Just make sure you enable them first via JavaScript.\r\n          </p>\r\n          <p\r\n            class=\"text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600\"\r\n          >\r\n            The kit comes with three pre-built pages to help you get started\r\n            faster. You can change the text and images and you're good to go.\r\n            Just make sure you enable them first via JavaScript.\r\n          </p>\r\n          <a [routerLink]=\"['/']\" class=\"font-bold text-blueGray-700 mt-8\">\r\n            Check Notus Angular!\r\n          </a>\r\n        </div>\r\n\r\n        <div class=\"w-full md:w-4/12 px-4 mr-auto ml-auto\">\r\n          <div\r\n            class=\"relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-600\"\r\n          >\r\n            <img\r\n              alt=\"...\"\r\n              src=\"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80\"\r\n              class=\"w-full align-middle rounded-t-lg\"\r\n            />\r\n            <blockquote class=\"relative p-8 mb-4\">\r\n              <svg\r\n                preserveAspectRatio=\"none\"\r\n                xmlns=\"http://www.w3.org/2000/svg\"\r\n                viewBox=\"0 0 583 95\"\r\n                class=\"absolute left-0 w-full block h-95-px -top-94-px\"\r\n              >\r\n                <polygon\r\n                  points=\"-30,95 583,95 583,65\"\r\n                  class=\"text-red-600 fill-current\"\r\n                ></polygon>\r\n              </svg>\r\n              <h4 class=\"text-xl font-bold text-white\">Top Notch Services</h4>\r\n              <p class=\"text-md font-light mt-2 text-white\">\r\n                The Arctic Ocean freezes every winter and much of the sea-ice\r\n                then thaws every summer, and that process will continue whatever\r\n                happens.\r\n              </p>\r\n            </blockquote>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </section>\r\n\r\n  <section class=\"relative py-20\">\r\n    <div\r\n      class=\"bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20\"\r\n      style=\"transform: translateZ(0)\"\r\n    >\r\n      <svg\r\n        class=\"absolute bottom-0 overflow-hidden\"\r\n        xmlns=\"http://www.w3.org/2000/svg\"\r\n        preserveAspectRatio=\"none\"\r\n        version=\"1.1\"\r\n        viewBox=\"0 0 2560 100\"\r\n        x=\"0\"\r\n        y=\"0\"\r\n      >\r\n        <polygon\r\n          class=\"text-white fill-current\"\r\n          points=\"2560 0 2560 100 0 100\"\r\n        ></polygon>\r\n      </svg>\r\n    </div>\r\n\r\n    <div class=\"container mx-auto px-4\">\r\n      <div class=\"items-center flex flex-wrap\">\r\n        <div class=\"w-full md:w-4/12 ml-auto mr-auto px-4\">\r\n          <img\r\n            alt=\"...\"\r\n            class=\"max-w-full rounded-lg shadow-lg\"\r\n            src=\"https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80\"\r\n          />\r\n        </div>\r\n        <div class=\"w-full md:w-5/12 ml-auto mr-auto px-4\">\r\n          <div class=\"md:pr-12\">\r\n            <div\r\n              class=\"text-red-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-red-300\"\r\n            >\r\n              <i class=\"fas fa-rocket text-xl\"></i>\r\n            </div>\r\n            <h3 class=\"text-3xl font-semibold\">A growing company</h3>\r\n            <p class=\"mt-4 text-lg leading-relaxed text-blueGray-500\">\r\n              The extension comes with three pre-built pages to help you get\r\n              started faster. You can change the text and images and you're good\r\n              to go.\r\n            </p>\r\n            <ul class=\"list-none mt-6\">\r\n              <li class=\"py-2\">\r\n                <div class=\"flex items-center\">\r\n                  <div>\r\n                    <span\r\n                      class=\"text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3\"\r\n                    >\r\n                      <i class=\"fas fa-fingerprint\"></i>\r\n                    </span>\r\n                  </div>\r\n                  <div>\r\n                    <h4 class=\"text-blueGray-500\">\r\n                      Carefully crafted components\r\n                    </h4>\r\n                  </div>\r\n                </div>\r\n              </li>\r\n              <li class=\"py-2\">\r\n                <div class=\"flex items-center\">\r\n                  <div>\r\n                    <span\r\n                      class=\"text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3\"\r\n                    >\r\n                      <i class=\"fab fa-html5\"></i>\r\n                    </span>\r\n                  </div>\r\n                  <div>\r\n                    <h4 class=\"text-blueGray-500\">Amazing page examples</h4>\r\n                  </div>\r\n                </div>\r\n              </li>\r\n              <li class=\"py-2\">\r\n                <div class=\"flex items-center\">\r\n                  <div>\r\n                    <span\r\n                      class=\"text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3\"\r\n                    >\r\n                      <i class=\"far fa-paper-plane\"></i>\r\n                    </span>\r\n                  </div>\r\n                  <div>\r\n                    <h4 class=\"text-blueGray-500\">Dynamic components</h4>\r\n                  </div>\r\n                </div>\r\n              </li>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </section>\r\n\r\n  <section class=\"pt-20 pb-48\">\r\n    <div class=\"container mx-auto px-4\">\r\n      <div class=\"flex flex-wrap justify-center text-center mb-24\">\r\n        <div class=\"w-full lg:w-6/12 px-4\">\r\n          <h2 class=\"text-4xl font-semibold\">Here are our heroes</h2>\r\n          <p class=\"text-lg leading-relaxed m-4 text-blueGray-500\">\r\n            According to the National Oceanic and Atmospheric Administration,\r\n            Ted, Scambos, NSIDClead scentist, puts the potentially record\r\n            maximum.\r\n          </p>\r\n        </div>\r\n      </div>\r\n      <div class=\"flex flex-wrap\">\r\n        <div class=\"w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4\">\r\n          <div class=\"px-6\">\r\n            <img\r\n              alt=\"...\"\r\n              src=\"assets/img/team-1-800x800.jpg\"\r\n              class=\"shadow-lg rounded-full mx-auto max-w-120-px\"\r\n            />\r\n            <div class=\"pt-6 text-center\">\r\n              <h5 class=\"text-xl font-bold\">Ryan Tompson</h5>\r\n              <p class=\"mt-1 text-sm text-blueGray-400 uppercase font-semibold\">\r\n                Web Developer\r\n              </p>\r\n              <div class=\"mt-6\">\r\n                <button\r\n                  class=\"bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-twitter\"></i>\r\n                </button>\r\n                <button\r\n                  class=\"bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-facebook-f\"></i>\r\n                </button>\r\n                <button\r\n                  class=\"bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-dribbble\"></i>\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4\">\r\n          <div class=\"px-6\">\r\n            <img\r\n              alt=\"...\"\r\n              src=\"assets/img/team-2-800x800.jpg\"\r\n              class=\"shadow-lg rounded-full mx-auto max-w-120-px\"\r\n            />\r\n            <div class=\"pt-6 text-center\">\r\n              <h5 class=\"text-xl font-bold\">Romina Hadid</h5>\r\n              <p class=\"mt-1 text-sm text-blueGray-400 uppercase font-semibold\">\r\n                Marketing Specialist\r\n              </p>\r\n              <div class=\"mt-6\">\r\n                <button\r\n                  class=\"bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-google\"></i>\r\n                </button>\r\n                <button\r\n                  class=\"bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-facebook-f\"></i>\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4\">\r\n          <div class=\"px-6\">\r\n            <img\r\n              alt=\"...\"\r\n              src=\"assets/img/team-3-800x800.jpg\"\r\n              class=\"shadow-lg rounded-full mx-auto max-w-120-px\"\r\n            />\r\n            <div class=\"pt-6 text-center\">\r\n              <h5 class=\"text-xl font-bold\">Alexa Smith</h5>\r\n              <p class=\"mt-1 text-sm text-blueGray-400 uppercase font-semibold\">\r\n                UI/UX Designer\r\n              </p>\r\n              <div class=\"mt-6\">\r\n                <button\r\n                  class=\"bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-google\"></i>\r\n                </button>\r\n                <button\r\n                  class=\"bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-twitter\"></i>\r\n                </button>\r\n                <button\r\n                  class=\"bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-instagram\"></i>\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4\">\r\n          <div class=\"px-6\">\r\n            <img\r\n              alt=\"...\"\r\n              src=\"assets/img/team-4-470x470.png\"\r\n              class=\"shadow-lg rounded-full mx-auto max-w-120-px\"\r\n            />\r\n            <div class=\"pt-6 text-center\">\r\n              <h5 class=\"text-xl font-bold\">Jenna Kardi</h5>\r\n              <p class=\"mt-1 text-sm text-blueGray-400 uppercase font-semibold\">\r\n                Founder and CEO\r\n              </p>\r\n              <div class=\"mt-6\">\r\n                <button\r\n                  class=\"bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-dribbble\"></i>\r\n                </button>\r\n                <button\r\n                  class=\"bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-google\"></i>\r\n                </button>\r\n                <button\r\n                  class=\"bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-twitter\"></i>\r\n                </button>\r\n                <button\r\n                  class=\"bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1\"\r\n                  type=\"button\"\r\n                >\r\n                  <i class=\"fab fa-instagram\"></i>\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </section>\r\n\r\n  <section class=\"pb-20 relative block bg-blueGray-800\">\r\n    <div\r\n      class=\"bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20\"\r\n      style=\"transform: translateZ(0)\"\r\n    >\r\n      <svg\r\n        class=\"absolute bottom-0 overflow-hidden\"\r\n        xmlns=\"http://www.w3.org/2000/svg\"\r\n        preserveAspectRatio=\"none\"\r\n        version=\"1.1\"\r\n        viewBox=\"0 0 2560 100\"\r\n        x=\"0\"\r\n        y=\"0\"\r\n      >\r\n        <polygon\r\n          class=\"text-blueGray-800 fill-current\"\r\n          points=\"2560 0 2560 100 0 100\"\r\n        ></polygon>\r\n      </svg>\r\n    </div>\r\n\r\n    <div class=\"container mx-auto px-4 lg:pt-24 lg:pb-64\">\r\n      <div class=\"flex flex-wrap text-center justify-center\">\r\n        <div class=\"w-full lg:w-6/12 px-4\">\r\n          <h2 class=\"text-4xl font-semibold text-white\">Build something</h2>\r\n          <p class=\"text-lg leading-relaxed mt-4 mb-4 text-blueGray-400\">\r\n            Put the potentially record low maximum sea ice extent tihs year down\r\n            to low ice. According to the National Oceanic and Atmospheric\r\n            Administration, Ted, Scambos.\r\n          </p>\r\n        </div>\r\n      </div>\r\n      <div class=\"flex flex-wrap mt-12 justify-center\">\r\n        <div class=\"w-full lg:w-3/12 px-4 text-center\">\r\n          <div\r\n            class=\"text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center\"\r\n          >\r\n            <i class=\"fas fa-medal text-xl\"></i>\r\n          </div>\r\n          <h6 class=\"text-xl mt-5 font-semibold text-white\">\r\n            Excelent Services\r\n          </h6>\r\n          <p class=\"mt-2 mb-4 text-blueGray-400\">\r\n            Some quick example text to build on the card title and make up the\r\n            bulk of the card's content.\r\n          </p>\r\n        </div>\r\n        <div class=\"w-full lg:w-3/12 px-4 text-center\">\r\n          <div\r\n            class=\"text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center\"\r\n          >\r\n            <i class=\"fas fa-poll text-xl\"></i>\r\n          </div>\r\n          <h5 class=\"text-xl mt-5 font-semibold text-white\">\r\n            Grow your market\r\n          </h5>\r\n          <p class=\"mt-2 mb-4 text-blueGray-400\">\r\n            Some quick example text to build on the card title and make up the\r\n            bulk of the card's content.\r\n          </p>\r\n        </div>\r\n        <div class=\"w-full lg:w-3/12 px-4 text-center\">\r\n          <div\r\n            class=\"text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center\"\r\n          >\r\n            <i class=\"fas fa-lightbulb text-xl\"></i>\r\n          </div>\r\n          <h5 class=\"text-xl mt-5 font-semibold text-white\">Launch time</h5>\r\n          <p class=\"mt-2 mb-4 text-blueGray-400\">\r\n            Some quick example text to build on the card title and make up the\r\n            bulk of the card's content.\r\n          </p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </section>\r\n  <section class=\"relative block py-24 lg:pt-0 bg-blueGray-800\">\r\n    <div class=\"container mx-auto px-4\">\r\n      <div class=\"flex flex-wrap justify-center lg:-mt-64 -mt-48\">\r\n        <div class=\"w-full lg:w-6/12 px-4\">\r\n          <div\r\n            class=\"relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200\"\r\n          >\r\n            <div class=\"flex-auto p-5 lg:p-10\">\r\n              <h4 class=\"text-2xl font-semibold\">Want to work with us?</h4>\r\n              <p class=\"leading-relaxed mt-1 mb-4 text-blueGray-500\">\r\n                Complete this form and we will get back to you in 24 hours.\r\n              </p>\r\n              <div class=\"relative w-full mb-3 mt-8\">\r\n                <label\r\n                  class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n                  htmlFor=\"full-name\"\r\n                >\r\n                  Full Name\r\n                </label>\r\n                <input\r\n                  type=\"text\"\r\n                  class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n                  placeholder=\"Full Name\"\r\n                />\r\n              </div>\r\n\r\n              <div class=\"relative w-full mb-3\">\r\n                <label\r\n                  class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n                  htmlFor=\"email\"\r\n                >\r\n                  Email\r\n                </label>\r\n                <input\r\n                  type=\"email\"\r\n                  class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150\"\r\n                  placeholder=\"Email\"\r\n                />\r\n              </div>\r\n\r\n              <div class=\"relative w-full mb-3\">\r\n                <label\r\n                  class=\"block uppercase text-blueGray-600 text-xs font-bold mb-2\"\r\n                  htmlFor=\"message\"\r\n                >\r\n                  Message\r\n                </label>\r\n                <textarea\r\n                  rows=\"4\"\r\n                  cols=\"80\"\r\n                  class=\"border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full\"\r\n                  placeholder=\"Type a message...\"\r\n                ></textarea>\r\n              </div>\r\n              <div class=\"text-center mt-6\">\r\n                <button\r\n                  class=\"bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150\"\r\n                  type=\"button\"\r\n                >\r\n                  Send Message\r\n                </button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </section>\r\n</main>\r\n<app-footer></app-footer>\r\n");
-
-/***/ }),
-
 /***/ "AvFx":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/table-salons/table-salons.component.html ***!
@@ -451,7 +367,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div\r\n  class=\"\r\n    relative\r\n    flex flex-col\r\n    min-w-0\r\n    break-words\r\n    w-full\r\n    mb-6\r\n    shadow-lg\r\n    rounded\r\n  \"\r\n  [ngClass]=\"color === 'light' ? 'bg-white' : 'bg-red-900 text-white'\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 border-0\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow justify-between\">\r\n        <h3\r\n          class=\"font-semibold text-lg\"\r\n          [ngClass]=\"color === 'light' ? 'text-blueGray-700' : 'text-white'\"\r\n        >\r\n          Salons\r\n        </h3>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"block w-full overflow-x-auto\">\r\n    <!-- Projects table -->\r\n    <table class=\"items-center w-full bg-transparent border-collapse\">\r\n      <thead>\r\n        <tr>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            ID\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Nom\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Managers\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Coiffeurs\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Formules\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Date de création\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Image\r\n          </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr *ngFor=\"let salon of salons; let i = index\" [attr.data-index]=\"i\">\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ i }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ salon.name }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <ul *ngFor=\"let manager of salon.managers\">\r\n              <li>{{ manager.first_name }} {{ manager.last_name }}</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <ul *ngFor=\"let hairdresser of salon.hairdressers\">\r\n              <li>{{ hairdresser.first_name }} {{ hairdresser.last_name }}</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n            \"\r\n          >\r\n            <ul class=\"list-disc\" *ngFor=\"let formula of salon.formulas\">\r\n              <li>{{ formula.formula.name }} | {{ formula.price }} DT</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ salon.createdAt | timeago: live }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <img\r\n              class=\"inline-block h-6 w-6 rounded-md max-w-100-px\"\r\n              [src]=\"salon.image\"\r\n              alt=\"\"\r\n            />\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n</div>\r\n<div class=\"flex justify-end\">\r\n  <app-modal></app-modal>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div\r\n  class=\"\r\n    relative\r\n    flex flex-col\r\n    min-w-0\r\n    break-words\r\n    w-full\r\n    mb-6\r\n    shadow-lg\r\n    rounded\r\n  \"\r\n  [ngClass]=\"color === 'light' ? 'bg-white' : 'bg-red-900 text-white'\"\r\n>\r\n  <div class=\"rounded-t mb-0 px-4 py-3 border-0\">\r\n    <div class=\"flex flex-wrap items-center\">\r\n      <div class=\"relative w-full px-4 max-w-full flex-grow justify-between\">\r\n        <h3\r\n          class=\"font-semibold text-lg\"\r\n          [ngClass]=\"color === 'light' ? 'text-blueGray-700' : 'text-white'\"\r\n        >\r\n          Salons\r\n        </h3>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"block w-full overflow-x-auto\">\r\n    <!-- Projects table -->\r\n    <table class=\"items-center w-full bg-transparent border-collapse\">\r\n      <thead>\r\n        <tr>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Image\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Nom\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Managers\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Coiffeurs\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Formules\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-left\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Date de création\r\n          </th>\r\n          <th\r\n            class=\"\r\n              px-6\r\n              align-middle\r\n              border border-solid\r\n              py-3\r\n              text-xs\r\n              uppercase\r\n              border-l-0 border-r-0\r\n              whitespace-nowrap\r\n              font-semibold\r\n              text-center\r\n            \"\r\n            [ngClass]=\"\r\n              color === 'light'\r\n                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'\r\n                : 'bg-red-800 text-red-300 border-red-700'\r\n            \"\r\n          >\r\n            Actions\r\n          </th>\r\n        </tr>\r\n      </thead>\r\n      <tbody>\r\n        <tr *ngFor=\"let salon of salons; let i = index\" [attr.data-index]=\"i\">\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <img\r\n              class=\"inline-block h-6 w-6 rounded-md max-w-100-px\"\r\n              [src]=\"salon.image\"\r\n              alt=\"\"\r\n            />\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ salon.name }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <ul *ngFor=\"let manager of salon.managers\">\r\n              <li>{{ manager.first_name }} {{ manager.last_name }}</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            <ul *ngFor=\"let hairdresser of salon.hairdressers\">\r\n              <li>{{ hairdresser.first_name }} {{ hairdresser.last_name }}</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n            \"\r\n          >\r\n            <ul class=\"list-disc\" *ngFor=\"let formula of salon.formulas\">\r\n              <li>{{ formula.formula.name }} | {{ formula.price }} DT</li>\r\n            </ul>\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n            \"\r\n          >\r\n            {{ salon.createdAt | timeago: live }}\r\n          </td>\r\n          <td\r\n            class=\"\r\n              border-t-0\r\n              px-6\r\n              align-middle\r\n              border-l-0 border-r-0\r\n              text-xs\r\n              whitespace-nowrap\r\n              p-4\r\n              text-center\r\n            \"\r\n          >\r\n            <button\r\n              class=\"\r\n                bg-blueGray-500\r\n                hover:bg-blueGray-700\r\n                text-white\r\n                py-1\r\n                px-2\r\n                rounded-l\r\n              \"\r\n            >\r\n              <i class=\"far fa-edit px-2 text-sm\"></i>\r\n            </button>\r\n            <button\r\n              *ngIf=\"salon.isActive\"\r\n              (click)=\"toggleActivation(salon)\"\r\n              class=\"bg-red-500 hover:bg-red-700 text-white py-1 px-2 rounded-r\"\r\n            >\r\n              <i class=\"far fa-trash-alt px-2 text-sm\"></i>\r\n            </button>\r\n\r\n            <button\r\n              *ngIf=\"!salon.isActive\"\r\n              (click)=\"toggleActivation(salon)\"\r\n              class=\"\r\n                bg-green-500\r\n                hover:bg-green-700\r\n                text-white\r\n                py-1\r\n                px-2\r\n                rounded-r\r\n              \"\r\n            >\r\n              <i class=\"far fa-check-square px-2 text-sm\"></i>\r\n            </button>\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n  </div>\r\n</div>\r\n<div class=\"flex justify-end\">\r\n  <app-modal></app-modal>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -469,7 +385,9 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 const environment = {
-    production: false,
+    // production: false,
+    // apiUrl: "http://localhost:3030",
+    production: true,
     apiUrl: "https://api.icoiff.com",
 };
 /*
@@ -481,45 +399,6 @@ const environment = {
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
 
-
-/***/ }),
-
-/***/ "CzbP":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/footers/footer/footer.component.html ***!
-  \*******************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"relative bg-blueGray-200 pt-8 pb-6\">\r\n  <div\r\n    class=\"bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20\"\r\n    style=\"transform: translateZ(0)\"\r\n  >\r\n    <svg\r\n      class=\"absolute bottom-0 overflow-hidden\"\r\n      xmlns=\"http://www.w3.org/2000/svg\"\r\n      preserveAspectRatio=\"none\"\r\n      version=\"1.1\"\r\n      viewBox=\"0 0 2560 100\"\r\n      x=\"0\"\r\n      y=\"0\"\r\n    >\r\n      <polygon\r\n        class=\"text-blueGray-200 fill-current\"\r\n        points=\"2560 0 2560 100 0 100\"\r\n      ></polygon>\r\n    </svg>\r\n  </div>\r\n  <div class=\"container mx-auto px-4\">\r\n    <div class=\"flex flex-wrap text-center lg:text-left\">\r\n      <div class=\"w-full lg:w-6/12 px-4\">\r\n        <h4 class=\"text-3xl font-semibold\">Let's keep in touch!</h4>\r\n        <h5 class=\"text-lg mt-0 mb-2 text-blueGray-600\">\r\n          Find us on any of these platforms, we respond 1-2 business days.\r\n        </h5>\r\n        <div class=\"mt-6 lg:mb-0 mb-6\">\r\n          <button\r\n            class=\"bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2\"\r\n            type=\"button\"\r\n          >\r\n            <i class=\"fab fa-twitter\"></i>\r\n          </button>\r\n          <button\r\n            class=\"bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2\"\r\n            type=\"button\"\r\n          >\r\n            <i class=\"fab fa-facebook-square\"></i>\r\n          </button>\r\n          <button\r\n            class=\"bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2\"\r\n            type=\"button\"\r\n          >\r\n            <i class=\"fab fa-dribbble\"></i>\r\n          </button>\r\n          <button\r\n            class=\"bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2\"\r\n            type=\"button\"\r\n          >\r\n            <i class=\"fab fa-github\"></i>\r\n          </button>\r\n        </div>\r\n      </div>\r\n      <div class=\"w-full lg:w-6/12 px-4\">\r\n        <div class=\"flex flex-wrap items-top mb-6\">\r\n          <div class=\"w-full lg:w-4/12 px-4 ml-auto\">\r\n            <span\r\n              class=\"block uppercase text-blueGray-500 text-sm font-semibold mb-2\"\r\n            >\r\n              Useful Links\r\n            </span>\r\n            <ul class=\"list-unstyled\">\r\n              <li>\r\n                <a\r\n                  class=\"text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm\"\r\n                  href=\"https://www.creative-tim.com/presentation?ref=na-footer\"\r\n                >\r\n                  About Us\r\n                </a>\r\n              </li>\r\n              <li>\r\n                <a\r\n                  class=\"text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm\"\r\n                  href=\"https://blog.creative-tim.com?ref=na-footer\"\r\n                >\r\n                  Blog\r\n                </a>\r\n              </li>\r\n              <li>\r\n                <a\r\n                  class=\"text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm\"\r\n                  href=\"https://www.github.com/creativetimofficial?ref=na-footer\"\r\n                >\r\n                  Github\r\n                </a>\r\n              </li>\r\n              <li>\r\n                <a\r\n                  class=\"text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm\"\r\n                  href=\"https://www.creative-tim.com/bootstrap-themes/free?ref=na-footer\"\r\n                >\r\n                  Free Products\r\n                </a>\r\n              </li>\r\n            </ul>\r\n          </div>\r\n          <div class=\"w-full lg:w-4/12 px-4\">\r\n            <span\r\n              class=\"block uppercase text-blueGray-500 text-sm font-semibold mb-2\"\r\n            >\r\n              Other Resources\r\n            </span>\r\n            <ul class=\"list-unstyled\">\r\n              <li>\r\n                <a\r\n                  class=\"text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm\"\r\n                  href=\"https://github.com/creativetimofficial/notus-angular/blob/main/LICENSE.md?ref=creativetim\"\r\n                >\r\n                  MIT License\r\n                </a>\r\n              </li>\r\n              <li>\r\n                <a\r\n                  class=\"text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm\"\r\n                  href=\"https://creative-tim.com/terms?ref=na-footer\"\r\n                >\r\n                  Terms & Conditions\r\n                </a>\r\n              </li>\r\n              <li>\r\n                <a\r\n                  class=\"text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm\"\r\n                  href=\"https://creative-tim.com/privacy?ref=na-footer\"\r\n                >\r\n                  Privacy Policy\r\n                </a>\r\n              </li>\r\n              <li>\r\n                <a\r\n                  class=\"text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm\"\r\n                  href=\"https://creative-tim.com/contact-us?ref=na-footer\"\r\n                >\r\n                  Contact Us\r\n                </a>\r\n              </li>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <hr class=\"my-6 border-blueGray-300\" />\r\n    <div class=\"flex flex-wrap items-center md:justify-between justify-center\">\r\n      <div class=\"w-full md:w-4/12 px-4 mx-auto text-center\">\r\n        <div class=\"text-sm text-blueGray-500 font-semibold py-1\">\r\n          Copyright © {{ date }} Notus Angular by\r\n          <a\r\n            href=\"https://www.creative-tim.com?ref=na-footer\"\r\n            class=\"text-blueGray-500 hover:text-blueGray-800\"\r\n          >\r\n            Creative Tim\r\n          </a>\r\n          .\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</footer>\r\n");
-
-/***/ }),
-
-/***/ "DLfO":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/footers/footer-small/footer-small.component.html ***!
-  \*******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer\r\n  class=\"pb-6\"\r\n  [ngClass]=\"absolute ? 'absolute w-full bottom-0 bg-blueGray-800' : 'relative'\"\r\n>\r\n  <div class=\"container mx-auto px-4\">\r\n    <hr class=\"mb-6 border-b-1 border-blueGray-600\" />\r\n    <div class=\"flex flex-wrap items-center md:justify-between justify-center\">\r\n      <div class=\"w-full md:w-4/12 px-4\">\r\n        <div\r\n          class=\"text-sm text-white font-semibold py-1 text-center md:text-left\"\r\n        >\r\n          Copyright © {{ date }}\r\n          <a\r\n            href=\"https://www.creative-tim.com?ref=na-footer-small\"\r\n            class=\"text-white hover:text-blueGray-300 text-sm font-semibold py-1\"\r\n          >\r\n            Creative Tim\r\n          </a>\r\n        </div>\r\n      </div>\r\n      <div class=\"w-full md:w-8/12 px-4\">\r\n        <ul class=\"flex flex-wrap list-none md:justify-end justify-center\">\r\n          <li>\r\n            <a\r\n              href=\"https://www.creative-tim.com?ref=na-footer-small\"\r\n              class=\"text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3\"\r\n            >\r\n              Creative Tim\r\n            </a>\r\n          </li>\r\n          <li>\r\n            <a\r\n              href=\"https://www.creative-tim.com/presentation?ref=na-footer-small\"\r\n              class=\"text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3\"\r\n            >\r\n              About Us\r\n            </a>\r\n          </li>\r\n          <li>\r\n            <a\r\n              href=\"http://blog.creative-tim.com?ref=na-footer-small\"\r\n              class=\"text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3\"\r\n            >\r\n              Blog\r\n            </a>\r\n          </li>\r\n          <li>\r\n            <a\r\n              href=\"https://github.com/creativetimofficial/notus-angular/blob/main/LICENSE.md?ref=creativetim\"\r\n              class=\"text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3\"\r\n            >\r\n              MIT License\r\n            </a>\r\n          </li>\r\n        </ul>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</footer>\r\n");
-
-/***/ }),
-
-/***/ "EbUq":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/footers/footer-admin/footer-admin.component.html ***!
-  \*******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"block py-4\">\r\n  <div class=\"container mx-auto px-4\">\r\n    <hr class=\"mb-4 border-b-1 border-blueGray-200\" />\r\n    <div class=\"flex flex-wrap items-center md:justify-between justify-center\">\r\n      <div class=\"w-full md:w-4/12 px-4\">\r\n        <div\r\n          class=\"text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left\"\r\n        >\r\n          Copyright © {{ date }}\r\n          <a\r\n            href=\"https://www.creative-tim.com?ref=na-footer-admin\"\r\n            class=\"text-blueGray-500 hover:text-blueGray-700 text-sm font-semibold py-1\"\r\n          >\r\n            Creative Tim\r\n          </a>\r\n        </div>\r\n      </div>\r\n      <div class=\"w-full md:w-8/12 px-4\">\r\n        <ul class=\"flex flex-wrap list-none md:justify-end justify-center\">\r\n          <li>\r\n            <a\r\n              href=\"https://www.creative-tim.com?ref=na-footer-admin\"\r\n              class=\"text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3\"\r\n            >\r\n              Creative Tim\r\n            </a>\r\n          </li>\r\n          <li>\r\n            <a\r\n              href=\"https://www.creative-tim.com/presentation?ref=na-footer-admin\"\r\n              class=\"text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3\"\r\n            >\r\n              About Us\r\n            </a>\r\n          </li>\r\n          <li>\r\n            <a\r\n              href=\"http://blog.creative-tim.com?ref=na-footer-admin\"\r\n              class=\"text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3\"\r\n            >\r\n              Blog\r\n            </a>\r\n          </li>\r\n          <li>\r\n            <a\r\n              href=\"https://github.com/creativetimofficial/notus-angular/blob/main/LICENSE.md?ref=creativetim\"\r\n              class=\"text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3\"\r\n            >\r\n              MIT License\r\n            </a>\r\n          </li>\r\n        </ul>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</footer>\r\n");
 
 /***/ }),
 
@@ -557,6 +436,14 @@ let TableSalonsComponent = class TableSalonsComponent {
         this._color = color !== "light" && color !== "dark" ? "light" : color;
     }
     ngOnInit() { }
+    toggleActivation(selectedSalon) {
+        this.manageSalons
+            .toggleActivation(selectedSalon)
+            .subscribe((updatedSalon) => {
+            this.salons = this.salons.map((salon, index) => salon._id === updatedSalon._id
+                ? Object.assign(Object.assign({}, salon), { isActive: updatedSalon.isActive }) : salon);
+        });
+    }
 };
 TableSalonsComponent.ctorParameters = () => [
     { type: src_app_services_manage_salons_service__WEBPACK_IMPORTED_MODULE_3__["ManageSalonsService"] }
@@ -585,60 +472,6 @@ TableSalonsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])(
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<a\r\n  class=\"text-blueGray-500 block\"\r\n  href=\"#pablo\"\r\n  (click)=\"toggleDropdown($event)\"\r\n  #btnDropdownRef\r\n>\r\n  <div class=\"items-center flex\">\r\n    <span\r\n      class=\"\r\n        w-12\r\n        h-12\r\n        text-sm text-white\r\n        bg-blueGray-200\r\n        inline-flex\r\n        items-center\r\n        justify-center\r\n        rounded-full\r\n      \"\r\n    >\r\n      <img\r\n        alt=\"...\"\r\n        class=\"w-full rounded-full align-middle border-none shadow-lg\"\r\n        src=\"assets/img/team-1-800x800.jpg\"\r\n      />\r\n    </span>\r\n  </div>\r\n</a>\r\n<div class=\"min-w-48 z-50\" #popoverDropdownRef>\r\n  <div\r\n    class=\"\r\n      bg-white\r\n      text-base\r\n      z-50\r\n      float-left\r\n      py-2\r\n      list-none\r\n      text-left\r\n      rounded\r\n      shadow-lg\r\n      mt-1\r\n      min-w-48\r\n    \"\r\n    [ngClass]=\"dropdownPopoverShow ? 'block' : 'hidden'\"\r\n  >\r\n    <a\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700 cursor-pointer\"\r\n      (click)= \"logout()\"\r\n    >\r\n      <i\r\n        class=\"fas fa-sign-out-alt mr-2 text-sm\"\r\n      ></i>\r\n      Logout\r\n    </a>\r\n  </div>\r\n</div>\r\n");
-
-/***/ }),
-
-/***/ "J8Ne":
-/*!*********************************************************************************!*\
-  !*** ./src/app/components/dropdowns/index-dropdown/index-dropdown.component.ts ***!
-  \*********************************************************************************/
-/*! exports provided: IndexDropdownComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndexDropdownComponent", function() { return IndexDropdownComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
-/* harmony import */ var _raw_loader_index_dropdown_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./index-dropdown.component.html */ "e8es");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _popperjs_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @popperjs/core */ "EjV/");
-
-
-
-
-let IndexDropdownComponent = class IndexDropdownComponent {
-    constructor() {
-        this.dropdownPopoverShow = false;
-    }
-    ngOnInit() { }
-    toggleDropdown(event) {
-        event.preventDefault();
-        if (this.dropdownPopoverShow) {
-            this.dropdownPopoverShow = false;
-        }
-        else {
-            this.dropdownPopoverShow = true;
-            this.createPoppper();
-        }
-    }
-    createPoppper() {
-        Object(_popperjs_core__WEBPACK_IMPORTED_MODULE_3__["createPopper"])(this.btnDropdownRef.nativeElement, this.popoverDropdownRef.nativeElement, {
-            placement: "bottom-start",
-        });
-    }
-};
-IndexDropdownComponent.propDecorators = {
-    btnDropdownRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewChild"], args: ["btnDropdownRef", { static: false },] }],
-    popoverDropdownRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewChild"], args: ["popoverDropdownRef", { static: false },] }]
-};
-IndexDropdownComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-index-dropdown",
-        template: _raw_loader_index_dropdown_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-    })
-], IndexDropdownComponent);
-
-
 
 /***/ }),
 
@@ -701,7 +534,7 @@ TableClientsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav\r\n  class=\"\r\n    md:left-0\r\n    md:block\r\n    md:fixed\r\n    md:top-0\r\n    md:bottom-0\r\n    md:overflow-y-auto\r\n    md:flex-row\r\n    md:flex-nowrap\r\n    md:overflow-hidden\r\n    shadow-xl\r\n    bg-white\r\n    flex flex-wrap\r\n    items-center\r\n    justify-between\r\n    relative\r\n    md:w-64\r\n    z-10\r\n    py-4\r\n    px-6\r\n  \"\r\n>\r\n  <div\r\n    class=\"\r\n      md:flex-col md:items-stretch md:min-h-full md:flex-nowrap\r\n      px-0\r\n      flex flex-wrap\r\n      items-center\r\n      justify-between\r\n      w-full\r\n      mx-auto\r\n    \"\r\n  >\r\n    <!-- Toggler -->\r\n    <button\r\n      class=\"\r\n        cursor-pointer\r\n        text-black\r\n        opacity-50\r\n        md:hidden\r\n        px-3\r\n        py-1\r\n        text-xl\r\n        leading-none\r\n        bg-transparent\r\n        rounded\r\n        border border-solid border-transparent\r\n      \"\r\n      type=\"button\"\r\n      (click)=\"toggleCollapseShow('bg-white m-2 py-3 px-6')\"\r\n    >\r\n      <i class=\"fas fa-bars\"></i>\r\n    </button>\r\n    <!-- Brand -->\r\n    <a\r\n      [routerLink]=\"['/admin/clients']\"\r\n      class=\"\r\n        md:block\r\n        text-left\r\n        md:pb-2\r\n        text-blueGray-600\r\n        mr-0\r\n        inline-block\r\n        whitespace-nowrap\r\n        text-sm\r\n        uppercase\r\n        font-bold\r\n        p-4\r\n        px-0\r\n      \"\r\n    >\r\n      <span class=\"block sm:hidden\"> ICoiff </span>\r\n      <span class=\"hidden sm:block\"> ICoiff </span>\r\n    </a>\r\n    <!-- User -->\r\n    <ul class=\"md:hidden items-center flex flex-wrap list-none\">\r\n      <li class=\"inline-block relative\">\r\n        <app-notification-dropdown class=\"block\"></app-notification-dropdown>\r\n      </li>\r\n      <li class=\"inline-block relative\">\r\n        <app-user-dropdown class=\"block\"></app-user-dropdown>\r\n      </li>\r\n    </ul>\r\n    <!-- Collapse -->\r\n    <div\r\n      class=\"\r\n        md:flex\r\n        md:flex-col\r\n        md:items-stretch\r\n        md:opacity-100\r\n        md:relative\r\n        md:mt-4\r\n        md:shadow-none\r\n        shadow\r\n        absolute\r\n        top-0\r\n        left-0\r\n        right-0\r\n        z-40\r\n        overflow-y-auto overflow-x-hidden\r\n        h-auto\r\n        items-center\r\n        flex-1\r\n        rounded\r\n      \"\r\n      [ngClass]=\"collapseShow\"\r\n    >\r\n      <!-- Collapse header -->\r\n      <div\r\n        class=\"\r\n          md:min-w-full md:hidden\r\n          block\r\n          pb-4\r\n          mb-4\r\n          border-b border-solid border-blueGray-200\r\n        \"\r\n      >\r\n        <div class=\"flex flex-wrap\">\r\n          <div class=\"w-6/12\">\r\n            <a\r\n              [routerLink]=\"['/admin/clients']\"\r\n              class=\"\r\n                md:block\r\n                text-left\r\n                md:pb-2\r\n                text-blueGray-600\r\n                mr-0\r\n                inline-block\r\n                whitespace-nowrap\r\n                text-sm\r\n                uppercase\r\n                font-bold\r\n                p-4\r\n                px-0\r\n              \"\r\n            >\r\n              ICoiff\r\n            </a>\r\n          </div>\r\n          <div class=\"w-6/12 flex justify-end\">\r\n            <button\r\n              type=\"button\"\r\n              class=\"\r\n                cursor-pointer\r\n                text-black\r\n                opacity-50\r\n                md:hidden\r\n                px-3\r\n                py-1\r\n                text-xl\r\n                leading-none\r\n                bg-transparent\r\n                rounded\r\n                border border-solid border-transparent\r\n              \"\r\n              (click)=\"toggleCollapseShow('hidden')\"\r\n            >\r\n              <i class=\"fas fa-times\"></i>\r\n            </button>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <!-- Form -->\r\n      <form class=\"mt-6 mb-4 md:hidden\">\r\n        <div class=\"mb-3 pt-0\">\r\n          <input\r\n            type=\"text\"\r\n            placeholder=\"Search\"\r\n            class=\"\r\n              border-0\r\n              px-3\r\n              py-2\r\n              h-12\r\n              border border-solid border-blueGray-500\r\n              placeholder-blueGray-300\r\n              text-blueGray-600\r\n              bg-white\r\n              rounded\r\n              text-base\r\n              leading-snug\r\n              shadow-none\r\n              outline-none\r\n              focus:outline-none\r\n              w-full\r\n              font-normal\r\n            \"\r\n          />\r\n        </div>\r\n      </form>\r\n\r\n      <!-- Divider -->\r\n      <hr class=\"my-4 md:min-w-full\" />\r\n      <!-- Heading -->\r\n      <h6\r\n        class=\"\r\n          md:min-w-full\r\n          text-blueGray-500 text-xs\r\n          uppercase\r\n          font-bold\r\n          block\r\n          pt-1\r\n          pb-4\r\n          no-underline\r\n        \"\r\n      >\r\n        Back Office\r\n      </h6>\r\n      <!-- Navigation -->\r\n\r\n      <ul class=\"md:flex-col md:min-w-full flex flex-col list-none\">\r\n        <li class=\"items-center\">\r\n          <a\r\n            [routerLink]=\"['/admin/clients']\"\r\n            class=\"text-xs uppercase py-3 font-bold block\"\r\n            routerLinkActive\r\n            #adminDashboard=\"routerLinkActive\"\r\n            [ngClass]=\"\r\n              adminDashboard.isActive\r\n                ? 'text-red-600 hover:text-red-700'\r\n                : 'text-blueGray-700 hover:text-blueGray-500'\r\n            \"\r\n          >\r\n            <i\r\n              class=\"fas fa-user-circle mr-2 text-sm\"\r\n              [ngClass]=\"\r\n                adminDashboard.isActive ? 'opacity-75' : 'text-blueGray-300'\r\n              \"\r\n            ></i>\r\n            Gestion des clients\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"items-center\">\r\n          <a\r\n            [routerLink]=\"['/admin/salons']\"\r\n            class=\"text-xs uppercase py-3 font-bold block\"\r\n            routerLinkActive\r\n            #adminSettings=\"routerLinkActive\"\r\n            [ngClass]=\"\r\n              adminSettings.isActive\r\n                ? 'text-red-600 hover:text-red-700'\r\n                : 'text-blueGray-700 hover:text-blueGray-500'\r\n            \"\r\n          >\r\n            <i\r\n              class=\"fas fa-bed mr-2 text-sm\"\r\n              [ngClass]=\"\r\n                adminSettings.isActive ? 'opacity-75' : 'text-blueGray-300'\r\n              \"\r\n            ></i>\r\n            Gestion des salons\r\n          </a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav\r\n  class=\"\r\n    md:left-0\r\n    md:block\r\n    md:fixed\r\n    md:top-0\r\n    md:bottom-0\r\n    md:overflow-y-auto\r\n    md:flex-row\r\n    md:flex-nowrap\r\n    md:overflow-hidden\r\n    shadow-xl\r\n    bg-white\r\n    flex flex-wrap\r\n    items-center\r\n    justify-between\r\n    relative\r\n    md:w-64\r\n    z-10\r\n    py-4\r\n    px-6\r\n  \"\r\n>\r\n  <div\r\n    class=\"\r\n      md:flex-col md:items-stretch md:min-h-full md:flex-nowrap\r\n      px-0\r\n      flex flex-wrap\r\n      items-center\r\n      justify-between\r\n      w-full\r\n      mx-auto\r\n    \"\r\n  >\r\n    <!-- Toggler -->\r\n    <button\r\n      class=\"\r\n        cursor-pointer\r\n        text-black\r\n        opacity-50\r\n        md:hidden\r\n        px-3\r\n        py-1\r\n        text-xl\r\n        leading-none\r\n        bg-transparent\r\n        rounded\r\n        border border-solid border-transparent\r\n      \"\r\n      type=\"button\"\r\n      (click)=\"toggleCollapseShow('bg-white m-2 py-3 px-6')\"\r\n    >\r\n      <i class=\"fas fa-bars\"></i>\r\n    </button>\r\n    <!-- Brand -->\r\n    <a\r\n      [routerLink]=\"['/admin/clients']\"\r\n      class=\"\r\n        md:block\r\n        text-left\r\n        md:pb-2\r\n        text-blueGray-600\r\n        mr-0\r\n        inline-block\r\n        whitespace-nowrap\r\n        text-sm\r\n        uppercase\r\n        font-bold\r\n        p-4\r\n        px-0\r\n      \"\r\n    >\r\n      <span class=\"block sm:hidden\"> ICoiff </span>\r\n      <span class=\"hidden sm:block\"> ICoiff </span>\r\n    </a>\r\n    <!-- User -->\r\n    <ul class=\"md:hidden items-center flex flex-wrap list-none\">\r\n      <li class=\"inline-block relative\">\r\n        <app-user-dropdown class=\"block\"></app-user-dropdown>\r\n      </li>\r\n    </ul>\r\n    <!-- Collapse -->\r\n    <div\r\n      class=\"\r\n        md:flex\r\n        md:flex-col\r\n        md:items-stretch\r\n        md:opacity-100\r\n        md:relative\r\n        md:mt-4\r\n        md:shadow-none\r\n        shadow\r\n        absolute\r\n        top-0\r\n        left-0\r\n        right-0\r\n        z-40\r\n        overflow-y-auto overflow-x-hidden\r\n        h-auto\r\n        items-center\r\n        flex-1\r\n        rounded\r\n      \"\r\n      [ngClass]=\"collapseShow\"\r\n    >\r\n      <!-- Collapse header -->\r\n      <div\r\n        class=\"\r\n          md:min-w-full md:hidden\r\n          block\r\n          pb-4\r\n          mb-4\r\n          border-b border-solid border-blueGray-200\r\n        \"\r\n      >\r\n        <div class=\"flex flex-wrap\">\r\n          <div class=\"w-6/12\">\r\n            <a\r\n              [routerLink]=\"['/admin/clients']\"\r\n              class=\"\r\n                md:block\r\n                text-left\r\n                md:pb-2\r\n                text-blueGray-600\r\n                mr-0\r\n                inline-block\r\n                whitespace-nowrap\r\n                text-sm\r\n                uppercase\r\n                font-bold\r\n                p-4\r\n                px-0\r\n              \"\r\n            >\r\n              ICoiff\r\n            </a>\r\n          </div>\r\n          <div class=\"w-6/12 flex justify-end\">\r\n            <button\r\n              type=\"button\"\r\n              class=\"\r\n                cursor-pointer\r\n                text-black\r\n                opacity-50\r\n                md:hidden\r\n                px-3\r\n                py-1\r\n                text-xl\r\n                leading-none\r\n                bg-transparent\r\n                rounded\r\n                border border-solid border-transparent\r\n              \"\r\n              (click)=\"toggleCollapseShow('hidden')\"\r\n            >\r\n              <i class=\"fas fa-times\"></i>\r\n            </button>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <!-- Form -->\r\n      <form class=\"mt-6 mb-4 md:hidden\">\r\n        <div class=\"mb-3 pt-0\">\r\n          <input\r\n            type=\"text\"\r\n            placeholder=\"Search\"\r\n            class=\"\r\n              border-0\r\n              px-3\r\n              py-2\r\n              h-12\r\n              border border-solid border-blueGray-500\r\n              placeholder-blueGray-300\r\n              text-blueGray-600\r\n              bg-white\r\n              rounded\r\n              text-base\r\n              leading-snug\r\n              shadow-none\r\n              outline-none\r\n              focus:outline-none\r\n              w-full\r\n              font-normal\r\n            \"\r\n          />\r\n        </div>\r\n      </form>\r\n\r\n      <!-- Divider -->\r\n      <hr class=\"my-4 md:min-w-full\" />\r\n      <!-- Heading -->\r\n      <h6\r\n        class=\"\r\n          md:min-w-full\r\n          text-blueGray-500 text-xs\r\n          uppercase\r\n          font-bold\r\n          block\r\n          pt-1\r\n          pb-4\r\n          no-underline\r\n        \"\r\n      >\r\n        Back Office\r\n      </h6>\r\n      <!-- Navigation -->\r\n\r\n      <ul class=\"md:flex-col md:min-w-full flex flex-col list-none\">\r\n        <li class=\"items-center\">\r\n          <a\r\n            [routerLink]=\"['/admin/clients']\"\r\n            class=\"text-xs uppercase py-3 font-bold block\"\r\n            routerLinkActive\r\n            #adminDashboard=\"routerLinkActive\"\r\n            [ngClass]=\"\r\n              adminDashboard.isActive\r\n                ? 'text-red-600 hover:text-red-700'\r\n                : 'text-blueGray-700 hover:text-blueGray-500'\r\n            \"\r\n          >\r\n            <i\r\n              class=\"fas fa-user-circle mr-2 text-sm\"\r\n              [ngClass]=\"\r\n                adminDashboard.isActive ? 'opacity-75' : 'text-blueGray-300'\r\n              \"\r\n            ></i>\r\n            Gestion des clients\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"items-center\">\r\n          <a\r\n            [routerLink]=\"['/admin/salons']\"\r\n            class=\"text-xs uppercase py-3 font-bold block\"\r\n            routerLinkActive\r\n            #adminSettings=\"routerLinkActive\"\r\n            [ngClass]=\"\r\n              adminSettings.isActive\r\n                ? 'text-red-600 hover:text-red-700'\r\n                : 'text-blueGray-700 hover:text-blueGray-500'\r\n            \"\r\n          >\r\n            <i\r\n              class=\"fas fa-bed mr-2 text-sm\"\r\n              [ngClass]=\"\r\n                adminSettings.isActive ? 'opacity-75' : 'text-blueGray-300'\r\n              \"\r\n            ></i>\r\n            Gestion des salons\r\n          </a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n");
 
 /***/ }),
 
@@ -847,51 +680,6 @@ HeaderStatsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])(
 
 /***/ }),
 
-/***/ "RMzx":
-/*!****************************************************!*\
-  !*** ./src/app/views/landing/landing.component.ts ***!
-  \****************************************************/
-/*! exports provided: LandingComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LandingComponent", function() { return LandingComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
-/* harmony import */ var _raw_loader_landing_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./landing.component.html */ "AN84");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
-
-
-let LandingComponent = class LandingComponent {
-    constructor() { }
-    ngOnInit() { }
-};
-LandingComponent.ctorParameters = () => [];
-LandingComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-landing",
-        template: _raw_loader_landing_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-    })
-], LandingComponent);
-
-
-
-/***/ }),
-
-/***/ "RORk":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/navbars/index-navbar/index-navbar.component.html ***!
-  \*******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav\r\n  class=\"top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow\"\r\n>\r\n  <div\r\n    class=\"container px-4 mx-auto flex flex-wrap items-center justify-between\"\r\n  >\r\n    <div\r\n      class=\"w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start\"\r\n    >\r\n      <a\r\n        [routerLink]=\"['/']\"\r\n        class=\"text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase\"\r\n        href=\"#pablo\"\r\n      >\r\n        Notus Angular\r\n      </a>\r\n      <button\r\n        class=\"cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none\"\r\n        type=\"button\"\r\n        (click)=\"setNavbarOpen()\"\r\n      >\r\n        <i class=\"fas fa-bars\"></i>\r\n      </button>\r\n    </div>\r\n    <div\r\n      class=\"lg:flex flex-grow items-center\"\r\n      [ngClass]=\"{ hidden: !navbarOpen, block: navbarOpen }\"\r\n      id=\"example-navbar-warning\"\r\n    >\r\n      <ul class=\"flex flex-col lg:flex-row list-none mr-auto\">\r\n        <li class=\"flex items-center\">\r\n          <a\r\n            class=\"hover:text-blueGray-500 text-blueGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold\"\r\n            href=\"https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus?ref=na-index-navbar\"\r\n          >\r\n            <i\r\n              class=\"text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2\"\r\n            ></i>\r\n            Docs\r\n          </a>\r\n        </li>\r\n      </ul>\r\n      <ul class=\"flex flex-col lg:flex-row list-none lg:ml-auto\">\r\n        <li class=\"flex items-center\">\r\n          <app-index-dropdown class=\"block\"></app-index-dropdown>\r\n        </li>\r\n        <li class=\"flex items-center\">\r\n          <a\r\n            class=\"hover:text-blueGray-500 text-blueGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold\"\r\n            href=\"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-angular%2F\"\r\n            target=\"_blank\"\r\n          >\r\n            <i class=\"text-blueGray-400 fab fa-facebook text-lg leading-lg\"></i>\r\n            <span class=\"lg:hidden inline-block ml-2\">Share</span>\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"flex items-center\">\r\n          <a\r\n            class=\"hover:text-blueGray-500 text-blueGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold\"\r\n            href=\"https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-angular%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20Angular%20UI%20Kit%20and%20Admin.%20Let%20Notus%20Angular%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level.\"\r\n            target=\"_blank\"\r\n          >\r\n            <i class=\"text-blueGray-400 fab fa-twitter text-lg leading-lg\"></i>\r\n            <span class=\"lg:hidden inline-block ml-2\">Tweet</span>\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"flex items-center\">\r\n          <a\r\n            class=\"hover:text-blueGray-500 text-blueGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold\"\r\n            href=\"https://github.com/creativetimofficial/notus-angular?ref=na-index-navbar\"\r\n            target=\"_blank\"\r\n          >\r\n            <i class=\"text-blueGray-400 fab fa-github text-lg leading-lg\"></i>\r\n            <span class=\"lg:hidden inline-block ml-2\">Star</span>\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"flex items-center\">\r\n          <button\r\n            class=\"bg-red-600 text-white active:bg-red-700 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150\"\r\n            type=\"button\"\r\n          >\r\n            <i class=\"fas fa-arrow-alt-circle-down\"></i> Download\r\n          </button>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n");
-
-/***/ }),
-
 /***/ "RV1I":
 /*!***************************************************!*\
   !*** ./src/app/services/manage-salons.service.ts ***!
@@ -928,6 +716,9 @@ let ManageSalonsService = class ManageSalonsService {
     createManager(manager) {
         return this.http.post(`${this.endpoint}/auth/signup`, manager);
     }
+    toggleActivation({ _id }) {
+        return this.http.patch(`${this.endpoint}/salon/activation/${_id}`, null);
+    }
 };
 ManageSalonsService.ctorParameters = () => [
     { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }
@@ -952,58 +743,6 @@ ManageSalonsService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"w-full mb-12 xl:mb-0 px-4\">\r\n  <app-table-salons color=\"light\"></app-table-salons>\r\n</div>\r\n");
-
-/***/ }),
-
-/***/ "Skd6":
-/*!***********************************************************************************************!*\
-  !*** ./src/app/components/dropdowns/notification-dropdown/notification-dropdown.component.ts ***!
-  \***********************************************************************************************/
-/*! exports provided: NotificationDropdownComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotificationDropdownComponent", function() { return NotificationDropdownComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
-/* harmony import */ var _raw_loader_notification_dropdown_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./notification-dropdown.component.html */ "XqAX");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _popperjs_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @popperjs/core */ "EjV/");
-
-
-
-
-let NotificationDropdownComponent = class NotificationDropdownComponent {
-    constructor() {
-        this.dropdownPopoverShow = false;
-    }
-    ngAfterViewInit() {
-        Object(_popperjs_core__WEBPACK_IMPORTED_MODULE_3__["createPopper"])(this.btnDropdownRef.nativeElement, this.popoverDropdownRef.nativeElement, {
-            placement: "bottom-start",
-        });
-    }
-    toggleDropdown(event) {
-        event.preventDefault();
-        if (this.dropdownPopoverShow) {
-            this.dropdownPopoverShow = false;
-        }
-        else {
-            this.dropdownPopoverShow = true;
-        }
-    }
-};
-NotificationDropdownComponent.propDecorators = {
-    btnDropdownRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewChild"], args: ["btnDropdownRef", { static: false },] }],
-    popoverDropdownRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewChild"], args: ["popoverDropdownRef", { static: false },] }]
-};
-NotificationDropdownComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-notification-dropdown",
-        template: _raw_loader_notification_dropdown_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-    })
-], NotificationDropdownComponent);
-
-
 
 /***/ }),
 
@@ -1156,92 +895,6 @@ CreateSalonComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])(
 
 /***/ }),
 
-/***/ "UIMn":
-/*!***************************************************************************!*\
-  !*** ./src/app/components/footers/footer-admin/footer-admin.component.ts ***!
-  \***************************************************************************/
-/*! exports provided: FooterAdminComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterAdminComponent", function() { return FooterAdminComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
-/* harmony import */ var _raw_loader_footer_admin_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./footer-admin.component.html */ "EbUq");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
-
-
-let FooterAdminComponent = class FooterAdminComponent {
-    constructor() {
-        this.date = new Date().getFullYear();
-    }
-    ngOnInit() { }
-};
-FooterAdminComponent.ctorParameters = () => [];
-FooterAdminComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-footer-admin",
-        template: _raw_loader_footer_admin_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-    })
-], FooterAdminComponent);
-
-
-
-/***/ }),
-
-/***/ "UY35":
-/*!*********************************************************************************!*\
-  !*** ./src/app/components/dropdowns/table-dropdown/table-dropdown.component.ts ***!
-  \*********************************************************************************/
-/*! exports provided: TableDropdownComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TableDropdownComponent", function() { return TableDropdownComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
-/* harmony import */ var _raw_loader_table_dropdown_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./table-dropdown.component.html */ "rOy2");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _popperjs_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @popperjs/core */ "EjV/");
-
-
-
-
-let TableDropdownComponent = class TableDropdownComponent {
-    constructor() {
-        this.dropdownPopoverShow = false;
-    }
-    ngAfterViewInit() {
-        Object(_popperjs_core__WEBPACK_IMPORTED_MODULE_3__["createPopper"])(this.btnDropdownRef.nativeElement, this.popoverDropdownRef.nativeElement, {
-            placement: "bottom-start",
-        });
-    }
-    toggleDropdown(event) {
-        event.preventDefault();
-        if (this.dropdownPopoverShow) {
-            this.dropdownPopoverShow = false;
-        }
-        else {
-            this.dropdownPopoverShow = true;
-        }
-    }
-};
-TableDropdownComponent.propDecorators = {
-    btnDropdownRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewChild"], args: ["btnDropdownRef", { static: false },] }],
-    popoverDropdownRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewChild"], args: ["popoverDropdownRef", { static: false },] }]
-};
-TableDropdownComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-table-dropdown",
-        template: _raw_loader_table_dropdown_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-    })
-], TableDropdownComponent);
-
-
-
-/***/ }),
-
 /***/ "UhXh":
 /*!*******************************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/headers/header-stats/header-stats.component.html ***!
@@ -1364,19 +1017,6 @@ AdminNavbarComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])(
 
 /***/ }),
 
-/***/ "XqAX":
-/*!***************************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/dropdowns/notification-dropdown/notification-dropdown.component.html ***!
-  \***************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<a\r\n  class=\"text-blueGray-500 block py-1 px-3\"\r\n  href=\"#pablo\"\r\n  (click)=\"toggleDropdown($event)\"\r\n  #btnDropdownRef\r\n>\r\n  <i class=\"fas fa-bell\"></i>\r\n</a>\r\n<div class=\"min-w-48 z-50\" #popoverDropdownRef>\r\n  <div\r\n    class=\"bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg mt-1 min-w-48\"\r\n    [ngClass]=\"dropdownPopoverShow ? 'block' : 'hidden'\"\r\n  >\r\n    <a\r\n      href=\"#pablo\"\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n    >\r\n      Action\r\n    </a>\r\n    <a\r\n      href=\"#pablo\"\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n    >\r\n      Another action\r\n    </a>\r\n    <a\r\n      href=\"#pablo\"\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n    >\r\n      Something else here\r\n    </a>\r\n    <div class=\"h-0 my-2 border border-solid border-blueGray-100\"></div>\r\n    <a\r\n      href=\"#pablo\"\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n    >\r\n      Seprated link\r\n    </a>\r\n  </div>\r\n</div>\r\n");
-
-/***/ }),
-
 /***/ "YV8C":
 /*!****************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/views/admin/settings/settings.component.html ***!
@@ -1413,32 +1053,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _views_admin_settings_settings_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./views/admin/settings/settings.component */ "90Li");
 /* harmony import */ var _views_admin_tables_tables_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./views/admin/tables/tables.component */ "VTaN");
 /* harmony import */ var _views_auth_login_login_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./views/auth/login/login.component */ "/kjZ");
-/* harmony import */ var _views_landing_landing_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./views/landing/landing.component */ "RMzx");
-/* harmony import */ var _components_navbars_admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/navbars/admin-navbar/admin-navbar.component */ "Xodl");
-/* harmony import */ var _components_navbars_auth_navbar_auth_navbar_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/navbars/auth-navbar/auth-navbar.component */ "zslb");
-/* harmony import */ var _components_footers_footer_admin_footer_admin_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/footers/footer-admin/footer-admin.component */ "UIMn");
-/* harmony import */ var _components_footers_footer_footer_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/footers/footer/footer.component */ "1DoU");
-/* harmony import */ var _components_footers_footer_small_footer_small_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/footers/footer-small/footer-small.component */ "xlab");
-/* harmony import */ var _components_headers_header_stats_header_stats_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/headers/header-stats/header-stats.component */ "RLAj");
-/* harmony import */ var _components_navbars_index_navbar_index_navbar_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/navbars/index-navbar/index-navbar.component */ "4b2p");
-/* harmony import */ var _components_dropdowns_index_dropdown_index_dropdown_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/dropdowns/index-dropdown/index-dropdown.component */ "J8Ne");
-/* harmony import */ var _components_dropdowns_table_dropdown_table_dropdown_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/dropdowns/table-dropdown/table-dropdown.component */ "UY35");
-/* harmony import */ var _components_dropdowns_pages_dropdown_pages_dropdown_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/dropdowns/pages-dropdown/pages-dropdown.component */ "wcq5");
-/* harmony import */ var _components_dropdowns_notification_dropdown_notification_dropdown_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/dropdowns/notification-dropdown/notification-dropdown.component */ "Skd6");
-/* harmony import */ var _components_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/sidebar/sidebar.component */ "zBoC");
-/* harmony import */ var _components_dropdowns_user_dropdown_user_dropdown_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/dropdowns/user-dropdown/user-dropdown.component */ "0slC");
-/* harmony import */ var _views_admin_manage_salons_manage_salons_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./views/admin/manage-salons/manage-salons.component */ "gFck");
-/* harmony import */ var _components_table_salons_table_salons_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/table-salons/table-salons.component */ "GB+I");
-/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./services/auth.service */ "lGQG");
-/* harmony import */ var _services_manage_salons_service__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./services/manage-salons.service */ "RV1I");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
-/* harmony import */ var _services_authConfig_interceptor__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./services/authConfig.interceptor */ "rD10");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
-/* harmony import */ var _components_table_clients_table_clients_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./components/table-clients/table-clients.component */ "JkxU");
-/* harmony import */ var _components_dropdowns_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./components/dropdowns/dropdown/dropdown.component */ "vWvs");
-/* harmony import */ var _components_modal_modal_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./components/modal/modal.component */ "7aL3");
-/* harmony import */ var _views_create_salon_create_salon_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./views/create-salon/create-salon.component */ "T8Xr");
-/* harmony import */ var _views_error404_error404_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./views/error404/error404.component */ "kku7");
+/* harmony import */ var _components_navbars_admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/navbars/admin-navbar/admin-navbar.component */ "Xodl");
+/* harmony import */ var _components_headers_header_stats_header_stats_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/headers/header-stats/header-stats.component */ "RLAj");
+/* harmony import */ var _components_dropdowns_pages_dropdown_pages_dropdown_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/dropdowns/pages-dropdown/pages-dropdown.component */ "wcq5");
+/* harmony import */ var _components_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/sidebar/sidebar.component */ "zBoC");
+/* harmony import */ var _components_dropdowns_user_dropdown_user_dropdown_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/dropdowns/user-dropdown/user-dropdown.component */ "0slC");
+/* harmony import */ var _views_admin_manage_salons_manage_salons_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./views/admin/manage-salons/manage-salons.component */ "gFck");
+/* harmony import */ var _components_table_salons_table_salons_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/table-salons/table-salons.component */ "GB+I");
+/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./services/auth.service */ "lGQG");
+/* harmony import */ var _services_manage_salons_service__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./services/manage-salons.service */ "RV1I");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
+/* harmony import */ var _services_authConfig_interceptor__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./services/authConfig.interceptor */ "rD10");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
+/* harmony import */ var _components_table_clients_table_clients_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/table-clients/table-clients.component */ "JkxU");
+/* harmony import */ var _components_dropdowns_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/dropdowns/dropdown/dropdown.component */ "vWvs");
+/* harmony import */ var _components_modal_modal_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/modal/modal.component */ "7aL3");
+/* harmony import */ var _views_create_salon_create_salon_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./views/create-salon/create-salon.component */ "T8Xr");
+/* harmony import */ var _views_error404_error404_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./views/error404/error404.component */ "kku7");
 
 
 
@@ -1455,17 +1086,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // auth views
 
-// no layouts views
-
 // components for views and layouts
-
-
-
-
-
-
-
-
 
 
 
@@ -1490,48 +1111,39 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
             _views_admin_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_8__["DashboardComponent"],
-            _components_dropdowns_index_dropdown_index_dropdown_component__WEBPACK_IMPORTED_MODULE_21__["IndexDropdownComponent"],
-            _components_dropdowns_pages_dropdown_pages_dropdown_component__WEBPACK_IMPORTED_MODULE_23__["PagesDropdownComponent"],
-            _components_dropdowns_table_dropdown_table_dropdown_component__WEBPACK_IMPORTED_MODULE_22__["TableDropdownComponent"],
-            _components_dropdowns_notification_dropdown_notification_dropdown_component__WEBPACK_IMPORTED_MODULE_24__["NotificationDropdownComponent"],
-            _components_dropdowns_user_dropdown_user_dropdown_component__WEBPACK_IMPORTED_MODULE_26__["UserDropdownComponent"],
-            _components_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_25__["SidebarComponent"],
-            _components_footers_footer_footer_component__WEBPACK_IMPORTED_MODULE_17__["FooterComponent"],
-            _components_footers_footer_small_footer_small_component__WEBPACK_IMPORTED_MODULE_18__["FooterSmallComponent"],
-            _components_footers_footer_admin_footer_admin_component__WEBPACK_IMPORTED_MODULE_16__["FooterAdminComponent"],
-            _components_headers_header_stats_header_stats_component__WEBPACK_IMPORTED_MODULE_19__["HeaderStatsComponent"],
-            _components_navbars_auth_navbar_auth_navbar_component__WEBPACK_IMPORTED_MODULE_15__["AuthNavbarComponent"],
-            _components_navbars_admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_14__["AdminNavbarComponent"],
-            _components_navbars_index_navbar_index_navbar_component__WEBPACK_IMPORTED_MODULE_20__["IndexNavbarComponent"],
+            _components_dropdowns_pages_dropdown_pages_dropdown_component__WEBPACK_IMPORTED_MODULE_15__["PagesDropdownComponent"],
+            _components_dropdowns_user_dropdown_user_dropdown_component__WEBPACK_IMPORTED_MODULE_17__["UserDropdownComponent"],
+            _components_sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_16__["SidebarComponent"],
+            _components_headers_header_stats_header_stats_component__WEBPACK_IMPORTED_MODULE_14__["HeaderStatsComponent"],
+            _components_navbars_admin_navbar_admin_navbar_component__WEBPACK_IMPORTED_MODULE_13__["AdminNavbarComponent"],
             _layouts_admin_admin_component__WEBPACK_IMPORTED_MODULE_6__["AdminComponent"],
             _layouts_auth_auth_component__WEBPACK_IMPORTED_MODULE_7__["AuthComponent"],
             _views_admin_maps_maps_component__WEBPACK_IMPORTED_MODULE_9__["MapsComponent"],
             _views_admin_settings_settings_component__WEBPACK_IMPORTED_MODULE_10__["SettingsComponent"],
             _views_admin_tables_tables_component__WEBPACK_IMPORTED_MODULE_11__["TablesComponent"],
             _views_auth_login_login_component__WEBPACK_IMPORTED_MODULE_12__["LoginComponent"],
-            _views_landing_landing_component__WEBPACK_IMPORTED_MODULE_13__["LandingComponent"],
-            _views_admin_manage_salons_manage_salons_component__WEBPACK_IMPORTED_MODULE_27__["ManageSalonsComponent"],
-            _components_table_salons_table_salons_component__WEBPACK_IMPORTED_MODULE_28__["TableSalonsComponent"],
-            _components_table_clients_table_clients_component__WEBPACK_IMPORTED_MODULE_34__["TableClientsComponent"],
-            _components_dropdowns_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_35__["DropdownComponent"],
-            _components_modal_modal_component__WEBPACK_IMPORTED_MODULE_36__["ModalComponent"],
-            _views_create_salon_create_salon_component__WEBPACK_IMPORTED_MODULE_37__["CreateSalonComponent"],
-            _views_error404_error404_component__WEBPACK_IMPORTED_MODULE_38__["Error404Component"],
+            _views_admin_manage_salons_manage_salons_component__WEBPACK_IMPORTED_MODULE_18__["ManageSalonsComponent"],
+            _components_table_salons_table_salons_component__WEBPACK_IMPORTED_MODULE_19__["TableSalonsComponent"],
+            _components_table_clients_table_clients_component__WEBPACK_IMPORTED_MODULE_25__["TableClientsComponent"],
+            _components_dropdowns_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_26__["DropdownComponent"],
+            _components_modal_modal_component__WEBPACK_IMPORTED_MODULE_27__["ModalComponent"],
+            _views_create_salon_create_salon_component__WEBPACK_IMPORTED_MODULE_28__["CreateSalonComponent"],
+            _views_error404_error404_component__WEBPACK_IMPORTED_MODULE_29__["Error404Component"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-            _angular_common_http__WEBPACK_IMPORTED_MODULE_31__["HttpClientModule"],
-            _angular_forms__WEBPACK_IMPORTED_MODULE_33__["ReactiveFormsModule"],
-            _angular_forms__WEBPACK_IMPORTED_MODULE_33__["FormsModule"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_22__["HttpClientModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_24__["ReactiveFormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_24__["FormsModule"],
             ngx_timeago__WEBPACK_IMPORTED_MODULE_5__["TimeagoModule"].forRoot(),
         ],
         providers: [
-            _services_auth_service__WEBPACK_IMPORTED_MODULE_29__["AuthService"],
-            _services_manage_salons_service__WEBPACK_IMPORTED_MODULE_30__["ManageSalonsService"],
+            _services_auth_service__WEBPACK_IMPORTED_MODULE_20__["AuthService"],
+            _services_manage_salons_service__WEBPACK_IMPORTED_MODULE_21__["ManageSalonsService"],
             {
-                provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_31__["HTTP_INTERCEPTORS"],
-                useClass: _services_authConfig_interceptor__WEBPACK_IMPORTED_MODULE_32__["AuthInterceptor"],
+                provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_22__["HTTP_INTERCEPTORS"],
+                useClass: _services_authConfig_interceptor__WEBPACK_IMPORTED_MODULE_23__["AuthInterceptor"],
                 multi: true,
             },
         ],
@@ -1566,32 +1178,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div>\r\n  <main>\r\n    <section class=\"relative w-full h-full py-40 min-h-screen\">\r\n      <div\r\n        class=\"absolute top-0 w-full h-full bg-blueGray-800 bg-no-repeat bg-full\"\r\n        style=\"background-image: url('assets/img/register_bg_2.png')\"\r\n      ></div>\r\n      <router-outlet></router-outlet>\r\n    </section>\r\n  </main>\r\n</div>\r\n");
-
-/***/ }),
-
-/***/ "e8es":
-/*!*************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/dropdowns/index-dropdown/index-dropdown.component.html ***!
-  \*************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<a\r\n  class=\"hover:text-blueGray-500 text-blueGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold\"\r\n  href=\"#pablo\"\r\n  (click)=\"toggleDropdown($event)\"\r\n  #btnDropdownRef\r\n>\r\n  Demo Pages\r\n</a>\r\n<div\r\n  class=\"bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48\"\r\n  [ngClass]=\"dropdownPopoverShow ? 'block' : 'hidden'\"\r\n  #popoverDropdownRef\r\n>\r\n  <span\r\n    class=\"text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400\"\r\n  >\r\n    Admin Layout\r\n  </span>\r\n  <a\r\n    [routerLink]=\"['/admin/dashboard']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Dashboard\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/admin/settings']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Settings\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/admin/tables']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Tables\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/admin/maps']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Maps\r\n  </a>\r\n  <div class=\"h-0 mx-4 my-2 border border-solid border-blueGray-100\"></div>\r\n  <span\r\n    class=\"text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400\"\r\n  >\r\n    Auth Layout\r\n  </span>\r\n  <a\r\n    [routerLink]=\"['/auth/login']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Login\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/auth/register']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Register\r\n  </a>\r\n  <div class=\"h-0 mx-4 my-2 border border-solid border-blueGray-100\"></div>\r\n  <span\r\n    class=\"text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400\"\r\n  >\r\n    No Layout\r\n  </span>\r\n  <a\r\n    [routerLink]=\"['/landing']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Landing\r\n  </a>\r\n  <a\r\n    [routerLink]=\"['/profile']\"\r\n    class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n  >\r\n    Profile\r\n  </a>\r\n</div>\r\n");
-
-/***/ }),
-
-/***/ "e8ip":
-/*!*****************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/navbars/auth-navbar/auth-navbar.component.html ***!
-  \*****************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav\r\n  class=\"top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg\"\r\n>\r\n  <div\r\n    class=\"container px-4 mx-auto flex flex-wrap items-center justify-between\"\r\n  >\r\n    <div\r\n      class=\"w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start\"\r\n    >\r\n      <a\r\n        [routerLink]=\"['/']\"\r\n        class=\"text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase\"\r\n      >\r\n        Notus Angular\r\n      </a>\r\n      <button\r\n        class=\"cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none\"\r\n        type=\"button\"\r\n        (click)=\"setNavbarOpen()\"\r\n      >\r\n        <i class=\"text-white fas fa-bars\"></i>\r\n      </button>\r\n    </div>\r\n    <div\r\n      class=\"lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none\"\r\n      [ngClass]=\"{ hidden: !navbarOpen, 'block rounded shadow-lg': navbarOpen }\"\r\n      id=\"example-navbar-warning\"\r\n    >\r\n      <ul class=\"flex flex-col lg:flex-row list-none mr-auto\">\r\n        <li class=\"flex items-center\">\r\n          <a\r\n            class=\"lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold\"\r\n            href=\"https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus?ref=na-auth-navbar\"\r\n          >\r\n            <i\r\n              class=\"lg:text-blueGray-200 text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2\"\r\n            ></i>\r\n            Docs\r\n          </a>\r\n        </li>\r\n      </ul>\r\n      <ul class=\"flex flex-col lg:flex-row list-none lg:ml-auto\">\r\n        <li class=\"flex items-center\">\r\n          <app-pages-dropdown class=\"block\"></app-pages-dropdown>\r\n        </li>\r\n        <li class=\"flex items-center\">\r\n          <a\r\n            class=\"lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold\"\r\n            href=\"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-angular%2F\"\r\n            target=\"_blank\"\r\n          >\r\n            <i\r\n              class=\"lg:text-blueGray-200 text-blueGray-400 fab fa-facebook text-lg leading-lg\"\r\n            ></i>\r\n            <span class=\"lg:hidden inline-block ml-2\">Share</span>\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"flex items-center\">\r\n          <a\r\n            class=\"lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold\"\r\n            href=\"https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-angular%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20Angular%20UI%20Kit%20and%20Admin.%20Let%20Notus%20Angular%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level.\"\r\n            target=\"_blank\"\r\n          >\r\n            <i\r\n              class=\"lg:text-blueGray-200 text-blueGray-400 fab fa-twitter text-lg leading-lg\"\r\n            ></i>\r\n            <span class=\"lg:hidden inline-block ml-2\">Tweet</span>\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"flex items-center\">\r\n          <a\r\n            class=\"lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold\"\r\n            href=\"https://github.com/creativetimofficial/notus-angular?ref=na-auth-navbar\"\r\n            target=\"_blank\"\r\n          >\r\n            <i\r\n              class=\"lg:text-blueGray-200 text-blueGray-400 fab fa-github text-lg leading-lg\"\r\n            ></i>\r\n            <span class=\"lg:hidden inline-block ml-2\">Star</span>\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"flex items-center\">\r\n          <button\r\n            class=\"bg-white text-blueGray-700 active:bg-blueGray-50 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150\"\r\n            type=\"button\"\r\n          >\r\n            <i class=\"fas fa-arrow-alt-circle-down\"></i> Download\r\n          </button>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n");
 
 /***/ }),
 
@@ -1834,19 +1420,6 @@ MapsComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 /***/ }),
 
-/***/ "rOy2":
-/*!*************************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/dropdowns/table-dropdown/table-dropdown.component.html ***!
-  \*************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<a\r\n  class=\"text-blueGray-500 block py-1 px-3\"\r\n  href=\"#pablo\"\r\n  (click)=\"toggleDropdown($event)\"\r\n  #btnDropdownRef\r\n>\r\n  <i class=\"fas fa-ellipsis-v\"></i>\r\n</a>\r\n<div class=\"min-w-48 z-50\" #popoverDropdownRef>\r\n  <div\r\n    class=\"bg-white text-base float-left py-2 list-none text-left rounded shadow-lg mt-1 min-w-48\"\r\n    [ngClass]=\"dropdownPopoverShow ? 'block' : 'hidden'\"\r\n  >\r\n    <a\r\n      href=\"#pablo\"\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n    >\r\n      Action\r\n    </a>\r\n    <a\r\n      href=\"#pablo\"\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n    >\r\n      Another action\r\n    </a>\r\n    <a\r\n      href=\"#pablo\"\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n    >\r\n      Something else here\r\n    </a>\r\n    <div class=\"h-0 my-2 border border-solid border-blueGray-100\"></div>\r\n    <a\r\n      href=\"#pablo\"\r\n      class=\"text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700\"\r\n    >\r\n      Seprated link\r\n    </a>\r\n  </div>\r\n</div>\r\n");
-
-/***/ }),
-
 /***/ "s5KC":
 /*!****************************************************!*\
   !*** ./src/app/services/manage-clients.service.ts ***!
@@ -2062,50 +1635,6 @@ PagesDropdownComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]
 
 /***/ }),
 
-/***/ "xlab":
-/*!***************************************************************************!*\
-  !*** ./src/app/components/footers/footer-small/footer-small.component.ts ***!
-  \***************************************************************************/
-/*! exports provided: FooterSmallComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterSmallComponent", function() { return FooterSmallComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
-/* harmony import */ var _raw_loader_footer_small_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./footer-small.component.html */ "DLfO");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
-
-
-let FooterSmallComponent = class FooterSmallComponent {
-    constructor() {
-        this.date = new Date().getFullYear();
-        this._absolute = false;
-    }
-    get absolute() {
-        return this._absolute;
-    }
-    set absolute(absolute) {
-        this._absolute = absolute === undefined ? false : absolute;
-    }
-    ngOnInit() { }
-};
-FooterSmallComponent.ctorParameters = () => [];
-FooterSmallComponent.propDecorators = {
-    absolute: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"] }]
-};
-FooterSmallComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-footer-small",
-        template: _raw_loader_footer_small_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-    })
-], FooterSmallComponent);
-
-
-
-/***/ }),
-
 /***/ "zBoC":
 /*!*********************************************************!*\
   !*** ./src/app/components/sidebar/sidebar.component.ts ***!
@@ -2222,43 +1751,6 @@ webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
 webpackEmptyAsyncContext.id = "zn8P";
-
-/***/ }),
-
-/***/ "zslb":
-/*!*************************************************************************!*\
-  !*** ./src/app/components/navbars/auth-navbar/auth-navbar.component.ts ***!
-  \*************************************************************************/
-/*! exports provided: AuthNavbarComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthNavbarComponent", function() { return AuthNavbarComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
-/* harmony import */ var _raw_loader_auth_navbar_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./auth-navbar.component.html */ "e8ip");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
-
-
-let AuthNavbarComponent = class AuthNavbarComponent {
-    constructor() {
-        this.navbarOpen = false;
-    }
-    ngOnInit() { }
-    setNavbarOpen() {
-        this.navbarOpen = !this.navbarOpen;
-    }
-};
-AuthNavbarComponent.ctorParameters = () => [];
-AuthNavbarComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
-        selector: "app-auth-navbar",
-        template: _raw_loader_auth_navbar_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
-    })
-], AuthNavbarComponent);
-
-
 
 /***/ })
 

@@ -47,7 +47,7 @@
                 : 'bg-red-800 text-red-300 border-red-700'
             "
           >
-            ID
+            Image
           </th>
           <th
             class="
@@ -165,7 +165,7 @@
               border-l-0 border-r-0
               whitespace-nowrap
               font-semibold
-              text-left
+              text-center
             "
             [ngClass]="
               color === 'light'
@@ -173,7 +173,7 @@
                 : 'bg-red-800 text-red-300 border-red-700'
             "
           >
-            Image
+            Actions
           </th>
         </tr>
       </thead>
@@ -190,7 +190,11 @@
               p-4
             "
           >
-            {{ i }}
+            <img
+              class="inline-block h-6 w-6 rounded-md max-w-100-px"
+              [src]="salon.image"
+              alt=""
+            />
           </td>
           <td
             class="
@@ -271,13 +275,43 @@
               text-xs
               whitespace-nowrap
               p-4
+              text-center
             "
           >
-            <img
-              class="inline-block h-6 w-6 rounded-md max-w-100-px"
-              [src]="salon.image"
-              alt=""
-            />
+            <button
+              class="
+                bg-blueGray-500
+                hover:bg-blueGray-700
+                text-white
+                py-1
+                px-2
+                rounded-l
+              "
+            >
+              <i class="far fa-edit px-2 text-sm"></i>
+            </button>
+            <button
+              *ngIf="salon.isActive"
+              (click)="toggleActivation(salon)"
+              class="bg-red-500 hover:bg-red-700 text-white py-1 px-2 rounded-r"
+            >
+              <i class="far fa-trash-alt px-2 text-sm"></i>
+            </button>
+
+            <button
+              *ngIf="!salon.isActive"
+              (click)="toggleActivation(salon)"
+              class="
+                bg-green-500
+                hover:bg-green-700
+                text-white
+                py-1
+                px-2
+                rounded-r
+              "
+            >
+              <i class="far fa-check-square px-2 text-sm"></i>
+            </button>
           </td>
         </tr>
       </tbody>

@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --source-map=false",
+    "start:debug": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

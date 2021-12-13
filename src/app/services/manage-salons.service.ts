@@ -23,4 +23,10 @@ export class ManageSalonsService {
   createManager(manager) {
     return this.http.post(`${this.endpoint}/auth/signup`, manager);
   }
+  toggleActivation({_id}) {
+    return this.http.patch<any>(
+      `${this.endpoint}/salon/activation/${_id}`,
+      null
+    );
+  }
 }

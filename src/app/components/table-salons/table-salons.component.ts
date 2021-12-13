@@ -23,4 +23,19 @@ export class TableSalonsComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+
+  toggleActivation(selectedSalon) {
+    this.manageSalons
+      .toggleActivation(selectedSalon)
+      .subscribe((updatedSalon) => {
+        this.salons = this.salons.map((salon, index) =>
+          salon._id === updatedSalon._id
+            ? {
+                ...salon,
+                isActive: updatedSalon.isActive,
+              }
+            : salon
+        );
+      });
+  }
 }
