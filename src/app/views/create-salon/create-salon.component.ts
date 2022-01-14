@@ -51,8 +51,6 @@ export class CreateSalonComponent implements OnInit {
       this.selectedFile.name
     );
     this.manageSalons.sendImage(uploadData).subscribe((response: any) => {
-      console.log(response);
-
       this.profileImagePath = response.url;
       this.uploaded = "image uploaded";
     });
@@ -66,8 +64,6 @@ export class CreateSalonComponent implements OnInit {
       this.selectedFile.name + this.selectedFile.type
     );
     this.manageSalons.sendImage(uploadData).subscribe((response: any) => {
-      console.log(response);
-
       this.salonImagePath = response.url;
     });
   }

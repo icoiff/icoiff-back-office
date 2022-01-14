@@ -34,9 +34,21 @@ import { AuthInterceptor } from "./services/authConfig.interceptor";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { TableClientsComponent } from "./components/table-clients/table-clients.component";
 import { DropdownComponent } from "./components/dropdowns/dropdown/dropdown.component";
-import { ModalComponent } from "./components/modal/modal.component";
+import { AddSalonModalComponent } from "./components/add-salon-modal/add-salon-modal.component";
+import { EditSalonModalComponent } from "./components/edit-salon-modal/edit-salon-modal.component";
 import { CreateSalonComponent } from "./views/create-salon/create-salon.component";
 import { Error404Component } from "./views/error404/error404.component";
+import { ResetPasswordComponent } from "./views/reset/reset-password/reset-password.component";
+import { ResetPasswordFormComponent } from "./views/reset/reset-password-form/reset-password-form.component";
+import { SalonDetailsComponent } from "./views/salon-details/salon-details.component";
+import { CustomerDetailsComponent } from "./views/customer-details/customer-details.component";
+import { CardStatsComponent } from "./components/card-stats/card-stats.component";
+import { ManageClientsService } from "./services/manage-clients.service";
+import { MailerServiceService } from "./services/mailer-service.service";
+import { BookingService } from "./services/booking.service";
+import { TableBookingsComponent } from "./components/table-bookings/table-bookings.component";
+import { TableHairdressersComponent } from "./components/table-hairdressers/table-hairdressers.component";
+import { TableFormulasComponent } from "./components/table-formulas/table-formulas.component";
 
 @NgModule({
   declarations: [
@@ -56,10 +68,19 @@ import { Error404Component } from "./views/error404/error404.component";
     ManageSalonsComponent,
     TableSalonsComponent,
     TableClientsComponent,
+    TableBookingsComponent,
+    TableHairdressersComponent,
+    TableFormulasComponent,
     DropdownComponent,
-    ModalComponent,
+    AddSalonModalComponent,
+    EditSalonModalComponent,
     CreateSalonComponent,
     Error404Component,
+    ResetPasswordComponent,
+    ResetPasswordFormComponent,
+    SalonDetailsComponent,
+    CustomerDetailsComponent,
+    CardStatsComponent,
   ],
   imports: [
     BrowserModule,
@@ -72,6 +93,9 @@ import { Error404Component } from "./views/error404/error404.component";
   providers: [
     AuthService,
     ManageSalonsService,
+    ManageClientsService,
+    MailerServiceService,
+    BookingService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: AuthInterceptor,

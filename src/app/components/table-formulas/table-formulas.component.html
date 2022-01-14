@@ -18,7 +18,7 @@
           class="font-semibold text-lg"
           [ngClass]="color === 'light' ? 'text-blueGray-700' : 'text-white'"
         >
-          Clients
+          Formules
         </h3>
       </div>
     </div>
@@ -47,7 +47,7 @@
                 : 'bg-red-800 text-red-300 border-red-700'
             "
           >
-            ID
+            Formule
           </th>
           <th
             class="
@@ -68,7 +68,7 @@
                 : 'bg-red-800 text-red-300 border-red-700'
             "
           >
-            Nom
+            Réservations
           </th>
           <th
             class="
@@ -89,7 +89,7 @@
                 : 'bg-red-800 text-red-300 border-red-700'
             "
           >
-            Numéro de téléphone
+            Durée
           </th>
           <th
             class="
@@ -110,25 +110,36 @@
                 : 'bg-red-800 text-red-300 border-red-700'
             "
           >
-            Date d'inscription
+            Prix
+          </th>
+          <th
+            class="
+              px-6
+              align-middle
+              border border-solid
+              py-3
+              text-xs
+              uppercase
+              border-l-0 border-r-0
+              whitespace-nowrap
+              font-semibold
+              text-left
+            "
+            [ngClass]="
+              color === 'light'
+                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+                : 'bg-red-800 text-red-300 border-red-700'
+            "
+          >
+            Revenue
           </th>
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let client of clients; let i = index" [attr.data-index]="i">
-          <td
-            class="
-              border-t-0
-              px-6
-              align-middle
-              border-l-0 border-r-0
-              text-xs
-              whitespace-nowrap
-              p-4
-            "
-          >
-            {{ i }}
-          </td>
+        <tr
+          *ngFor="let formula of formulas; let i = index"
+          [attr.data-index]="i"
+        >
           <td
             class="
               border-t-0
@@ -140,9 +151,8 @@
               p-4
               cursor-pointer
             "
-            [routerLink]="['/admin/clients', client._id]"
           >
-            {{ client.full_name }}
+            {{ formula.formula[0].name }}
           </td>
           <td
             class="
@@ -155,7 +165,7 @@
               p-4
             "
           >
-            {{ client.phone_number }}
+            {{ formula.quantity }}
           </td>
           <td
             class="
@@ -168,7 +178,33 @@
               p-4
             "
           >
-            {{ client.createdAt | timeago: live }}
+            {{ formula._id.duration }}
+          </td>
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+              p-4
+            "
+          >
+            {{ formula._id.price }}
+          </td>
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+              p-4
+            "
+          >
+            {{ formula._id.price * formula.quantity }}
           </td>
         </tr>
       </tbody>

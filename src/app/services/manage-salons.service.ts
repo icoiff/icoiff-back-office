@@ -14,6 +14,9 @@ export class ManageSalonsService {
   getSalons() {
     return this.http.get<any>(`${this.endpoint}/salon`);
   }
+  getSalon(_id: string) {
+    return this.http.get<any>(`${this.endpoint}/salon/${_id}`)
+  }
   sendImage(uploadData: FormData) {
     return this.http.post(`${this.endpoint}/file-upload`, uploadData);
   }
@@ -28,5 +31,11 @@ export class ManageSalonsService {
       `${this.endpoint}/salon/activation/${_id}`,
       null
     );
+  }
+  editSalon({ _id, name, image }) {
+    return this.http.patch<any>(`${this.endpoint}/salon/${_id}`, {
+      name,
+      image,
+    });
   }
 }

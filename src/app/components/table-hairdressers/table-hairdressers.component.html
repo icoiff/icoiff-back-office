@@ -18,7 +18,7 @@
           class="font-semibold text-lg"
           [ngClass]="color === 'light' ? 'text-blueGray-700' : 'text-white'"
         >
-          Clients
+          Coiffeurs
         </h3>
       </div>
     </div>
@@ -28,27 +28,6 @@
     <table class="items-center w-full bg-transparent border-collapse">
       <thead>
         <tr>
-          <th
-            class="
-              px-6
-              align-middle
-              border border-solid
-              py-3
-              text-xs
-              uppercase
-              border-l-0 border-r-0
-              whitespace-nowrap
-              font-semibold
-              text-left
-            "
-            [ngClass]="
-              color === 'light'
-                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
-                : 'bg-red-800 text-red-300 border-red-700'
-            "
-          >
-            ID
-          </th>
           <th
             class="
               px-6
@@ -89,7 +68,7 @@
                 : 'bg-red-800 text-red-300 border-red-700'
             "
           >
-            Numéro de téléphone
+            Réservations
           </th>
           <th
             class="
@@ -110,25 +89,36 @@
                 : 'bg-red-800 text-red-300 border-red-700'
             "
           >
-            Date d'inscription
+            Spécialité
+          </th>
+          <th
+            class="
+              px-6
+              align-middle
+              border border-solid
+              py-3
+              text-xs
+              uppercase
+              border-l-0 border-r-0
+              whitespace-nowrap
+              font-semibold
+              text-left
+            "
+            [ngClass]="
+              color === 'light'
+                ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
+                : 'bg-red-800 text-red-300 border-red-700'
+            "
+          >
+            Revenue
           </th>
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let client of clients; let i = index" [attr.data-index]="i">
-          <td
-            class="
-              border-t-0
-              px-6
-              align-middle
-              border-l-0 border-r-0
-              text-xs
-              whitespace-nowrap
-              p-4
-            "
-          >
-            {{ i }}
-          </td>
+        <tr
+          *ngFor="let hairdresser of hairdressers; let i = index"
+          [attr.data-index]="i"
+        >
           <td
             class="
               border-t-0
@@ -140,9 +130,9 @@
               p-4
               cursor-pointer
             "
-            [routerLink]="['/admin/clients', client._id]"
           >
-            {{ client.full_name }}
+            {{ hairdresser.hairdresser.first_name }}
+            {{ hairdresser.hairdresser.last_name }}
           </td>
           <td
             class="
@@ -155,7 +145,7 @@
               p-4
             "
           >
-            {{ client.phone_number }}
+            {{ hairdresser.visits }}
           </td>
           <td
             class="
@@ -168,7 +158,20 @@
               p-4
             "
           >
-            {{ client.createdAt | timeago: live }}
+            <!-- {{ booking.hairdresser.first_name }} -->
+          </td>
+          <td
+            class="
+              border-t-0
+              px-6
+              align-middle
+              border-l-0 border-r-0
+              text-xs
+              whitespace-nowrap
+              p-4
+            "
+          >
+            {{ hairdresser.revenue }}
           </td>
         </tr>
       </tbody>

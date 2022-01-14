@@ -1,0 +1,74 @@
+<div>
+  <app-sidebar></app-sidebar>
+  <div class="relative md:ml-64 bg-blueGray-100">
+    <app-admin-navbar></app-admin-navbar>
+    <div class="relative bg-red-600 md:pt-32 pb-32 pt-12">
+      <div class="px-4 md:px-10 mx-auto w-full">
+        <div>
+          <!-- Card stats -->
+          <div class="flex flex-wrap">
+            <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
+              <app-card-stats
+                title="Réservations"
+                [data]="bookingsCount"
+                icon="fas fa-users"
+                color="bg-red-500"
+              ></app-card-stats>
+            </div>
+            <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
+              <app-card-stats
+                title="Salons visités"
+                [data]="visitedSalonsCount"
+                icon="fas fa-store"
+                color="bg-orange-500"
+              ></app-card-stats>
+            </div>
+            <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
+              <app-card-stats
+                title="Total dépenses"
+                [data]="totalSpending"
+                icon="fas fa-euro-sign"
+                color="bg-pink-500"
+              ></app-card-stats>
+            </div>
+            <div class="w-full lg:w-6/12 xl:w-3/12 px-4">
+              <app-card-stats
+                title="Panier moyen"
+                [data]="average"
+                icon="fas fa-chart-pie"
+                color="bg-emerald-500"
+              ></app-card-stats>
+            </div>
+          </div>
+          <div class="flex flex-wrap mt-4">
+            <div class="w-full lg:w-6/12 xl:w-6/12 px-4">
+              <app-card-stats
+                title="Coiffeur Préféré"
+                [data]="favoriteHairdresser.full_name"
+                icon="fas fa-chart-pie"
+                [image]="favoriteHairdresser.image"
+                color="bg-emerald-500"
+              ></app-card-stats>
+            </div>
+            <div class="w-full lg:w-6/12 xl:w-6/12 px-4">
+              <app-card-stats
+                title="Salon Préféré"
+                [data]="favoriteSalon.name"
+                icon="fas fa-chart-pie"
+                [image]="favoriteSalon.image"
+                color="bg-emerald-500"
+              ></app-card-stats>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="px-4 md:px-10 mx-auto w-full -m-24">
+      <!-- <router-outlet></router-outlet> -->
+      <app-table-bookings
+        [bookings]="bookings"
+        [color]="'dark'"
+      ></app-table-bookings>
+    </div>
+  </div>
+</div>

@@ -13,4 +13,7 @@ export class ManageClientsService {
   getClients() {
     return this.http.get<any>(`${this.endpoint}/customer`)
   }
+  getClient(_id: string) {
+    return this.http.get<any>(`${this.endpoint}/customer/${_id}`)
+  }
 }
