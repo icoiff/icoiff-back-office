@@ -2,19 +2,19 @@ import { Component } from '@angular/core';
 import { MailerServiceService } from 'src/app/services/mailer-service.service';
 
 @Component({
-  selector: 'app-modal',
-  templateUrl: './modal.component.html',
+  selector: 'app-add-salon-modal',
+  templateUrl: './add-salon-modal.component.html',
 })
-export class ModalComponent {
+export class AddSalonModalComponent {
   email: string = ""
   constructor(private mailerService: MailerServiceService) {}
   showModal = false;
   toggleModal(){
     this.showModal = !this.showModal;
   }
-  sendMail() {  
-    this.mailerService.sendMail(this.email).subscribe((res) => {
-      console.log(res);
+  sendRegistrationMail() {
+    this.mailerService.sendRegistrationMail(this.email).subscribe((res) => {
+
       this.email = '';
       this.toggleModal()
     });
