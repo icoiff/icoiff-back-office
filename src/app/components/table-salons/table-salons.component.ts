@@ -16,6 +16,8 @@ export class TableSalonsComponent implements OnInit {
   private _color = "light";
   salons: Array<any>;
   live: boolean = true;
+  edit: boolean = false;
+  salon: any = null;
   constructor(private manageSalons: ManageSalonsService) {
     this.manageSalons.getSalons().subscribe((res) => {
       this.salons = res;
@@ -37,5 +39,10 @@ export class TableSalonsComponent implements OnInit {
             : salon
         );
       });
+  }
+
+  showEditModal(salon) {
+    this.edit = true;
+    this.salon = salon;
   }
 }

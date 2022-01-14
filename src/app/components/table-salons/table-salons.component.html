@@ -205,7 +205,9 @@
               text-xs
               whitespace-nowrap
               p-4
+              cursor-pointer
             "
+            [routerLink]="['/admin/salons', salon._id]"
           >
             {{ salon.name }}
           </td>
@@ -279,6 +281,7 @@
             "
           >
             <button
+              (click)="showEditModal(salon)"
               class="
                 bg-blueGray-500
                 hover:bg-blueGray-700
@@ -319,5 +322,11 @@
   </div>
 </div>
 <div class="flex justify-end">
-  <app-modal></app-modal>
+  <app-add-salon-modal></app-add-salon-modal>
+  <app-edit-salon-modal
+    *ngIf="edit"
+    [(edit)]="edit"
+    [(salon)]="salon"
+    [(salons)]="salons"
+  ></app-edit-salon-modal>
 </div>
