@@ -9,6 +9,7 @@ import { AuthService } from "src/app/services/auth.service";
 })
 export class LoginComponent implements OnInit {
   signinForm: FormGroup;
+  error = "";
 
   constructor(
     public fb: FormBuilder,
@@ -16,14 +17,32 @@ export class LoginComponent implements OnInit {
     public router: Router
   ) {
     this.signinForm = this.fb.group({
-      email: [''],
-      password: ['']
-    })
+      email: [""],
+      password: [""],
+    });
   }
 
-  ngOnInit() { }
+  ngOnInit() {}
 
   loginUser() {
-    this.authService.logIn(this.signinForm.value)
+    this.error = "";
+    this.authService.logIn(this.signinForm.value).subscribe(
+      (res: any) => {
+        if (res.user.role === "Admin") {
+          localStorage.setItem("access_token", res.token);
+          localStorage.setItem("user_id", res.user._id);
+          this.router.navigate(["admin/clients"]);
+        } else {
+          localStorage.removeItem("access_token");
+          localStorage.removeItem("user_id");
+          this.error = "Accès résérvé aux administrateurs du site.";
+        }
+      },
+      (err) => {
+        this.error = err.error.details[0];
+        localStorage.removeItem("access_token");
+        localStorage.removeItem("user_id");
+      }
+    );
   }
 }
